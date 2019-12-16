@@ -1,0 +1,14 @@
+---
+- name: Research
+  link: /research/
+- name: People
+  link: /people/
+- name: Software
+  link: /software/
+- name: Publications
+  link: /publications/
+- name: News
+  link: /news/
+- name: Join!
+  link: /join/
+...

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+        	<h1>{{page.title}}</h1>
+			<img class="rounded-circle" src="{{page.url}}{{page.image}}" width=180 alt="{{page.title}}">
+			{{ content }}
+        </div>
+        <div class="col-md-4">
+            {% include sidebar.html %}
+        </div>
+    </div>
+</div>

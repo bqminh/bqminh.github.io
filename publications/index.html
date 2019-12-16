@@ -1,0 +1,54 @@
+---
+layout: default
+title: Publications
+---
+
+<div class="container">
+  <h1>{{page.title}}</h1>
+
+  {% assign pub_groups = site.data.publications.references | group_by: "type" %}
+  {% for pub_group in pub_groups %}
+    {% if pub_group.name == "article-journal" %}
+      <h2>Journal papers</h2>
+    {% elsif pub_group.name == "chapter" %}
+      <h2>Refereed book chapters</h2>
+    {% elsif pub_group.name == "paper-conference" %}
+      <h2>Refereed conference papers</h2>
+    {% elsif pub_group.name == "report" %}
+      <h2>Preprints</h2>
+    {% else %}
+      <h2>{{pub_group.name}}</h2>
+    {% endif %}
+    <hr style="border: 1px solid;">
+  
+    {% assign this_year = "" %}
+    {% for pub in pub_group.items %}
+	  {% if pub.issued[0].year != this_year %}
+		{% if this_year != "" %}
+		</ol>
+		{% endif %}
+		{% assign this_year = pub.issued[0].year %}
+		<a name="{{this_year}}"></a>
+		<h3>{{this_year}}</h3>
+		<ol>
+      {% endif %}
+		<li>
+		<strong>
+		  {% assign last_author = pub.author | last %}
+		  {% for author in pub.author %}
+		    {% assign full_name = author.given | append: " " | append: author.family %}
+		    {% if site.data.members contains full_name %}
+		      <a href="{{site.baseurl}}/people/{{author.family | downcase}}/">
+		    {% endif %}
+			{{author.given}} {{author.dropping-particle}} 
+			{{author.family}}{% if site.data.members contains full_name %}</a>{% endif %}{% if author.given != last_author.given or author.family != last_author.family %},{% endif %}
+		  {% endfor %}
+		</strong>
+		 ({% for issue in pub.issued %}{{issue.year}}{% endfor %}) {{pub.title}}. {{pub.container-title}} 
+		 {% if pub.volume %}{{pub.volume}}:{{pub.page}}.{%endif%}
+		 <a href="https://doi.org/{{pub.DOI}}">{{pub.DOI}}</a>
+		</li>
+    {% endfor %}
+    </ol>
+  {% endfor %}
+</div>

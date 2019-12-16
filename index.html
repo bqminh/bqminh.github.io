@@ -1,1 +1,91 @@
-Hello World
+---
+layout: default
+title: The Minh Lab
+subtitle: Computational Phylogenomics
+subsubtitle: Enable evolutionary research in the genomic era
+---
+
+<div class="jumbotron jumbotron-fluid" style="background-color: #CAE5CD;">
+  <h1 class="display-4" style="text-align: center;">{{page.title}}</h1>
+  <h2 style="text-align: center;">{{page.subtitle}}</h2><br><br>
+  <h3 style="text-align: center;">{{page.subsubtitle}}</h3>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+		<div class="list-group">
+			<div class="list-group-item list-group-item-primary">
+   			  <h3>Our mission</h3>
+			  We combine efficient bioinformatic methods and
+			  advanced models of sequence evolution to infer
+			  phylogenies from ultra-large genomic data.
+			  <br><a href="{{site.baseurl}}/research/">&rarr;More about our research</a>
+			</div>
+		</div>
+    </div>
+    <div class="col-sm">
+		<div class="list-group">
+			<div class="list-group-item list-group-item-warning">
+   			  <h3>News</h3>
+			  {% for post in site.categories['news'] limit:3 %}
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+              {% endfor %} 
+   			  <a href="{{site.baseurl}}/news/">&rarr;More news</a>
+			</div>
+		</div>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-sm">
+		<div class="list-group">
+			<div class="list-group-item list-group-item-info">
+   			  <h3>Software</h3>
+   			  <a href="http://www.iqtree.org">IQ-TREE</a> is our flagship software that implements new models and methods
+   			  developed other the years.
+   			  <br><a href="{{site.baseurl}}/software/">&rarr;more</a>
+			</div>
+		</div>
+    </div>
+    <div class="col-sm">
+		<div class="list-group">
+			<div class="list-group-item list-group-item-danger">
+   			  <h3>Join us</h3>
+			  {% for post in site.categories['join'] limit:3 %}
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+              {% endfor %} 
+			  <a href="{{site.baseurl}}/join/">&rarr;More job details</a> 
+			</div>
+		</div>
+    </div>
+  </div>
+</div>
+<br>
+<div style="background: #EEEEEE;">
+  <div class="container">
+  <h2>Recent publications</h2>
+  <ol>
+  {% for pub in site.data.publications.references limit:5 %}
+	<li>
+	  <strong>
+	  {% assign last_author = pub.author | last %}
+	  {% for author in pub.author %}
+		{% assign full_name = author.given | append: " " | append: author.family %}
+		{% if site.data.members contains full_name %}
+		  <a href="{{site.baseurl}}/people/{{author.family | downcase}}/">
+		{% endif %}
+		{% assign given_words = author.given | split: " " %}
+		{% for word in given_words %}{{word | slice:0}}.{% endfor %} {{author.dropping-particle}} 
+		{{author.family}}{% if site.data.members contains full_name %}</a>{% endif %}{% if author.given != last_author.given or author.family != last_author.family %},{% endif %}
+	  {% endfor %}
+	  </strong>
+	 ({{pub.issued.first.year}}) {{pub.title}}. <em>{{pub.container-title}}</em>
+	 {% if pub.volume %}{{pub.volume}}:{{pub.page}}.{%endif%}
+	 <a href="https://doi.org/{{pub.DOI}}">DOI</a>
+	</li>
+  {% endfor %}
+  </ol>
+  <a href="{{site.baseurl}}/publications/">&rarr;All publications</a>
+  </div>
+</div>

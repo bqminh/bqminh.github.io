@@ -1,0 +1,16 @@
+{% for alltag in site.tags %}
+    {% assign tag = alltag | first %}
+    {% if tag != 'tutorial' and tag != 'manual' %}
+    <br>
+    <div class="card card-body bg-light">
+		<h5 class="card-title">{{tag | capitalize}}</h5>
+		    {% assign my_posts = site.posts | where: "tags", tag %}
+			{% for post in my_posts limit:5 %}
+				<p class="card-text">
+					<a href="{{ post.url | prepend: site.baseurl }}" class="card-link">{{ post.title }}</a><br>
+					{{ post.date | date_to_string }}
+				</p>
+			{% endfor %} 
+    </div>
+    {% endif %}
+{% endfor %}

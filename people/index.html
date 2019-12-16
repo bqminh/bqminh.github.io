@@ -1,0 +1,20 @@
+---
+layout: default
+title:  Lab members
+---
+
+<div class="container">
+	<h1>{{page.title}}</h1>
+    <div class="row">
+    	{% assign person_pages = site.pages | where: "layout" , "personnel" %}
+        {% for person in person_pages %}
+            <div class="col-md-3">
+            	<a href="{{person.url}}"><img class="rounded-circle" src="{{person.url}}{{person.image}}" width=180 alt="{{person.title}}"></a>
+            </div>
+            <div class="col-md-9">
+                <a href="{{person.url}}"><h3>{{ person.title }}</h3></a>
+                <p>{{person.position}}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>

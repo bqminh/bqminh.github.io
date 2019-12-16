@@ -1,0 +1,1428 @@
+---
+references:
+- id: minh_iq-tree_2019
+  type: report
+  author:
+  - family: Minh
+    given: Bui Quang
+  - family: Schmidt
+    given: Heiko
+  - family: Chernomor
+    given: Olga
+  - family: Schrempf
+    given: Dominik
+  - family: Woodhams
+    given: Michael
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Lanfear
+    given: Robert
+  issued:
+  - year: 2019
+    month: 11
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'IQ-TREE 2: New models and efficient methods for phylogenetic inference
+    in the genomic era'
+  title-short: IQ-TREE 2
+  publisher: Evolutionary Biology
+  genre: preprint
+  abstract: AbstractIQ-TREE ( http://www.iqtree.org ) is a user-friendly and widely
+    used software package for phylogenetic inference using maximum likelihood. Since
+    the release of version 1 in 2014, we have continuously expanded IQ-TREE to integrate
+    a plethora of new models of sequence evolution and efficient computational approaches
+    of phylogenetic inference to deal with genomic data. Here, we describe notable
+    features of IQ-TREE version 2 and highlight the key advantages over other software.
+  URL: http://biorxiv.org/lookup/doi/10.1101/849372
+  DOI: 10.1101/849372
+
+- id: naser-khdour_prevalence_2019
+  type: article-journal
+  author:
+  - family: Naser-Khdour
+    given: Suha
+  - family: Minh
+    given: Bui Quang
+  - family: Zhang
+    given: Wenqi
+  - family: Stone
+    given: Eric A
+  - family: Lanfear
+    given: Robert
+  editor:
+  - family: Bryant
+    given: David
+  issued:
+  - year: 2019
+    month: 12
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: The Prevalence and Impact of Model Violations in Phylogenetic Analysis
+  container-title: Genome Biology and Evolution
+  page: '3341-3352'
+  volume: '11'
+  issue: '12'
+  abstract: Abstract In phylogenetic inference, we commonly use models of substitution
+    which assume that sequence evolution is stationary, reversible, and homogeneous
+    (SRH). Although the use of such models is often criticized, the extent of SRH
+    violations and their effects on phylogenetic inference of tree topologies and
+    edge lengths are not well understood. Here, we introduce and apply the maximal
+    matched-pairs tests of homogeneity to assess the scale and impact of SRH model
+    violations on 3,572 partitions from 35 published phylogenetic data sets. We show
+    that roughly one-quarter of all the partitions we analyzed (23.5%) reject the
+    SRH assumptions, and that for 25% of data sets, tree topologies inferred from
+    all partitions differ significantly from topologies inferred using the subset
+    of partitions that do not reject the SRH assumptions. This proportion increases
+    when comparing trees inferred using the subset of partitions that rejects the
+    SRH assumptions, to those inferred from partitions that do not reject the SRH
+    assumptions. These results suggest that the extent and effects of model violation
+    in phylogenetics may be substantial. They highlight the importance of testing
+    for model violations and possibly excluding partitions that violate models prior
+    to tree reconstruction. Our results also suggest that further effort in developing
+    models that do not require SRH assumptions could lead to large improvements in
+    the accuracy of phylogenomic inference. The scripts necessary to perform the analysis
+    are available in https://github.com/roblanf/SRHtests, and the new tests we describe
+    are available as a new option in IQ-TREE (http://www.iqtree.org).
+  URL: https://academic.oup.com/gbe/article/11/12/3341/5571717
+  DOI: 10.1093/gbe/evz193
+  ISSN: '1759-6653'
+
+- id: schrempf_polymorphism-aware_2019
+  type: article-journal
+  author:
+  - family: Schrempf
+    given: Dominik
+  - family: Minh
+    given: Bui Quang
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Kosiol
+    given: Carolin
+  editor:
+  - family: Saitou
+    given: Naruya
+  issued:
+  - year: 2019
+    month: 6
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Polymorphism-Aware Species Trees with Advanced Mutation Models, Bootstrap,
+    and Rate Heterogeneity
+  container-title: Molecular Biology and Evolution
+  page: '1294-1301'
+  volume: '36'
+  issue: '6'
+  URL: https://academic.oup.com/mbe/article/36/6/1294/5368492
+  DOI: 10.1093/molbev/msz043
+  ISSN: 0737-4038, 1537-1719
+
+- id: crotty_ghost:_2019
+  type: article-journal
+  author:
+  - family: Crotty
+    given: Stephen M
+  - family: Minh
+    given: Bui Quang
+  - family: Bean
+    given: Nigel G
+  - family: Holland
+    given: Barbara R
+  - family: Tuke
+    given: Jonathan
+  - family: Jermiin
+    given: Lars S
+  - family: von Haeseler
+    given: Arndt
+  editor:
+  - family: Smith
+    given: Stephen
+  issued:
+  - year: 2019
+    month: 7
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'GHOST: Recovering Historical Signal from Heterotachously Evolved Sequence
+    Alignments'
+  title-short: GHOST
+  container-title: Systematic Biology
+  page: syz051
+  abstract: Abstract Molecular sequence data that have evolved under the influence
+    of heterotachous evolutionary processes are known to mislead phylogenetic inference.
+    We introduce the General Heterogeneous evolution On a Single Topology (GHOST)
+    model of sequence evolution, implemented under a maximum-likelihood framework
+    in the phylogenetic program IQ-TREE (http://www.iqtree.org). Simulations show
+    that using the GHOST model, IQ-TREE can accurately recover the tree topology,
+    branch lengths, and substitution model parameters from heterotachously evolved
+    sequences. We investigate the performance of the GHOST model on empirical data
+    by sampling phylogenomic alignments of varying lengths from a plastome alignment.
+    We then carry out inference under the GHOST model on a phylogenomic data set composed
+    of 248 genes from 16 taxa, where we find the GHOST model concurs with the currently
+    accepted view, placing turtles as a sister lineage of archosaurs, in contrast
+    to results obtained using traditional variable rates-across-sites models. Finally,
+    we apply the model to a data set composed of a sodium channel gene of 11 fish
+    taxa, finding that the GHOST model is able to elucidate a subtle component of
+    the historical signal, linked to the previously established convergent evolution
+    of the electric organ in two geographically distinct lineages of electric fish.
+    We compare inference under the GHOST model to partitioning by codon position and
+    show that, owing to the minimization of model constraints, the GHOST model offers
+    unique biological insights when applied to empirical data.
+  URL: https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syz051/5541793
+  DOI: 10.1093/sysbio/syz051
+  ISSN: 1063-5157, 1076-836X
+
+- id: schenk_combined_2019
+  type: article-journal
+  author:
+  - family: Schenk
+    given: Sven
+  - family: Bannister
+    given: Stephanie C
+  - family: Sedlazeck
+    given: Fritz J
+  - family: Anrather
+    given: Dorothea
+  - family: Minh
+    given: Bui Quang
+  - family: Bileck
+    given: Andrea
+  - family: Hartl
+    given: Markus
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Gerner
+    given: Christopher
+  - family: Raible
+    given: Florian
+  - family: Tessmar-Raible
+    given: Kristin
+  issued:
+  - year: 2019
+    month: 2
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Combined transcriptome and proteome profiling reveals specific molecular
+    brain signatures for sex, maturation and circalunar clock phase
+  container-title: eLife
+  page: 'e41556'
+  volume: '8'
+  abstract: 'Many marine animals, ranging from corals to fishes, synchronise reproduction
+    to lunar cycles. In the annelid Platynereis dumerilii, this timing is orchestrated
+    by an endogenous monthly (circalunar) clock entrained by moonlight. Whereas daily
+    (circadian) clocks cause extensive transcriptomic and proteomic changes, the quality
+    and quantity of regulations by circalunar clocks have remained largely elusive.
+    By establishing a combined transcriptomic and proteomic profiling approach, we
+    provide first systematic insight into the molecular changes in Platynereis heads
+    between circalunar phases, and across sexual differentiation and maturation. Whereas
+    maturation elicits large transcriptomic and proteomic changes, the circalunar
+    clock exhibits only minor transcriptomic, but strong proteomic regulation. Our
+    study provides a versatile extraction technique and comprehensive resources. It
+    corroborates that circadian and circalunar clock effects are likely distinct and
+    identifies key molecular brain signatures for reproduction, sex and circalunar
+    clock phase. Examples include prepro-whitnin/proctolin and ependymin-related proteins
+    as circalunar clock targets. , Like many other sea creatures, the worm Platynereis
+    dumerilii reproduces by dispersing eggs and sperm in the water. For these animals,
+    timing is everything: if they fail coordinate their release, the precious reproductive
+    cells will drift in the vastness of the ocean without ever meeting their male
+    or female counterparts. Internal clocks are a set of mechanisms that allow organisms
+    to tune their internal processes to their environment. For example, the circadian
+    clock helps many creatures to adapt to the cycle of day and night. This involves
+    switching genes on and off according to the time of day. When a gene is activated,
+    its information is copied into a molecule of RNA, which is then read to create
+    proteins that will go on performing specific roles. To produce their eggs and
+    sperm at the right time, P. dumerilii worms rely on a poorly understood internal
+    clock which is synchronized by the moon cycle. To investigate this ‘inner calendar’,
+    Schenk, Bannister et al. developed a new technique that allows them to extract
+    both RNA and proteins from the miniscule heads of the worms. The results showed
+    that the internal clock synchronized by the lunar phases influenced the levels
+    of many more proteins than RNA molecules. In comparison, other life events such
+    as the worms becoming sexually mature, had a more similar impact on both protein
+    and RNA regulation. This might suggest that the inner calendar that coordinates
+    the worms with the moon cycle could work by changing protein, rather than RNA
+    levels. The analysis also highlighted several molecular actors that may be essential
+    for the worm’s inner clock to work properly. In the future, the new technique
+    will help to dissect more finely how P. dumerilii and many other marine creatures
+    stay synchronized with the moon, and spawn at the right time.'
+  URL: https://elifesciences.org/articles/41556
+  DOI: 10.7554/eLife.41556
+  ISSN: 2050-084X
+
+- id: hoang_mpboot:_2018
+  type: article-journal
+  author:
+  - family: Hoang
+    given: Diep Thi
+  - family: Vinh
+    given: Le Sy
+  - family: Flouri
+    given: Tomáš
+  - family: Stamatakis
+    given: Alexandros
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Minh
+    given: Bui Quang
+  issued:
+  - year: 2018
+    month: 12
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'MPBoot: Fast phylogenetic maximum parsimony tree inference and bootstrap
+    approximation'
+  title-short: MPBoot
+  container-title: BMC Evolutionary Biology
+  page: '11'
+  volume: '18'
+  issue: '1'
+  URL: https://bmcevolbiol.biomedcentral.com/articles/10.1186/s12862-018-1131-3
+  DOI: 10.1186/s12862-018-1131-3
+  ISSN: '1471-2148'
+
+- id: alves_unifying_2018
+  type: article-journal
+  author:
+  - family: Alves
+    given: Ricardo J. Eloy
+  - family: Minh
+    given: Bui Quang
+  - family: Urich
+    given: Tim
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Schleper
+    given: Christa
+  issued:
+  - year: 2018
+    month: 12
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Unifying the global phylogeny and environmental distribution of ammonia-oxidising
+    archaea based on <span class="nocase">amoA</span> genes
+  container-title: Nature Communications
+  page: '1517'
+  volume: '9'
+  issue: '1'
+  URL: http://www.nature.com/articles/s41467-018-03861-1
+  DOI: 10.1038/s41467-018-03861-1
+  ISSN: '2041-1723'
+
+- id: minh_new_2018
+  type: report
+  author:
+  - family: Minh
+    given: Bui Quang
+  - family: Hahn
+    given: Matthew
+  - family: Lanfear
+    given: Robert
+  issued:
+  - year: 2018
+    month: 12
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: New methods to calculate concordance factors for phylogenomic datasets
+  publisher: Bioinformatics
+  genre: preprint
+  abstract: 'Summary: We introduce and implement two measures for quantifying genealogical
+    concordance in phylogenomic datasets: the gene concordance factor (gCF) and the
+    site concordance factor (sCF). For every branch of a reference tree, gCF is defined
+    as the percentage of decisive gene trees containing that branch. This measure
+    is already in wide usage, but here we introduce a package that calculates it while
+    accounting for variable taxon coverage among gene trees. sCF is a new measure
+    defined as the percentage of decisive sites supporting a branch in the reference
+    tree. gCF and sCF complement classical measures of branch support in phylogenetics
+    by providing a full description of underlying disagreement among loci and sites.
+    Availability and Implementation: An easy to use implementation and tutorial is
+    freely available in the IQ-TREE software (http://www.iqtree.org). Supplementary
+    information: Data are available at https://doi.org/10.5281/zenodo.1949290'
+  URL: http://biorxiv.org/lookup/doi/10.1101/487801
+  DOI: 10.1101/487801
+
+- id: nguyen_complex_2018
+  type: article-journal
+  author:
+  - family: Nguyen
+    given: Lam-Tung
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Minh
+    given: Bui Quang
+  editor:
+  - family: Susko
+    given: Edward
+  issued:
+  - year: 2018
+    month: 5
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Complex Models of Sequence Evolution Require Accurate Estimators as Exemplified
+    with the Invariable Site Plus Gamma Model
+  container-title: Systematic Biology
+  page: '552-558'
+  volume: '67'
+  issue: '3'
+  URL: https://academic.oup.com/sysbio/article/67/3/552/4665709
+  DOI: 10.1093/sysbio/syx092
+  ISSN: 1063-5157, 1076-836X
+
+- id: hoang_ufboot2:_2018
+  type: article-journal
+  author:
+  - family: Hoang
+    given: Diep Thi
+  - family: Chernomor
+    given: Olga
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Minh
+    given: Bui Quang
+  - family: Vinh
+    given: Le Sy
+  issued:
+  - year: 2018
+    month: 2
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'UFBoot2: Improving the Ultrafast Bootstrap Approximation'
+  title-short: UFBoot2
+  container-title: Molecular Biology and Evolution
+  page: '518-522'
+  volume: '35'
+  issue: '2'
+  URL: https://academic.oup.com/mbe/article/35/2/518/4565479
+  DOI: 10.1093/molbev/msx281
+  ISSN: 0737-4038, 1537-1719
+
+- id: wang_modeling_2018
+  type: article-journal
+  author:
+  - family: Wang
+    given: Huai-Chun
+  - family: Minh
+    given: Bui Quang
+  - family: Susko
+    given: Edward
+  - family: Roger
+    given: Andrew J
+  issued:
+  - year: 2018
+    month: 3
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Modeling Site Heterogeneity with Posterior Mean Site Frequency Profiles Accelerates
+    Accurate Phylogenomic Estimation
+  container-title: Systematic Biology
+  page: '216-235'
+  volume: '67'
+  issue: '2'
+  URL: https://academic.oup.com/sysbio/article/67/2/216/4076233
+  DOI: 10.1093/sysbio/syx068
+  ISSN: 1063-5157, 1076-836X
+
+- id: ratmann_hiv-1_2017
+  type: article-journal
+  author:
+  - family: Ratmann
+    given: Oliver
+  - family: Wymant
+    given: Chris
+  - family: Colijn
+    given: Caroline
+  - family: Danaviah
+    given: Siva
+  - family: Essex
+    given: Max
+  - family: Frost
+    given: Simon
+  - family: Gall
+    given: Astrid
+  - family: Gaseitsiwe
+    given: Simani
+  - family: Grabowski
+    given: Mary K.
+  - family: Gray
+    given: Ronald
+  - family: Guindon
+    given: Stephane
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Kaleebu
+    given: Pontiano
+  - family: Kendall
+    given: Michelle
+  - family: Kozlov
+    given: Alexey
+  - family: Manasa
+    given: Justen
+  - family: Minh
+    given: Bui Quang
+  - family: Moyo
+    given: Sikhulile
+  - family: Novitsky
+    given: Vlad
+  - family: Nsubuga
+    given: Rebecca
+  - family: Pillay
+    given: Sureshnee
+  - family: Quinn
+    given: Thomas C.
+  - family: Serwadda
+    given: David
+  - family: Ssemwanga
+    given: Deogratius
+  - family: Stamatakis
+    given: Alexandros
+  - family: Trifinopoulos
+    given: Jana
+  - family: Wawer
+    given: Maria
+  - family: Brown
+    given: Andy Leigh
+  - family: Oliveira
+    given: Tulio
+    dropping-particle: de
+  - family: Kellam
+    given: Paul
+  - family: Pillay
+    given: Deenan
+  - family: Fraser
+    given: Christophe
+  - literal: on behalf of the PANGEA-HIV Consort
+  issued:
+  - year: 2017
+    month: 11
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'HIV-1 Full-Genome Phylogenetics of Generalized Epidemics in Sub-Saharan
+    Africa: Impact of Missing Nucleotide Characters in Next-Generation Sequences'
+  title-short: HIV-1 Full-Genome Phylogenetics of Generalized Epidemics in Sub-Saharan
+    Africa
+  container-title: AIDS Research and Human Retroviruses
+  page: '1083-1098'
+  volume: '33'
+  issue: '11'
+  URL: http://www.liebertpub.com/doi/10.1089/aid.2017.0061
+  DOI: 10.1089/aid.2017.0061
+  ISSN: 0889-2229, 1931-8405
+
+- id: kalyaanamoorthy_modelfinder:_2017
+  type: article-journal
+  author:
+  - family: Kalyaanamoorthy
+    given: Subha
+  - family: Minh
+    given: Bui Quang
+  - family: Wong
+    given: Thomas K F
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Jermiin
+    given: Lars S
+  issued:
+  - year: 2017
+    month: 6
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'ModelFinder: Fast model selection for accurate phylogenetic estimates'
+  title-short: ModelFinder
+  container-title: Nature Methods
+  page: '587-589'
+  volume: '14'
+  issue: '6'
+  URL: http://www.nature.com/articles/nmeth.4285
+  DOI: 10.1038/nmeth.4285
+  ISSN: 1548-7091, 1548-7105
+
+- id: schrempf_reversible_2016
+  type: article-journal
+  author:
+  - family: Schrempf
+    given: Dominik
+  - family: Minh
+    given: Bui Quang
+  - family: De Maio
+    given: Nicola
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Kosiol
+    given: Carolin
+  issued:
+  - year: 2016
+    month: 10
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Reversible polymorphism-aware phylogenetic models and their application to
+    tree inference
+  container-title: Journal of Theoretical Biology
+  page: '362-370'
+  volume: '407'
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0022519316302259
+  DOI: 10.1016/j.jtbi.2016.07.042
+  ISSN: '00225193'
+
+- id: hoang_new_2016
+  type: paper-conference
+  author:
+  - family: Hoang
+    given: Diep Thi
+  - family: Vinh
+    given: Le Sy
+  - family: Flouri
+    given: Tomas
+  - family: Stamatakis
+    given: Alexandros
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Minh
+    given: Bui Quang
+  issued:
+  - year: 2016
+    month: 10
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: A new phylogenetic tree sampling method for maximum parsimony bootstrapping
+    and proof-of-concept implementation
+  container-title: 2016 Eighth International Conference on Knowledge and Systems Engineering
+    (KSE)
+  publisher: IEEE
+  publisher-place: Hanoi, Vietnam
+  page: '1-6'
+  URL: http://ieeexplore.ieee.org/document/7758020/
+  DOI: 10.1109/KSE.2016.7758020
+  ISBN: '978-1-4673-8929-7'
+
+- id: chernomor_terrace_2016
+  type: article-journal
+  author:
+  - family: Chernomor
+    given: Olga
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Minh
+    given: Bui Quang
+  issued:
+  - year: 2016
+    month: 11
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Terrace Aware Data Structure for Phylogenomic Inference from Supermatrices
+  container-title: Systematic Biology
+  page: '997-1008'
+  volume: '65'
+  issue: '6'
+  URL: https://academic.oup.com/sysbio/article-lookup/doi/10.1093/sysbio/syw037
+  DOI: 10.1093/sysbio/syw037
+  ISSN: 1063-5157, 1076-836X
+
+- id: trifinopoulos_w-iq-tree:_2016
+  type: article-journal
+  author:
+  - family: Trifinopoulos
+    given: Jana
+  - family: Nguyen
+    given: Lam-Tung
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Minh
+    given: Bui Quang
+  issued:
+  - year: 2016
+    month: 7
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'W-IQ-TREE: A fast online phylogenetic tool for maximum likelihood analysis'
+  title-short: W-IQ-TREE
+  container-title: Nucleic Acids Research
+  page: W232-W235
+  volume: '44'
+  issue: W1
+  URL: https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkw256
+  DOI: 10.1093/nar/gkw256
+  ISSN: 0305-1048, 1362-4962
+
+- id: burki_untangling_2016
+  type: article-journal
+  author:
+  - family: Burki
+    given: Fabien
+  - family: Kaplan
+    given: Maia
+  - family: Tikhonenkov
+    given: Denis V.
+  - family: Zlatogursky
+    given: Vasily
+  - family: Minh
+    given: Bui Quang
+  - family: Radaykina
+    given: Liudmila V.
+  - family: Smirnov
+    given: Alexey
+  - family: Mylnikov
+    given: Alexander P.
+  - family: Keeling
+    given: Patrick J.
+  issued:
+  - year: 2016
+    month: 1
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'Untangling the early diversification of eukaryotes: A phylogenomic study
+    of the evolutionary origins of Centrohelida, Haptophyta and Cryptista'
+  title-short: Untangling the early diversification of eukaryotes
+  container-title: 'Proceedings of the Royal Society B: Biological Sciences'
+  page: '20152802'
+  volume: '283'
+  issue: '1823'
+  URL: https://royalsocietypublishing.org/doi/10.1098/rspb.2015.2802
+  DOI: 10.1098/rspb.2015.2802
+  ISSN: 0962-8452, 1471-2954
+
+- id: pellens_split_2016
+  type: chapter
+  author:
+  - family: Chernomor
+    given: Olga
+  - family: Klaere
+    given: Steffen
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Minh
+    given: Bui Quang
+  editor:
+  - family: Pellens
+    given: Roseli
+  - family: Grandcolas
+    given: Philippe
+  issued:
+  - year: 2016
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'Split Diversity: Measuring and Optimizing Biodiversity Using Phylogenetic
+    Split Networks'
+  title-short: Split Diversity
+  container-title: Biodiversity Conservation and Phylogenetic Systematics
+  publisher: Springer International Publishing
+  publisher-place: Cham
+  page: '173-195'
+  volume: '14'
+  URL: http://link.springer.com/10.1007/978-3-319-22461-9_9
+  DOI: 10.1007/978-3-319-22461-9_9
+  ISBN: 978-3-319-22460-2 978-3-319-22461-9
+
+- id: thanh_building_2015
+  type: paper-conference
+  author:
+  - family: Thanh
+    given: Nguyen Dai
+  - family: Trang
+    given: Pham Thi Minh
+  - family: Hai
+    given: Dang Thanh
+  - family: Tuan
+    given: Nguyen Ha Anh
+  - family: Quang
+    given: Le Si
+  - family: Minh
+    given: Bui Quang
+  - family: Minh
+    given: Dao Quang
+  - family: Son
+    given: Pham Bao
+  - family: Vinh
+    given: Le Sy
+  issued:
+  - year: 2015
+    month: 10
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'Building Population-Specific Reference Genomes: A Case Study of Vietnamese
+    Reference Genome'
+  title-short: Building Population-Specific Reference Genomes
+  container-title: 2015 Seventh International Conference on Knowledge and Systems
+    Engineering (KSE)
+  publisher: IEEE
+  publisher-place: Ho Chi Minh City, Vietnam
+  page: '97-102'
+  URL: http://ieeexplore.ieee.org/document/7371765/
+  DOI: 10.1109/KSE.2015.49
+  ISBN: '978-1-4673-8013-3'
+
+- id: chernomor_consequences_2015
+  type: article-journal
+  author:
+  - family: Chernomor
+    given: Olga
+  - family: Minh
+    given: Bui Quang
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  issued:
+  - year: 2015
+    month: 12
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Consequences of Common Topological Rearrangements for Partition Trees in
+    Phylogenomic Inference
+  container-title: Journal of Computational Biology
+  page: '1129-1142'
+  volume: '22'
+  issue: '12'
+  URL: http://www.liebertpub.com/doi/10.1089/cmb.2015.0146
+  DOI: 10.1089/cmb.2015.0146
+  ISSN: 1066-5277, 1557-8666
+
+- id: hai_whole_2015
+  type: article-journal
+  author:
+  - family: Hai
+    given: Dang Thanh
+  - family: Thanh
+    given: Nguyen Dai
+  - family: Trang
+    given: Pham Thi Minh
+  - family: Quang
+    given: Le Si
+  - family: Hang
+    given: Phan Thi Thu
+  - family: Cuong
+    given: Dang Cao
+  - family: Phuc
+    given: Hoang Kim
+  - family: Duc
+    given: Nguyen Huu
+  - family: Dong
+    given: Do Duc
+  - family: Minh
+    given: Bui Quang
+  - family: Son
+    given: Pham Bao
+  - family: Vinh
+    given: Le Sy
+  issued:
+  - year: 2015
+    month: 3
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Whole genome analysis of a Vietnamese trio
+  container-title: Journal of Biosciences
+  page: '113-124'
+  volume: '40'
+  issue: '1'
+  URL: http://link.springer.com/10.1007/s12038-015-9501-0
+  DOI: 10.1007/s12038-015-9501-0
+  ISSN: 0250-5991, 0973-7138
+
+- id: nguyen_iq-tree:_2015
+  type: article-journal
+  author:
+  - family: Nguyen
+    given: Lam-Tung
+  - family: Schmidt
+    given: Heiko A.
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Minh
+    given: Bui Quang
+  issued:
+  - year: 2015
+    month: 1
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'IQ-TREE: A Fast and Effective Stochastic Algorithm for Estimating Maximum-Likelihood
+    Phylogenies'
+  title-short: IQ-TREE
+  container-title: Molecular Biology and Evolution
+  page: '268-274'
+  volume: '32'
+  issue: '1'
+  URL: https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msu300
+  DOI: 10.1093/molbev/msu300
+  ISSN: 1537-1719, 0737-4038
+
+- id: chernomor_split_2015
+  type: article-journal
+  author:
+  - family: Chernomor
+    given: Olga
+  - family: Minh
+    given: Bui Quang
+  - family: Forest
+    given: Félix
+  - family: Klaere
+    given: Steffen
+  - family: Ingram
+    given: Travis
+  - family: Henzinger
+    given: Monika
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  editor:
+  - family: Freckleton
+    given: Robert
+  issued:
+  - year: 2015
+    month: 1
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Split diversity in constrained conservation prioritization using integer
+    linear programming
+  container-title: Methods in Ecology and Evolution
+  page: '83-91'
+  volume: '6'
+  issue: '1'
+  URL: http://doi.wiley.com/10.1111/2041-210X.12299
+  DOI: 10.1111/2041-210X.12299
+  ISSN: 2041210X
+
+- id: flouri_phylogenetic_2015
+  type: article-journal
+  author:
+  - family: Flouri
+    given: T.
+  - family: Izquierdo-Carrasco
+    given: F.
+  - family: Darriba
+    given: D.
+  - family: Aberer
+    given: A.J.
+  - family: Nguyen
+    given: L.-T.
+  - family: Minh
+    given: B.Q.
+  - family: von Haeseler
+    given: A.
+  - family: Stamatakis
+    given: A.
+  issued:
+  - year: 2015
+    month: 3
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: The Phylogenetic Likelihood Library
+  container-title: Systematic Biology
+  page: '356-362'
+  volume: '64'
+  issue: '2'
+  URL: https://academic.oup.com/sysbio/article/64/2/356/1630375
+  DOI: 10.1093/sysbio/syu084
+  ISSN: 1076-836X, 1063-5157
+
+- id: pollak_novel_2014
+  type: article-journal
+  author:
+  - family: Pollak
+    given: Daniela D.
+  - family: Minh
+    given: Bui Quang
+  - family: Cicvaric
+    given: Ana
+  - family: Monje
+    given: Francisco J.
+  issued:
+  - year: 2014
+    month: 11
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: A novel Fibroblast Growth Factor Receptor family member promotes neuronal
+    outgrowth and synaptic plasticity in Aplysia
+  container-title: Amino Acids
+  page: '2477-2488'
+  volume: '46'
+  issue: '11'
+  URL: http://link.springer.com/10.1007/s00726-014-1803-2
+  DOI: 10.1007/s00726-014-1803-2
+  ISSN: 0939-4451, 1438-2199
+
+- id: kaschner_discovery_2014
+  type: article-journal
+  author:
+  - family: Kaschner
+    given: Marco
+  - family: Loeschcke
+    given: Anita
+  - family: Krause
+    given: Judith
+  - family: Minh
+    given: Bui Quang
+  - family: Heck
+    given: Achim
+  - family: Endres
+    given: Stephan
+  - family: Svensson
+    given: Vera
+  - family: Wirtz
+    given: Astrid
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Jaeger
+    given: Karl-Erich
+  - family: Drepper
+    given: Thomas
+  - family: Krauss
+    given: Ulrich
+  issued:
+  - year: 2014
+    month: 9
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'Discovery of the first light-dependent protochlorophyllide oxidoreductase
+    in anoxygenic phototrophic bacteria: A genuine LPOR in anoxygenic phototrophic
+    bacteria'
+  title-short: Discovery of the first light-dependent protochlorophyllide oxidoreductase
+    in anoxygenic phototrophic bacteria
+  container-title: Molecular Microbiology
+  page: '1066-1078'
+  volume: '93'
+  issue: '5'
+  URL: http://doi.wiley.com/10.1111/mmi.12719
+  DOI: 10.1111/mmi.12719
+  ISSN: 0950382X
+
+- id: dellampio_decisive_2014
+  type: article-journal
+  author:
+  - family: Dell’Ampio
+    given: Emiliano
+  - family: Meusemann
+    given: Karen
+  - family: Szucsich
+    given: Nikolaus U.
+  - family: Peters
+    given: Ralph S.
+  - family: Meyer
+    given: Benjamin
+  - family: Borner
+    given: Janus
+  - family: Petersen
+    given: Malte
+  - family: Aberer
+    given: Andre J.
+  - family: Stamatakis
+    given: Alexandros
+  - family: Walzl
+    given: Manfred G.
+  - family: Minh
+    given: Bui Quang
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Ebersberger
+    given: Ingo
+  - family: Pass
+    given: Günther
+  - family: Misof
+    given: Bernhard
+  issued:
+  - year: 2014
+    month: 1
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'Decisive Data Sets in Phylogenomics: Lessons from Studies on the Phylogenetic
+    Relationships of Primarily Wingless Insects'
+  title-short: Decisive Data Sets in Phylogenomics
+  container-title: Molecular Biology and Evolution
+  page: '239-249'
+  volume: '31'
+  issue: '1'
+  URL: https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/mst196
+  DOI: 10.1093/molbev/mst196
+  ISSN: 1537-1719, 0737-4038
+
+- id: minh_ultrafast_2013
+  type: article-journal
+  author:
+  - family: Minh
+    given: B. Q.
+  - family: Nguyen
+    given: M. A. T.
+  - family: Haeseler
+    given: A.
+    dropping-particle: von
+  issued:
+  - year: 2013
+    month: 5
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Ultrafast Approximation for Phylogenetic Bootstrap
+  container-title: Molecular Biology and Evolution
+  page: '1188-1195'
+  volume: '30'
+  issue: '5'
+  URL: https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/mst024
+  DOI: 10.1093/molbev/mst024
+  ISSN: 0737-4038, 1537-1719
+
+- id: minh_sda*:_2010
+  type: paper-conference
+  author:
+  - family: Minh
+    given: Bui Quang
+  - family: Klaere
+    given: Steffen
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  issued:
+  - year: 2010
+    month: 10
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'SDA\*: A Simple and Unifying Solution to Recent Bioinformatic Challenges
+    for Conservation Genetics'
+  title-short: SDA\*
+  container-title: 2010 Second International Conference on Knowledge and Systems Engineering
+  publisher: IEEE
+  publisher-place: Hanoi, Vietnam
+  page: '33-37'
+  URL: http://ieeexplore.ieee.org/document/5632157/
+  DOI: 10.1109/KSE.2010.24
+  ISBN: '978-1-4244-8334-1'
+
+- id: hutchison_acophy:_2010
+  type: chapter
+  author:
+  - family: Dinh
+    given: Huy Q.
+  - family: Minh
+    given: Bui Quang
+  - family: Huan
+    given: Hoang Xuan
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  editor:
+  - family: Hutchison
+    given: David
+  - family: Kanade
+    given: Takeo
+  - family: Kittler
+    given: Josef
+  - family: Kleinberg
+    given: Jon M.
+  - family: Mattern
+    given: Friedemann
+  - family: Mitchell
+    given: John C.
+  - family: Naor
+    given: Moni
+  - family: Nierstrasz
+    given: Oscar
+  - family: Pandu Rangan
+    given: C.
+  - family: Steffen
+    given: Bernhard
+  - family: Sudan
+    given: Madhu
+  - family: Terzopoulos
+    given: Demetri
+  - family: Tygar
+    given: Doug
+  - family: Vardi
+    given: Moshe Y.
+  - family: Weikum
+    given: Gerhard
+  - family: Dorigo
+    given: Marco
+  - family: Birattari
+    given: Mauro
+  - family: Di Caro
+    given: Gianni A.
+  - family: Doursat
+    given: René
+  - family: Engelbrecht
+    given: Andries P.
+  - family: Floreano
+    given: Dario
+  - family: Gambardella
+    given: Luca Maria
+  - family: Groß
+    given: Roderich
+  - family: Şahin
+    given: Erol
+  - family: Sayama
+    given: Hiroki
+  - family: Stützle
+    given: Thomas
+  issued:
+  - year: 2010
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'ACOPHY: A Simple and General Ant Colony Optimization Approach for Phylogenetic
+    Tree Reconstruction'
+  title-short: ACOPHY
+  container-title: Swarm Intelligence
+  publisher: Springer Berlin Heidelberg
+  publisher-place: Berlin, Heidelberg
+  page: '360-367'
+  volume: '6234'
+  URL: http://link.springer.com/10.1007/978-3-642-15461-4_32
+  DOI: 10.1007/978-3-642-15461-4_32
+  ISBN: 978-3-642-15460-7 978-3-642-15461-4
+
+- id: hofmann_quantitative_2010
+  type: article-journal
+  author:
+  - family: Hofmann
+    given: Joerg
+  - family: Frenzel
+    given: Katrin
+  - family: Minh
+    given: Bui Q.
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  - family: Edelmann
+    given: Anke
+  - family: Ross
+    given: Stefan R.
+  - family: Berg
+    given: Thomas
+  - family: Krüger
+    given: Detlev H.
+  - family: Meisel
+    given: Helga
+  issued:
+  - year: 2010
+    month: 6
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Quantitative detection and typing of hepatitis D virus in human serum by
+    real-time polymerase chain reaction and melting curve analysis
+  container-title: Diagnostic Microbiology and Infectious Disease
+  page: '172-179'
+  volume: '67'
+  issue: '2'
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0732889310000398
+  DOI: 10.1016/j.diagmicrobio.2010.02.003
+  ISSN: '07328893'
+
+- id: krauss_distribution_2009
+  type: article-journal
+  author:
+  - family: Krauss
+    given: U.
+  - family: Minh
+    given: B. Q.
+  - family: Losi
+    given: A.
+  - family: Gartner
+    given: W.
+  - family: Eggert
+    given: T.
+  - family: Haeseler
+    given: A.
+    dropping-particle: von
+  - family: Jaeger
+    given: K.-E.
+  issued:
+  - year: 2009
+    month: 12
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Distribution and Phylogeny of Light-Oxygen-Voltage-Blue-Light-Signaling Proteins
+    in the Three Kingdoms of Life
+  container-title: Journal of Bacteriology
+  page: '7234-7242'
+  volume: '191'
+  issue: '23'
+  URL: http://jb.asm.org/cgi/doi/10.1128/JB.00923-09
+  DOI: 10.1128/JB.00923-09
+  ISSN: '0021-9193'
+
+- id: minh_taxon_2009
+  type: article-journal
+  author:
+  - family: Minh
+    given: Bui Quang
+  - family: Klaere
+    given: Steffen
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  issued:
+  - year: 2009
+    month: 12
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Taxon Selection under Split Diversity
+  container-title: Systematic Biology
+  page: '586-594'
+  volume: '58'
+  issue: '6'
+  URL: https://academic.oup.com/sysbio/article/58/6/586/1634024
+  DOI: 10.1093/sysbio/syp058
+  ISSN: 1076-836X, 1063-5157
+
+- id: minh_budgeted_2009
+  type: article-journal
+  author:
+  - family: Minh
+    given: B.Q.
+  - family: Pardi
+    given: F.
+  - family: Klaere
+    given: S.
+  - family: Haeseler
+    given: A.
+    dropping-particle: von
+  issued:
+  - year: 2009
+    month: 1
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Budgeted Phylogenetic Diversity on Circular Split Systems
+  container-title: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  page: '22-29'
+  volume: '6'
+  issue: '1'
+  URL: http://ieeexplore.ieee.org/document/4538211/
+  DOI: 10.1109/TCBB.2008.54
+  ISSN: '1545-5963'
+
+- id: minh_phylogenetic_2006
+  type: article-journal
+  author:
+  - family: Minh
+    given: Bui Quang
+  - family: Klaere
+    given: Steffen
+  - family: Haeseler
+    given: Arndt
+    dropping-particle: von
+  editor:
+  - family: Steel
+    given: Mike
+  issued:
+  - year: 2006
+    month: 10
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: Phylogenetic Diversity within Seconds
+  container-title: Systematic Biology
+  page: '769-773'
+  volume: '55'
+  issue: '5'
+  URL: http://academic.oup.com/sysbio/article/55/5/769/1664851
+  DOI: 10.1080/10635150600981604
+  ISSN: 1076-836X, 1063-5157
+
+- id: minh_piqpnni:_2005
+  type: article-journal
+  author:
+  - family: Minh
+    given: B. Q.
+  - family: Vinh
+    given: L. S.
+  - family: Haeseler
+    given: A.
+    dropping-particle: von
+  - family: Schmidt
+    given: H. A.
+  issued:
+  - year: 2005
+    month: 10
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: '<span class="nocase">pIQPNNI</span>: Parallel reconstruction of large
+    maximum likelihood phylogenies'
+  title-short: <span class="nocase">pIQPNNI</span>
+  container-title: Bioinformatics
+  page: '3794-3796'
+  volume: '21'
+  issue: '19'
+  URL: https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/bti594
+  DOI: 10.1093/bioinformatics/bti594
+  ISSN: 1367-4803, 1460-2059
+
+...

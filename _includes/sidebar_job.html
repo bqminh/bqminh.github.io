@@ -1,0 +1,10 @@
+<br>
+<div class="card card-body bg-light">
+	<h5 class="card-title">"Open positions"</h5>
+	{% for post in site.categories['join'] %}
+		<p class="card-text">
+			<a href="{{ post.url | prepend: site.baseurl }}" class="card-link">{{ post.title }}</a><br>
+			{{ post.date | date_to_string }}
+		</p>
+	{% endfor %} 
+</div>
