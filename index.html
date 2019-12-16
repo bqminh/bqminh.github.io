@@ -66,18 +66,20 @@ subsubtitle: Enable evolutionary research in the genomic era
   <div class="container">
   <h2>Recent publications</h2>
   <ol>
+  {% assign person_pages = site.pages | where: "layout" , "personnel" | where: "current", "true" %}
+  {% assign members = person_pages | map: "pubname" %}
   {% for pub in site.data.publications.references limit:5 %}
 	<li>
 	  <strong>
 	  {% assign last_author = pub.author | last %}
 	  {% for author in pub.author %}
 		{% assign full_name = author.given | append: " " | append: author.family %}
-		{% if site.data.members contains full_name %}
+		{% if members contains full_name %}
 		  <a href="{{site.baseurl}}/people/{{author.family | downcase}}/">
 		{% endif %}
 		{% assign given_words = author.given | split: " " %}
 		{% for word in given_words %}{{word | slice:0}}.{% endfor %} {{author.dropping-particle}} 
-		{{author.family}}{% if site.data.members contains full_name %}</a>{% endif %}{% if author.given != last_author.given or author.family != last_author.family %},{% endif %}
+		{{author.family}}{% if members contains full_name %}</a>{% endif %}{% if author.given != last_author.given or author.family != last_author.family %},{% endif %}
 	  {% endfor %}
 	  </strong>
 	 ({{pub.issued.first.year}}) {{pub.title}}. <em>{{pub.container-title}}</em>

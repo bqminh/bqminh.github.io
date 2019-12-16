@@ -2,7 +2,7 @@
 layout: personnel
 title: Minh Bui
 pubname: Bui Quang Minh
-position: Lab leader
+position: Lab Leader
 current: true
 email: m.bui (at) anu.edu.au
 image: minh2.jpg
