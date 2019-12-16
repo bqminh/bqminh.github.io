@@ -1,19 +1,22 @@
 ---
 layout: default
-title:  Lab members
+title:  People
+title_heading: true
 ---
 
 <div class="container">
-	<h1>{{page.title}}</h1>
     <div class="row">
-    	{% assign person_pages = site.pages | where: "layout" , "personnel" %}
+    	{% assign person_pages = site.pages | where: "layout" , "personnel" | where: "current", "true" %}
         {% for person in person_pages %}
             <div class="col-md-3">
             	<a href="{{person.url}}"><img class="rounded-circle" src="{{person.url}}{{person.image}}" width=180 alt="{{person.title}}"></a>
             </div>
             <div class="col-md-9">
                 <a href="{{person.url}}"><h3>{{ person.title }}</h3></a>
-                <p>{{person.position}}</p>
+                <p><em>{{person.position}}</em></p>
+                <a href="https://scholar.google.com/citations?user={{person.google_scholar}}"><i class="fa fa-google fa-2x"></i></a>
+                <a href="https://github.com/{{person.github}}"><i class="fa fa-github-square fa-2x"></i></a>
+                <a href="https://twitter.com/{{person.twitter}}"><i class="fa fa-twitter-square fa-2x"></i></a>                
             </div>
         {% endfor %}
     </div>

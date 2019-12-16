@@ -2,11 +2,25 @@
 layout: default
 ---
 
+<div style="background-color: {{site.data.style.main_color}};">
+  <div class="container">
+	<h1><a href="/people/">People</a> / {{page.title}}</h1>
+  </div>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-        	<h1>{{page.title}}</h1>
-			<img class="rounded-circle" src="{{page.url}}{{page.image}}" width=180 alt="{{page.title}}">
+		    <div class="row">
+		    	<div class="col-md-5">
+					<img class="rounded-circle" src="{{page.url}}{{page.image}}" width=180 alt="{{page.title}}">
+				</div>
+				<div class="col-md-7">
+					<p><em>{{page.position}}</em><br>{{page.email}}</p>
+					<a href="https://scholar.google.com/citations?user={{page.google_scholar}}"><i class="fa fa-google fa-2x"></i></a>
+					<a href="https://github.com/{{page.github}}"><i class="fa fa-github-square fa-2x"></i></a>
+					<a href="https://twitter.com/{{page.twitter}}"><i class="fa fa-twitter-square fa-2x"></i></a>
+				</div>
+			</div>
 			{{ content }}
         </div>
         <div class="col-md-4">

@@ -1,25 +1,26 @@
 ---
 layout: default
 title: Publications
+title_heading: true
 ---
 
 <div class="container">
-  <h1>{{page.title}}</h1>
-
+  {% assign person_pages = site.pages | where: "layout" , "personnel" | where: "current", "true" %}
+  {% assign members = person_pages | map: "pubname" %}
   {% assign pub_groups = site.data.publications.references | group_by: "type" %}
   {% for pub_group in pub_groups %}
     {% if pub_group.name == "article-journal" %}
-      <h2>Journal papers</h2>
+      <h3>Journal papers</h3>
     {% elsif pub_group.name == "chapter" %}
-      <h2>Refereed book chapters</h2>
+      <h3>Refereed book chapters</h3>
     {% elsif pub_group.name == "paper-conference" %}
-      <h2>Refereed conference papers</h2>
+      <h3>Refereed conference papers</h3>
     {% elsif pub_group.name == "report" %}
-      <h2>Preprints</h2>
+      <h3>Preprints</h3>
     {% else %}
-      <h2>{{pub_group.name}}</h2>
+      <h3>{{pub_group.name}}</h3>
     {% endif %}
-    <hr style="border: 1px solid;">
+    <hr style="border: 0.5px solid;">
   
     {% assign this_year = "" %}
     {% for pub in pub_group.items %}
@@ -29,7 +30,7 @@ title: Publications
 		{% endif %}
 		{% assign this_year = pub.issued[0].year %}
 		<a name="{{this_year}}"></a>
-		<h3>{{this_year}}</h3>
+		<h5>{{this_year}}</h5>
 		<ol>
       {% endif %}
 		<li>
@@ -37,16 +38,18 @@ title: Publications
 		  {% assign last_author = pub.author | last %}
 		  {% for author in pub.author %}
 		    {% assign full_name = author.given | append: " " | append: author.family %}
-		    {% if site.data.members contains full_name %}
+		    {% if members contains full_name %}
 		      <a href="{{site.baseurl}}/people/{{author.family | downcase}}/">
 		    {% endif %}
-			{{author.given}} {{author.dropping-particle}} 
-			{{author.family}}{% if site.data.members contains full_name %}</a>{% endif %}{% if author.given != last_author.given or author.family != last_author.family %},{% endif %}
+		    {% assign given_words = author.given | split: " " %}
+		    {% for word in given_words %}{{word | slice:0}}.{% endfor %}
+			{{author.dropping-particle}} 
+			{{author.family}}{% if members contains full_name %}</a>{% endif %}{% if author.given != last_author.given or author.family != last_author.family %},{% endif %}
 		  {% endfor %}
 		</strong>
-		 ({% for issue in pub.issued %}{{issue.year}}{% endfor %}) {{pub.title}}. {{pub.container-title}} 
+		 ({% for issue in pub.issued %}{{issue.year}}{% endfor %}) {{pub.title}}. <em>{{pub.container-title}}</em>
 		 {% if pub.volume %}{{pub.volume}}:{{pub.page}}.{%endif%}
-		 <a href="https://doi.org/{{pub.DOI}}">{{pub.DOI}}</a>
+		 <a href="https://doi.org/{{pub.DOI}}">link</a>
 		</li>
     {% endfor %}
     </ol>

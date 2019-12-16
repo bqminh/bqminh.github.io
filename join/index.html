@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Join Us
+title_heading: true
 ---
 
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-        	<h1>{{page.title}}</h1>
             {% assign numPages = 0 %}
             {% for post in site.categories['join'] %}
                 {% if numPages > 0 %}

@@ -1,28 +1,36 @@
 ---
 layout: personnel
 title: Minh Bui
-position: Lab leader
-image: minh2.jpg
 pubname: Bui Quang Minh
+position: Lab leader
+current: true
+email: m.bui (at) anu.edu.au
+image: minh2.jpg
+github: bqminh
+google_scholar: UI0xN_QAAAAJ
+twitter: bq_minh
+researchgate: Bui_Minh
+orcid: "0000-0002-5535-6560"
+address: 
+
 ---
 
+#### Research interests
+<hr style="border: 0.5px solid;">
 
-### Research interests
+**My motto: Enabling evolutionary research in the genomic era**
 
-* Molecular evolution
-* Bioinformatics
-* Phylogenetics
-* Phylogenomics
-* High performance computing
-
-### Education
-
-* 1997 - 2001: B.Sc. in Computer Science, Vietnam National University, Hanoi, Vietnam.
-* 2003 - 2005: M.Sc. in Applied Computer Science, University of Freiburg, Germany.
-* 2006 - 2009: Ph.D. in Bioinformatics, University of Vienna, Austria.
+Motivated by the rapid accumulation of high throughput sequencing data, my researches combine efficient bioinformatic methods, statistical models of molecular evolution, algorithms and high performance computing techniques to infer phylogenies from ultra-large genomic data.
 
 
-### Employment
+#### Degrees
+
+* 2009: **Ph.D.** in Bioinformatics, University of Vienna, Austria.
+* 2005: **M.Sc.** in Applied Computer Science, University of Freiburg, Germany.
+* 2001: **B.Sc.** in Computer Science, Vietnam National University, Hanoi, Vietnam.
+
+
+#### Employment
 
 * 2019 – present: Lecturer, Research School of Computer Science, Australian National University, Australia.
 * 2018 – present: Research Fellow, Research School of Biology, Australian National University, Australia.
