@@ -1,6 +1,6 @@
 <br>
 <div class="card card-body bg-light">
-	<h5 class="card-title">"Open positions"</h5>
+	<h5 class="card-title">Open position</h5>
 	{% for post in site.categories['join'] %}
 		<p class="card-text">
 			<a href="{{ post.url | prepend: site.baseurl }}" class="card-link">{{ post.title }}</a><br>
