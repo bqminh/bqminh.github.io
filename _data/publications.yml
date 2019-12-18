@@ -952,7 +952,7 @@ references:
   - family: Nguyen
     given: L.-T.
   - family: Minh
-    given: B.Q.
+    given: Bui Quang
   - family: von Haeseler
     given: A.
   - family: Stamatakis
@@ -1105,7 +1105,7 @@ references:
   type: article-journal
   author:
   - family: Minh
-    given: B. Q.
+    given: Bui Quang
   - family: Nguyen
     given: M. A. T.
   - family: Haeseler
@@ -1246,7 +1246,7 @@ references:
   - family: Frenzel
     given: Katrin
   - family: Minh
-    given: Bui Q.
+    given: Bui Quang
   - family: Haeseler
     given: Arndt
     dropping-particle: von
@@ -1283,7 +1283,7 @@ references:
   - family: Krauss
     given: U.
   - family: Minh
-    given: B. Q.
+    given: Bui Quang
   - family: Losi
     given: A.
   - family: Gartner
@@ -1342,7 +1342,7 @@ references:
   type: article-journal
   author:
   - family: Minh
-    given: B.Q.
+    given: Bui Quang
   - family: Pardi
     given: F.
   - family: Klaere
@@ -1399,7 +1399,7 @@ references:
   type: article-journal
   author:
   - family: Minh
-    given: B. Q.
+    given: Bui Quang
   - family: Vinh
     given: L. S.
   - family: Haeseler
