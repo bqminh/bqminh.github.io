@@ -8,6 +8,8 @@ categories:
   - join
 ---
 
+Closing date: **31 January 2020**
+
 A PhD position is available in the our lab at the [Research
 School of Computer Science](https://cs.anu.edu.au), 
 Australian National University (ANU). We are
@@ -29,13 +31,12 @@ world (QS World University Ranking 2019).
 
 Candidates: ANU scholarships are highly competitive, and cover all fees
 and a ~$27K stipend. In order to be put forward, you will need
-outstanding undergraduate marks and a first class honours or Masters by
+excellent undergraduate marks and a first class honours or Masters by
 research (or be expecting to gain one by the middle of 2020) or
-equivalent research experience.
+equivalent research experience, excellent oral and written English skills.
 
-To apply, please send to m.bui (at) anu.edu.au a detailed CV, full
-academic transcripts, and a brief description of your research interests
+To apply, please send to m.bui (at) anu.edu.au until **31 January 2020** a detailed CV, full
+academic transcripts, an English test certificate if English was the language of your study, and a brief description of your research interests
 and how they intersect with this project. 
 
-The deadline is **January 31, 2020**.
 
