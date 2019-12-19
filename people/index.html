@@ -8,7 +8,7 @@ title_heading: true
   	<div class="row">
 	{% assign person_pages = site.pages | where: "layout" , "personnel" | where: "current", "true" %}
 	{% for person in person_pages %}
-            <div class="col-md-6" style="text-align: center;">
+            <div class="col-md-4" style="text-align: center;">
             	<a href="{{person.url}}"><img class="rounded-circle" src="{{person.url}}{{person.image}}" width=180 alt="{{person.title}}"></a>
                 <a href="{{person.url}}"><h3>{{ person.title }}</h3></a>
                 <p><em>{{person.position}}</em></p>

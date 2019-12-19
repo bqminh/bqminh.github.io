@@ -6,7 +6,7 @@ show-publication: true
 position: Lab Leader
 current: true
 email: m.bui (at) anu.edu.au
-image: minh2.jpg
+image: Minh-Bui.jpg
 github: bqminh
 google_scholar: UI0xN_QAAAAJ
 twitter: bq_minh

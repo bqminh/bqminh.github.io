@@ -4,7 +4,7 @@ title: Olga Chernomor
 pubname: Olga Chernomor
 position: PhD student and Postdoc
 current: false
-period: 2011-2017
+period: co-supervised in CIBIV, 2011-2017
 email: 
 image: 
 github: 

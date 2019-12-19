@@ -4,7 +4,7 @@ title: Tung-Lam Nguyen
 pubname: Tung Lam Nguyen 
 position: Masters student, PhD student and Postdoc
 current: false
-period: 2009-2016
+period: co-supervised in CIBIV, 2009-2016
 email: 
 image: 
 github: 
