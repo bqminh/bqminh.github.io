@@ -564,6 +564,7 @@ references:
     co-first: true
   - family: Wong
     given: Thomas K F
+    co-first: true
   - family: Haeseler
     given: Arndt
     dropping-particle: von
