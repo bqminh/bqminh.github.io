@@ -1,4 +1,5 @@
 ---
+citation_update: 19 Dec 2019
 references:
 - id: minh_iq-tree_2019
   type: report
@@ -401,6 +402,7 @@ references:
 - id: hoang_ufboot2:_2018
   type: article-journal
   open-access: true
+  citations: 542
   author:
   - family: Hoang
     given: Diep Thi
@@ -553,6 +555,7 @@ references:
 
 - id: kalyaanamoorthy_modelfinder:_2017
   type: article-journal
+  citations: 1014
   author:
   - family: Kalyaanamoorthy
     given: Subha
@@ -652,6 +655,7 @@ references:
 - id: chernomor_terrace_2016
   type: article-journal
   open-access: true
+  citations: 263
   author:
   - family: Chernomor
     given: Olga
@@ -679,6 +683,7 @@ references:
 - id: trifinopoulos_w-iq-tree:_2016
   type: article-journal
   open-access: true
+  citations: 498
   author:
   - family: Trifinopoulos
     given: Jana
@@ -709,6 +714,7 @@ references:
 - id: burki_untangling_2016
   type: article-journal
   open-access: true
+  citations: 148
   author:
   - family: Burki
     given: Fabien
@@ -896,6 +902,7 @@ references:
 - id: nguyen_iq-tree:_2015
   type: article-journal
   open-access: true
+  citations: 2902
   author:
   - family: Nguyen
     given: Lam-Tung
@@ -1133,6 +1140,7 @@ references:
 
 - id: minh_ultrafast_2013
   type: article-journal
+  citations: 895
   open-access: true
   author:
   - family: Minh

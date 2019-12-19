@@ -10,23 +10,47 @@ layout: default
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-			<div style="text-align:center;">
-				<img class="rounded-circle" src="{{page.url}}{{page.image}}" width=180 alt="{{page.title}}">
-				<p><em>{{page.position}}</em></p>
-				<p>{{page.email}}</p>
-				<p>
-				<a href="https://scholar.google.com/citations?user={{page.google_scholar}}"><i class="fa fa-google fa-2x"></i></a>
-				<a href="https://github.com/{{page.github}}"><i class="fa fa-github-square fa-2x"></i></a>
-				{% if page.twitter %}
-				<a href="https://twitter.com/{{page.twitter}}"><i class="fa fa-twitter-square fa-2x"></i></a>
-				{% endif %}
-				</p>
-				<p>{{page.address}}</p>
-			</div>
 			{{ content }}
+			{% if page.show-publication %}
+			<h4>Five Highly-cited Publications</h4>
+			<p>Citation counts by Google Scholar, {{site.data.publications.citation_update}}</p>
+			<ol>
+			{% assign pubs = site.data.publications.references | sort: "citations" | reverse %}
+			{% for pub in pubs limit:5 %}
+				<li>
+				{% include publication.html %}
+				</li>
+			{% endfor %}
+			</ol>
+			<a href="{{site.baseurl}}/publications/">&rarr;All publications</a><br><br>
+			{% endif %}
+
         </div>
         <div class="col-md-4">
-            {% include sidebar.html %}
+			<div class="card card-body bg-light">
+				<p style="text-align:center;"><img class="rounded-circle" src="{{page.url}}{{page.image}}" width=180 alt="{{page.title}}"></p>
+				<p><strong>Address:</strong><br>{{page.address}}</p>
+				<p>
+				  {% if page.phone %}
+    				  <i class="fa fa-phone"></i> {{page.phone}}<br>
+    			  {% endif %}
+				  {% if page.email %}
+				      <i class="fa fa-envelope"></i> {{page.email}}<br>
+    			  {% endif %}
+				  {% if page.google_scholar %}
+    				  <i class="fa fa-university"></i> <a href="https://scholar.google.com/citations?user={{page.google_scholar}}">Google Scholar</a><br>
+    			  {% endif %}
+				  {% if page.github %}
+  				    <i class="fa fa-github"></i> <a href="https://github.com/{{page.github}}">GitHub</a><br>
+  				  {% endif %}
+				  {% if page.twitter %}
+				    <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{page.twitter}}">Twitter</a><br>
+				  {% endif %}
+				  {% if page.ORCID %}
+				    <i class="fa fa-user"></i> <a href="https://orcid.org/{{page.ORCID}}">ORCID</a><br>
+				  {% endif %}
+				</p>
+			</div>
         </div>
     </div>
 </div>

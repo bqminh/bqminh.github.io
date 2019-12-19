@@ -44,4 +44,7 @@
   {% if pub.PMCID %}
     <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMCID}}" class="badge badge-warning">Full text (PMC)</a>
   {% endif %}
+  {% if pub.citations %}
+    <span class="badge badge-danger">{{pub.citations}} citations</span>
+  {% endif %}  
 </p>

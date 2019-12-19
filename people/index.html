@@ -12,11 +12,10 @@ title_heading: true
             	<a href="{{person.url}}"><img class="rounded-circle" src="{{person.url}}{{person.image}}" width=180 alt="{{person.title}}"></a>
                 <a href="{{person.url}}"><h3>{{ person.title }}</h3></a>
                 <p><em>{{person.position}}</em></p>
-                <p><em>{{person.email}}</em></p>
-                <a href="https://github.com/{{person.github}}"><i class="fa fa-github-square fa-2x"></i></a>
+                <a href="https://github.com/{{person.github}}"><i class="fa fa-github fa-2x"></i></a>
                 <a href="https://scholar.google.com/citations?user={{person.google_scholar}}"><i class="fa fa-google fa-2x"></i></a>
                 {% if person.twitter %}
-                <a href="https://twitter.com/{{person.twitter}}"><i class="fa fa-twitter-square fa-2x"></i></a>                
+                <a href="https://twitter.com/{{person.twitter}}"><i class="fa fa-twitter fa-2x"></i></a>                
                 {% endif %}
             </div>
     {% endfor %}
