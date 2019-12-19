@@ -18,8 +18,8 @@ subsubtitle: Enable evolutionary research in the genomic era
 			<div class="list-group-item list-group-item-primary">
    			  <h3>Our mission</h3>
 			  We combine efficient bioinformatic methods and
-			  advanced models of molecular evolution to infer
-			  phylogenies from ultra-large genomic data.
+			  advanced models of molecular evolution for 
+			  phylogenetic inference from ultra-large genomic data.
 			  <br><a href="{{site.baseurl}}/research/">&rarr;More about our research</a>
 			</div>
 		</div>
@@ -64,7 +64,8 @@ subsubtitle: Enable evolutionary research in the genomic era
 <br>
 <div style="background: {{site.data.style.minor_color}};">
   <div class="container">
-  <h2>Recent publications</h2>
+  <br>
+  <h3>Recent publications</h3>
   <ol>
   {% assign person_pages = site.pages | where: "layout" , "personnel" | where: "current", "true" %}
   {% assign members = person_pages | map: "pubname" %}

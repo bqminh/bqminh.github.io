@@ -1,19 +1,34 @@
 <p>
   <big>{{pub.title}}</big><br>
   {% assign last_author = pub.author | last %}
+  {% assign co-first = "&ast;" %}
+  {% assign co-last = "&oast;" %}
+  {% assign has-co-first=false %}
+  {% assign has-co-last=false %}
   {% for author in pub.author %}
 	{% assign full_name = author.given | append: " " | append: author.family %}
 	{% if members contains full_name %}
 	  <a href="{{site.baseurl}}/people/{{author.family | downcase}}/">
 	{% endif %}
 	{% if author.co-first or author.co-last %}<strong>{% endif %}
+	{% if author.co-first %} {% assign has-co-first=true %} {% endif %}
+	{% if author.co-last %} {% assign has-co-last=true %} {% endif %}
 	{{author.literal}}
 	{% assign given_words = author.given | split: " " %}
 	{% for word in given_words %}{{word | slice:0}}.{% endfor %}
 	{{author.dropping-particle}} 
-	{{author.family}}{% if author.co-first%}{{page.co-first}}{%endif%}{% if author.co-last%}{{page.co-last}}{%endif%}{% if members contains full_name %}</a>{% endif %}{% if author.given != last_author.given or author.family != last_author.family %},{% endif %}
+	{{author.family}}{% if author.co-first%}{{co-first}}{%endif%}{% if author.co-last%}{{co-last}}{%endif%}{% if members contains full_name %}</a>{% endif %}{% if author.given != last_author.given or author.family != last_author.family %},{% endif %}
 	{% if author.co-first or author.co-last %}</strong>{% endif %}
   {% endfor %}
+    <span style="color: #505050;">
+	{% if has-co-first and has-co-last %}
+		({{co-first}}co-first, {{co-last}}co-last)
+	{% elsif has-co-first %}
+		({{co-first}}co-first)
+	{% elsif has-co-last %}
+		({{co-last}}co-last)
+	{% endif %}
+	</span>
   <br>
   <small style="color: #505050;">
     {{pub.container-title}}
@@ -25,5 +40,8 @@
   </a>
   {% if pub.preprint-DOI %} 
     <a href="https://doi.org/{{pub.preprint-DOI}}" class="badge badge-success">Preprint</a>
+  {% endif %}
+  {% if pub.PMCID %}
+    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMCID}}" class="badge badge-warning">Full text (PMC)</a>
   {% endif %}
 </p>

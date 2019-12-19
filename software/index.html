@@ -9,6 +9,7 @@ title_heading: true
         {% for software in site.data.software %}
             <div class="col-md-3" style="text-align:center;">
             	<a href="{{software.url}}"><img src="{{software.logo}}" width=180 alt="{{software.name}}"></a>
+            	<br><br>
             </div>
             <div class="col-md-9">
                 <a href="{{software.url}}"><h3>{{ software.name }}: {{software.title}}</h3></a>

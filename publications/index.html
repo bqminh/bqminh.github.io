@@ -2,12 +2,9 @@
 layout: default
 title: Publications
 title_heading: true
-co-first: "&ast;"
-co-last: "&oast;"
 ---
 
 <div class="container">
-  <h4>{{page.co-first}}co-first author, {{page.co-last}}co-senior author</h4>
   {% assign person_pages = site.pages | where: "layout" , "personnel" | where: "current", "true" %}
   {% assign members = person_pages | map: "pubname" %}
   {% assign pub_groups = site.data.publications.references | group_by: "type" %}
