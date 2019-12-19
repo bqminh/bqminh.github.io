@@ -70,21 +70,7 @@ subsubtitle: Enable evolutionary research in the genomic era
   {% assign members = person_pages | map: "pubname" %}
   {% for pub in site.data.publications.references limit:5 %}
 	<li>
-	  <strong>
-	  {% assign last_author = pub.author | last %}
-	  {% for author in pub.author %}
-		{% assign full_name = author.given | append: " " | append: author.family %}
-		{% if members contains full_name %}
-		  <a href="{{site.baseurl}}/people/{{author.family | downcase}}/">
-		{% endif %}
-		{% assign given_words = author.given | split: " " %}
-		{% for word in given_words %}{{word | slice:0}}.{% endfor %} {{author.dropping-particle}} 
-		{{author.family}}{% if members contains full_name %}</a>{% endif %}{% if author.given != last_author.given or author.family != last_author.family %},{% endif %}
-	  {% endfor %}
-	  </strong>
-	 ({{pub.issued.first.year}}) {{pub.title}}. <em>{{pub.container-title}}</em>
-	 {% if pub.volume %}{{pub.volume}}:{{pub.page}}.{%endif%}
-	 <a href="https://doi.org/{{pub.DOI}}">DOI</a>
+		{% include publication.html %}
 	</li>
   {% endfor %}
   </ol>

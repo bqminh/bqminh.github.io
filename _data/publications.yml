@@ -2,17 +2,18 @@
 references:
 - id: minh_iq-tree_2019
   type: report
+  open-access: true
   author:
   - family: Minh
     given: Bui Quang
   - family: Schmidt
-    given: Heiko
+    given: Heiko A
   - family: Chernomor
     given: Olga
   - family: Schrempf
     given: Dominik
   - family: Woodhams
-    given: Michael
+    given: Michael D
   - family: Haeseler
     given: Arndt
     dropping-particle: von
@@ -41,6 +42,7 @@ references:
 
 - id: naser-khdour_prevalence_2019
   type: article-journal
+  open-access: true
   author:
   - family: Naser-Khdour
     given: Suha
@@ -94,6 +96,7 @@ references:
 
 - id: schrempf_polymorphism-aware_2019
   type: article-journal
+  open-access: true
   author:
   - family: Schrempf
     given: Dominik
@@ -131,6 +134,7 @@ references:
     given: Stephen M
   - family: Minh
     given: Bui Quang
+    co-first: true
   - family: Bean
     given: Nigel G
   - family: Holland
@@ -179,9 +183,11 @@ references:
   URL: https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syz051/5541793
   DOI: 10.1093/sysbio/syz051
   ISSN: 1063-5157, 1076-836X
+  preprint-DOI: 10.1101/174789
 
 - id: schenk_combined_2019
   type: article-journal
+  open-access: true
   author:
   - family: Schenk
     given: Sven
@@ -261,6 +267,7 @@ references:
 
 - id: hoang_mpboot:_2018
   type: article-journal
+  open-access: true
   author:
   - family: Hoang
     given: Diep Thi
@@ -295,6 +302,7 @@ references:
 
 - id: alves_unifying_2018
   type: article-journal
+  open-access: true
   author:
   - family: Alves
     given: Ricardo J. Eloy
@@ -326,6 +334,7 @@ references:
 
 - id: minh_new_2018
   type: report
+  open-access: true
   author:
   - family: Minh
     given: Bui Quang
@@ -360,6 +369,7 @@ references:
 
 - id: nguyen_complex_2018
   type: article-journal
+  open-access: true
   author:
   - family: Nguyen
     given: Lam-Tung
@@ -390,6 +400,7 @@ references:
 
 - id: hoang_ufboot2:_2018
   type: article-journal
+  open-access: true
   author:
   - family: Hoang
     given: Diep Thi
@@ -400,6 +411,7 @@ references:
     dropping-particle: von
   - family: Minh
     given: Bui Quang
+    co-last: true
   - family: Vinh
     given: Le Sy
   issued:
@@ -421,11 +433,13 @@ references:
 
 - id: wang_modeling_2018
   type: article-journal
+  open-access: true
   author:
   - family: Wang
     given: Huai-Chun
   - family: Minh
     given: Bui Quang
+    co-first: true
   - family: Susko
     given: Edward
   - family: Roger
@@ -449,6 +463,7 @@ references:
 
 - id: ratmann_hiv-1_2017
   type: article-journal
+  open-access: true
   author:
   - family: Ratmann
     given: Oliver
@@ -543,6 +558,7 @@ references:
     given: Subha
   - family: Minh
     given: Bui Quang
+    co-first: true
   - family: Wong
     given: Thomas K F
   - family: Haeseler
@@ -569,6 +585,7 @@ references:
 
 - id: schrempf_reversible_2016
   type: article-journal
+  open-access: true
   author:
   - family: Schrempf
     given: Dominik
@@ -633,6 +650,7 @@ references:
 
 - id: chernomor_terrace_2016
   type: article-journal
+  open-access: true
   author:
   - family: Chernomor
     given: Olga
@@ -659,6 +677,7 @@ references:
 
 - id: trifinopoulos_w-iq-tree:_2016
   type: article-journal
+  open-access: true
   author:
   - family: Trifinopoulos
     given: Jana
@@ -688,6 +707,7 @@ references:
 
 - id: burki_untangling_2016
   type: article-journal
+  open-access: true
   author:
   - family: Burki
     given: Fabien
@@ -727,6 +747,7 @@ references:
 
 - id: pellens_split_2016
   type: chapter
+  open-access: true
   author:
   - family: Chernomor
     given: Olga
@@ -802,6 +823,7 @@ references:
 
 - id: chernomor_consequences_2015
   type: article-journal
+  open-access: true
   author:
   - family: Chernomor
     given: Olga
@@ -872,6 +894,7 @@ references:
 
 - id: nguyen_iq-tree:_2015
   type: article-journal
+  open-access: true
   author:
   - family: Nguyen
     given: Lam-Tung
@@ -902,11 +925,13 @@ references:
 
 - id: chernomor_split_2015
   type: article-journal
+  open-access: true
   author:
   - family: Chernomor
     given: Olga
   - family: Minh
     given: Bui Quang
+    co-last: true
   - family: Forest
     given: Félix
   - family: Klaere
@@ -940,6 +965,7 @@ references:
 
 - id: flouri_phylogenetic_2015
   type: article-journal
+  open-access: true
   author:
   - family: Flouri
     given: T.
@@ -975,6 +1001,7 @@ references:
 
 - id: pollak_novel_2014
   type: article-journal
+  open-access: true
   author:
   - family: Pollak
     given: Daniela D.
@@ -1003,6 +1030,7 @@ references:
 
 - id: kaschner_discovery_2014
   type: article-journal
+  open-access: true
   author:
   - family: Kaschner
     given: Marco
@@ -1051,6 +1079,7 @@ references:
 
 - id: dellampio_decisive_2014
   type: article-journal
+  open-access: true
   author:
   - family: Dell’Ampio
     given: Emiliano
@@ -1103,6 +1132,7 @@ references:
 
 - id: minh_ultrafast_2013
   type: article-journal
+  open-access: true
   author:
   - family: Minh
     given: Bui Quang
@@ -1144,7 +1174,7 @@ references:
   - year: 2019
     month: 12
     day: 15
-  title: 'SDA\*: A Simple and Unifying Solution to Recent Bioinformatic Challenges
+  title: 'SDA*: A Simple and Unifying Solution to Recent Bioinformatic Challenges
     for Conservation Genetics'
   title-short: SDA\*
   container-title: 2010 Second International Conference on Knowledge and Systems Engineering
@@ -1157,11 +1187,13 @@ references:
 
 - id: hutchison_acophy:_2010
   type: chapter
+  open-access: true
   author:
   - family: Dinh
     given: Huy Q.
   - family: Minh
     given: Bui Quang
+    co-first: true
   - family: Huan
     given: Hoang Xuan
   - family: Haeseler
@@ -1240,6 +1272,7 @@ references:
 
 - id: hofmann_quantitative_2010
   type: article-journal
+  open-access: true
   author:
   - family: Hofmann
     given: Joerg
@@ -1279,11 +1312,13 @@ references:
 
 - id: krauss_distribution_2009
   type: article-journal
+  open-access: true
   author:
   - family: Krauss
     given: U.
   - family: Minh
     given: Bui Quang
+    co-first: true
   - family: Losi
     given: A.
   - family: Gartner
@@ -1314,6 +1349,7 @@ references:
 
 - id: minh_taxon_2009
   type: article-journal
+  open-access: true
   author:
   - family: Minh
     given: Bui Quang
@@ -1340,6 +1376,7 @@ references:
 
 - id: minh_budgeted_2009
   type: article-journal
+  open-access: true
   author:
   - family: Minh
     given: Bui Quang
@@ -1368,6 +1405,7 @@ references:
 
 - id: minh_phylogenetic_2006
   type: article-journal
+  open-access: true
   author:
   - family: Minh
     given: Bui Quang
@@ -1397,6 +1435,7 @@ references:
 
 - id: minh_piqpnni:_2005
   type: article-journal
+  open-access: true
   author:
   - family: Minh
     given: Bui Quang

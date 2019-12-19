@@ -2,9 +2,12 @@
 layout: default
 title: Publications
 title_heading: true
+co-first: "&ast;"
+co-last: "&oast;"
 ---
 
 <div class="container">
+  <h4>{{page.co-first}}co-first author, {{page.co-last}}co-senior author</h4>
   {% assign person_pages = site.pages | where: "layout" , "personnel" | where: "current", "true" %}
   {% assign members = person_pages | map: "pubname" %}
   {% assign pub_groups = site.data.publications.references | group_by: "type" %}
@@ -22,34 +25,16 @@ title_heading: true
     {% endif %}
     <hr style="border: 0.5px solid;">
   
+  	<ol>
     {% assign this_year = "" %}
     {% for pub in pub_group.items %}
 	  {% if pub.issued[0].year != this_year %}
-		{% if this_year != "" %}
-		</ol>
-		{% endif %}
 		{% assign this_year = pub.issued[0].year %}
 		<a name="{{this_year}}"></a>
-		<h5>{{this_year}}</h5>
-		<ol>
+		<h4>{{this_year}}</h4>
       {% endif %}
 		<li>
-		<strong>
-		  {% assign last_author = pub.author | last %}
-		  {% for author in pub.author %}
-		    {% assign full_name = author.given | append: " " | append: author.family %}
-		    {% if members contains full_name %}
-		      <a href="{{site.baseurl}}/people/{{author.family | downcase}}/">
-		    {% endif %}
-		    {% assign given_words = author.given | split: " " %}
-		    {% for word in given_words %}{{word | slice:0}}.{% endfor %}
-			{{author.dropping-particle}} 
-			{{author.family}}{% if members contains full_name %}</a>{% endif %}{% if author.given != last_author.given or author.family != last_author.family %},{% endif %}
-		  {% endfor %}
-		</strong>
-		 ({% for issue in pub.issued %}{{issue.year}}{% endfor %}) {{pub.title}}. <em>{{pub.container-title}}</em>
-		 {% if pub.volume %}{{pub.volume}}:{{pub.page}}.{%endif%}
-		 <a href="https://doi.org/{{pub.DOI}}">link</a>
+		{% include publication.html %}
 		</li>
     {% endfor %}
     </ol>

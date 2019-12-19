@@ -1,0 +1,29 @@
+<p>
+  <big>{{pub.title}}</big><br>
+  {% assign last_author = pub.author | last %}
+  {% for author in pub.author %}
+	{% assign full_name = author.given | append: " " | append: author.family %}
+	{% if members contains full_name %}
+	  <a href="{{site.baseurl}}/people/{{author.family | downcase}}/">
+	{% endif %}
+	{% if author.co-first or author.co-last %}<strong>{% endif %}
+	{{author.literal}}
+	{% assign given_words = author.given | split: " " %}
+	{% for word in given_words %}{{word | slice:0}}.{% endfor %}
+	{{author.dropping-particle}} 
+	{{author.family}}{% if author.co-first%}{{page.co-first}}{%endif%}{% if author.co-last%}{{page.co-last}}{%endif%}{% if members contains full_name %}</a>{% endif %}{% if author.given != last_author.given or author.family != last_author.family %},{% endif %}
+	{% if author.co-first or author.co-last %}</strong>{% endif %}
+  {% endfor %}
+  <br>
+  <small style="color: #505050;">
+    {{pub.container-title}}
+    ({{pub.issued[0].year}})
+    {% if pub.volume %}{{pub.volume}}:{%endif%}{%if pub.page %}{{pub.page}}.{%endif%}
+  </small>
+  <a href="https://doi.org/{{pub.DOI}}" class="badge {%if pub.genre=='preprint'%}badge-success{% elsif pub.open-access %}badge-warning{%else%}badge-secondary{%endif%}">
+    {%if pub.genre=='preprint'%}Preprint{% elsif pub.open-access %}Full text{% else %}Abstract{%endif%}
+  </a>
+  {% if pub.preprint-DOI %} 
+    <a href="https://doi.org/{{pub.preprint-DOI}}" class="badge badge-success">Preprint</a>
+  {% endif %}
+</p>
