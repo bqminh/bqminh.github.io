@@ -6,6 +6,7 @@ position: Postdoctoral Fellow<br>joint with Rob Lanfear
 current: true
 email: thomas.wong (at) anu.edu.au
 image: King-Fung-Wong.jpg
+image-small: King-Fung-Wong-small.jpg
 github: thomaskf
 google_scholar: zZT0fKUAAAAJ
 twitter: thomaskfwong

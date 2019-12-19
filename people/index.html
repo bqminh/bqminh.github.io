@@ -9,8 +9,8 @@ title_heading: true
 	{% assign person_pages = site.pages | where: "layout" , "personnel" | where: "current", "true" %}
 	{% for person in person_pages %}
             <div class="col-md-4" style="text-align: center;">
-            	<a href="{{person.url}}"><img class="rounded-circle" src="{{person.url}}{{person.image}}" width=180 alt="{{person.title}}"></a>
-                <a href="{{person.url}}"><h3>{{ person.title }}</h3></a>
+            	<a href="{{person.url}}"><img class="rounded-circle" src="{{person.url}}{{person.image}}" width=176 alt="{{person.title}}"></a>
+                <a href="{{person.url}}"><h4>{{ person.title }}</h4></a>
                 <p><em>{{person.position}}</em></p>
                 <a href="https://github.com/{{person.github}}"><i class="fa fa-github fa-2x"></i></a>
                 <a href="https://scholar.google.com/citations?user={{person.google_scholar}}"><i class="fa fa-google fa-2x"></i></a>
