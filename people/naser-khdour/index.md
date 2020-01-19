@@ -18,3 +18,12 @@ address:
 
 <br>
 _PhD student, Australian National University_
+
+### Biography
+
+B.Sc. in Biotechnology Engineering (2006) from the Technion - Israel Institute of Technology, M.Sc. in Industrial Engineering from Tel-Aviv University and currently I am a PhD student at the Australian National University.
+
+### Research Interests
+
+My PhD thesis focuses on violation of molecular evolution models, especially, I am interested in the assumptions of Homogeneity, Stationarity and Reversibility in amino acid and nucleotide substitution models.
+

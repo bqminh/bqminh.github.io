@@ -17,12 +17,12 @@ address: |
   Research School of Computer Science, ANU<br>
   Hanna Neumann Building, Room 4.35<br>
   145 Science Rd
-  <a href="https://goo.gl/maps/MrrYyptzR98jCZmP6" class="badge badge-primary">map</a><br>
+  <a href="https://goo.gl/maps/MrrYyptzR98jCZmP6" class="badge badge-primary"><i class="fa fa-map-marker"></i> map</a><br>
   <em>and</em><br>
   Research School of Biology, ANU<br>
   Robertson Building, Room C211A<br>
   46 Sullivans Creek Rd
-  <a href="https://goo.gl/maps/opC4EdGzKo2nab7G8" class="badge badge-primary">map</a><br>
+  <a href="https://goo.gl/maps/opC4EdGzKo2nab7G8" class="badge badge-primary"><i class="fa fa-map-marker"></i> map</a><br>
   Canberra, Acton ACT 2601, Australia<br>
 phone: +61 2 6125 0047
 
