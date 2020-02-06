@@ -1,8 +1,44 @@
 ---
-citation_update: 19 Dec 2019
+citation_update: 5 Feb 2020
 references:
-- id: minh_iq-tree_2019
+
+- id: minh_new_2018
   type: report
+  open-access: true
+  author:
+  - family: Minh
+    given: Bui Quang
+  - family: Hahn
+    given: Matthew
+  - family: Lanfear
+    given: Robert
+  issued:
+  - year: 2018
+    month: 12
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: New methods to calculate concordance factors for phylogenomic datasets
+  publisher: Bioinformatics
+  genre: preprint
+  abstract: 'Summary: We introduce and implement two measures for quantifying genealogical
+    concordance in phylogenomic datasets: the gene concordance factor (gCF) and the
+    site concordance factor (sCF). For every branch of a reference tree, gCF is defined
+    as the percentage of decisive gene trees containing that branch. This measure
+    is already in wide usage, but here we introduce a package that calculates it while
+    accounting for variable taxon coverage among gene trees. sCF is a new measure
+    defined as the percentage of decisive sites supporting a branch in the reference
+    tree. gCF and sCF complement classical measures of branch support in phylogenetics
+    by providing a full description of underlying disagreement among loci and sites.
+    Availability and Implementation: An easy to use implementation and tutorial is
+    freely available in the IQ-TREE software (http://www.iqtree.org). Supplementary
+    information: Data are available at https://doi.org/10.5281/zenodo.1949290'
+  URL: http://biorxiv.org/lookup/doi/10.1101/487801
+  DOI: 10.1101/487801
+
+- id: minh_iq-tree_2020
+  type: article-journal
   open-access: true
   author:
   - family: Minh
@@ -20,26 +56,30 @@ references:
     dropping-particle: von
   - family: Lanfear
     given: Robert
+  editor:
+  - family: Teeling
+    given: Emma
   issued:
-  - year: 2019
-    month: 11
+  - year: 2020
+    month: 2
   accessed:
-  - year: 2019
-    month: 12
-    day: 15
+  - year: 2020
+    month: 2
+    day: 5
   title: 'IQ-TREE 2: New models and efficient methods for phylogenetic inference
     in the genomic era'
   title-short: IQ-TREE 2
-  publisher: Evolutionary Biology
-  genre: preprint
-  abstract: AbstractIQ-TREE ( http://www.iqtree.org ) is a user-friendly and widely
+  container-title: Molecular Biology and Evolution
+  page: msaa015
+  abstract: Abstract IQ-TREE (http://www.iqtree.org) is a user-friendly and widely
     used software package for phylogenetic inference using maximum likelihood. Since
     the release of version 1 in 2014, we have continuously expanded IQ-TREE to integrate
     a plethora of new models of sequence evolution and efficient computational approaches
     of phylogenetic inference to deal with genomic data. Here, we describe notable
     features of IQ-TREE version 2 and highlight the key advantages over other software.
-  URL: http://biorxiv.org/lookup/doi/10.1101/849372
-  DOI: 10.1101/849372
+  URL: https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msaa015/5721363
+  DOI: 10.1093/molbev/msaa015
+  ISSN: 0737-4038, 1537-1719
 
 - id: naser-khdour_prevalence_2019
   type: article-journal
@@ -332,41 +372,6 @@ references:
   URL: http://www.nature.com/articles/s41467-018-03861-1
   DOI: 10.1038/s41467-018-03861-1
   ISSN: '2041-1723'
-
-- id: minh_new_2018
-  type: report
-  open-access: true
-  author:
-  - family: Minh
-    given: Bui Quang
-  - family: Hahn
-    given: Matthew
-  - family: Lanfear
-    given: Robert
-  issued:
-  - year: 2018
-    month: 12
-  accessed:
-  - year: 2019
-    month: 12
-    day: 15
-  title: New methods to calculate concordance factors for phylogenomic datasets
-  publisher: Bioinformatics
-  genre: preprint
-  abstract: 'Summary: We introduce and implement two measures for quantifying genealogical
-    concordance in phylogenomic datasets: the gene concordance factor (gCF) and the
-    site concordance factor (sCF). For every branch of a reference tree, gCF is defined
-    as the percentage of decisive gene trees containing that branch. This measure
-    is already in wide usage, but here we introduce a package that calculates it while
-    accounting for variable taxon coverage among gene trees. sCF is a new measure
-    defined as the percentage of decisive sites supporting a branch in the reference
-    tree. gCF and sCF complement classical measures of branch support in phylogenetics
-    by providing a full description of underlying disagreement among loci and sites.
-    Availability and Implementation: An easy to use implementation and tutorial is
-    freely available in the IQ-TREE software (http://www.iqtree.org). Supplementary
-    information: Data are available at https://doi.org/10.5281/zenodo.1949290'
-  URL: http://biorxiv.org/lookup/doi/10.1101/487801
-  DOI: 10.1101/487801
 
 - id: nguyen_complex_2018
   type: article-journal
