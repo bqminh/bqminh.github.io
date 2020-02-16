@@ -2,7 +2,7 @@
 citation_update: 5 Feb 2020
 references:
 
-- id: minh_new_2018
+- id: minh_new_2020
   type: report
   open-access: true
   author:
@@ -13,16 +13,17 @@ references:
   - family: Lanfear
     given: Robert
   issued:
-  - year: 2018
-    month: 12
+  - year: 2020
+    month: 02
   accessed:
-  - year: 2019
-    month: 12
+  - year: 2020
+    month: 02
     day: 15
   title: New methods to calculate concordance factors for phylogenomic datasets
-  publisher: Bioinformatics
+  container-title: bioRxiv
+  publisher: Submitted
   genre: preprint
-  abstract: 'Summary: We introduce and implement two measures for quantifying genealogical
+  abstract: 'We implement two measures for quantifying genealogical
     concordance in phylogenomic datasets: the gene concordance factor (gCF) and the
     site concordance factor (sCF). For every branch of a reference tree, gCF is defined
     as the percentage of decisive gene trees containing that branch. This measure
@@ -31,9 +32,8 @@ references:
     defined as the percentage of decisive sites supporting a branch in the reference
     tree. gCF and sCF complement classical measures of branch support in phylogenetics
     by providing a full description of underlying disagreement among loci and sites.
-    Availability and Implementation: An easy to use implementation and tutorial is
-    freely available in the IQ-TREE software (http://www.iqtree.org). Supplementary
-    information: Data are available at https://doi.org/10.5281/zenodo.1949290'
+    An easy to use implementation and tutorial is
+    freely available in the IQ-TREE software (http://www.iqtree.org).'
   URL: http://biorxiv.org/lookup/doi/10.1101/487801
   DOI: 10.1101/487801
 
@@ -80,6 +80,66 @@ references:
   URL: https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msaa015/5721363
   DOI: 10.1093/molbev/msaa015
   ISSN: 0737-4038, 1537-1719
+
+- id: crotty_ghost:_2020
+  type: article-journal
+  author:
+  - family: Crotty
+    given: Stephen M
+  - family: Minh
+    given: Bui Quang
+    co-first: true
+  - family: Bean
+    given: Nigel G
+  - family: Holland
+    given: Barbara R
+  - family: Tuke
+    given: Jonathan
+  - family: Jermiin
+    given: Lars S
+  - family: von Haeseler
+    given: Arndt
+  editor:
+  - family: Smith
+    given: Stephen
+  issued:
+  - year: 2020
+    month: 3
+  accessed:
+  - year: 2019
+    month: 12
+    day: 15
+  title: 'GHOST: Recovering Historical Signal from Heterotachously Evolved Sequence
+    Alignments'
+  title-short: GHOST
+  container-title: Systematic Biology
+  page: '249-264'
+  volume: '69'
+  issue: '2'
+  abstract: Abstract Molecular sequence data that have evolved under the influence
+    of heterotachous evolutionary processes are known to mislead phylogenetic inference.
+    We introduce the General Heterogeneous evolution On a Single Topology (GHOST)
+    model of sequence evolution, implemented under a maximum-likelihood framework
+    in the phylogenetic program IQ-TREE (http://www.iqtree.org). Simulations show
+    that using the GHOST model, IQ-TREE can accurately recover the tree topology,
+    branch lengths, and substitution model parameters from heterotachously evolved
+    sequences. We investigate the performance of the GHOST model on empirical data
+    by sampling phylogenomic alignments of varying lengths from a plastome alignment.
+    We then carry out inference under the GHOST model on a phylogenomic data set composed
+    of 248 genes from 16 taxa, where we find the GHOST model concurs with the currently
+    accepted view, placing turtles as a sister lineage of archosaurs, in contrast
+    to results obtained using traditional variable rates-across-sites models. Finally,
+    we apply the model to a data set composed of a sodium channel gene of 11 fish
+    taxa, finding that the GHOST model is able to elucidate a subtle component of
+    the historical signal, linked to the previously established convergent evolution
+    of the electric organ in two geographically distinct lineages of electric fish.
+    We compare inference under the GHOST model to partitioning by codon position and
+    show that, owing to the minimization of model constraints, the GHOST model offers
+    unique biological insights when applied to empirical data.
+  URL: https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syz051/5541793
+  DOI: 10.1093/sysbio/syz051
+  ISSN: 1063-5157, 1076-836X
+  preprint-DOI: 10.1101/174789
 
 - id: naser-khdour_prevalence_2019
   type: article-journal
@@ -167,64 +227,6 @@ references:
   URL: https://academic.oup.com/mbe/article/36/6/1294/5368492
   DOI: 10.1093/molbev/msz043
   ISSN: 0737-4038, 1537-1719
-
-- id: crotty_ghost:_2019
-  type: article-journal
-  author:
-  - family: Crotty
-    given: Stephen M
-  - family: Minh
-    given: Bui Quang
-    co-first: true
-  - family: Bean
-    given: Nigel G
-  - family: Holland
-    given: Barbara R
-  - family: Tuke
-    given: Jonathan
-  - family: Jermiin
-    given: Lars S
-  - family: von Haeseler
-    given: Arndt
-  editor:
-  - family: Smith
-    given: Stephen
-  issued:
-  - year: 2019
-    month: 7
-  accessed:
-  - year: 2019
-    month: 12
-    day: 15
-  title: 'GHOST: Recovering Historical Signal from Heterotachously Evolved Sequence
-    Alignments'
-  title-short: GHOST
-  container-title: Systematic Biology
-  page: syz051
-  abstract: Abstract Molecular sequence data that have evolved under the influence
-    of heterotachous evolutionary processes are known to mislead phylogenetic inference.
-    We introduce the General Heterogeneous evolution On a Single Topology (GHOST)
-    model of sequence evolution, implemented under a maximum-likelihood framework
-    in the phylogenetic program IQ-TREE (http://www.iqtree.org). Simulations show
-    that using the GHOST model, IQ-TREE can accurately recover the tree topology,
-    branch lengths, and substitution model parameters from heterotachously evolved
-    sequences. We investigate the performance of the GHOST model on empirical data
-    by sampling phylogenomic alignments of varying lengths from a plastome alignment.
-    We then carry out inference under the GHOST model on a phylogenomic data set composed
-    of 248 genes from 16 taxa, where we find the GHOST model concurs with the currently
-    accepted view, placing turtles as a sister lineage of archosaurs, in contrast
-    to results obtained using traditional variable rates-across-sites models. Finally,
-    we apply the model to a data set composed of a sodium channel gene of 11 fish
-    taxa, finding that the GHOST model is able to elucidate a subtle component of
-    the historical signal, linked to the previously established convergent evolution
-    of the electric organ in two geographically distinct lineages of electric fish.
-    We compare inference under the GHOST model to partitioning by codon position and
-    show that, owing to the minimization of model constraints, the GHOST model offers
-    unique biological insights when applied to empirical data.
-  URL: https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syz051/5541793
-  DOI: 10.1093/sysbio/syz051
-  ISSN: 1063-5157, 1076-836X
-  preprint-DOI: 10.1101/174789
 
 - id: schenk_combined_2019
   type: article-journal
