@@ -1,5 +1,11 @@
 <p>
-  {{pub.title}}<br>
+  <a href="https://doi.org/{{pub.DOI}}">
+  	{{pub.title}} {% if pub.open-access %}<img src="{{site.baseurl}}/assets/images/open-access.svg" height="20">{% endif %}
+  </a>
+  {% if pub.citations > 100 %}
+  	<span class="badge badge-danger"> &gt;100 citations</span>
+  {% endif %}
+  <br>
   {% assign last_author = pub.author | last %}
   {% assign co-first = "&ast;" %}
   {% assign co-last = "&oast;" %}
@@ -32,20 +38,16 @@
   <br>
   <small style="color: #505050;">
     {{pub.container-title}}
+    {% if pub.volume %}{{pub.volume}}:{%endif%}{%if pub.page %}{{pub.page}}{%endif%}
     ({{pub.issued[0].year}})
-    {% if pub.volume %}{{pub.volume}}:{%endif%}{%if pub.page %}{{pub.page}}.{%endif%}
   </small>
-  <a href="https://doi.org/{{pub.DOI}}" class="badge {%if pub.genre=='preprint'%}badge-success{% elsif pub.open-access %}badge-warning{%else%}badge-secondary{%endif%}">
-    {%if pub.genre=='preprint'%}Preprint{% elsif pub.open-access %}Full text{% else %}Abstract{%endif%}
-  </a>
   {% if pub.preprint-DOI %} 
     <a href="https://doi.org/{{pub.preprint-DOI}}" class="badge badge-success">Preprint</a>
   {% endif %}
   {% if pub.PMCID %}
     <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMCID}}" class="badge badge-warning">Full text (PMC)</a>
   {% endif %}
-  {% if pub.citations %}
-    <span class="badge badge-danger">{{pub.citations}} citations</span>
-  {% endif %}  
+  <span class="__dimensions_badge_embed__" data-doi="{{pub.DOI}}" data-style="small_rectangle" data-hide-zero-citations="true">
   <span data-badge-popover="right" data-badge-type="2" data-doi="{{pub.DOI}}" data-hide-less-than="5" class="altmetric-embed"></span>
+  </span>
 </p>
