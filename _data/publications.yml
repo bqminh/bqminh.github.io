@@ -144,6 +144,7 @@ references:
 - id: naser-khdour_prevalence_2019
   type: article-journal
   open-access: true
+  f1000: 736640768
   author:
   - family: Naser-Khdour
     given: Suha
@@ -598,6 +599,7 @@ references:
 - id: schrempf_reversible_2016
   type: article-journal
   open-access: true
+  f1000: 726603458
   author:
   - family: Schrempf
     given: Dominik

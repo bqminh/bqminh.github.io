@@ -44,6 +44,9 @@
   {% if pub.preprint-DOI %} 
     <a href="https://doi.org/{{pub.preprint-DOI}}" class="badge badge-success">Preprint</a>
   {% endif %}
+  {% if pub.F1000 %}
+	<a href="https://f1000.com/prime/{{pub.F1000}}"><img src="{{site.baseurl}}/assets/images/F1000_logo.png" alt=""></a>
+  {% endif %}
   {% if pub.PMCID %}
     <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMCID}}" class="badge badge-warning">Full text (PMC)</a>
   {% endif %}
