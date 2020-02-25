@@ -2,6 +2,49 @@
 citation_update: 5 Feb 2020
 references:
 
+- id: minh_qmaker_2020
+  type: report
+  open-access: true
+  author:
+  - family: Minh
+    given: Bui Quang
+  - family: Dang
+    given: Cuong Cao
+  - family: Vinh
+    given: Le Sy
+  - family: Lanfear
+    given: Robert
+  issued:
+  - year: 2020
+    month: 2
+  accessed:
+  - year: 2020
+    month: 2
+    day: 25
+  title: 'QMaker: Fast and accurate method to estimate empirical models of protein
+    evolution'
+  title-short: QMaker
+  container-title: bioRxiv
+  publisher: Submitted
+  genre: preprint
+  abstract: Amino acid substitution models play a crucial role in phylogenetic analyses.
+    Maximum likelihood (ML) methods have been proposed to estimate amino acid substitution
+    models, however, they are typically complicated and slow. In this paper, we propose
+    QMaker, a new ML method to estimate a general time-reversible Q matrix from a
+    large protein dataset consisting of multiple sequence alignments. QMaker combines
+    an efficient ML tree search algorithm, a model selection for handling the model
+    heterogeneity among alignments, and the consideration of rate mixture models among
+    sites. We provide QMaker as a user-friendly function in the IQ-TREE software package
+    (http://www.iqtree.org) supporting the use of multiple CPU cores so that biologists
+    can easily estimate amino acid substitution models from their own protein alignments.
+    We used QMaker to estimate new empirical general amino acid substitution models
+    from the current Pfam database as well as five clade-specific models for mammals,
+    birds, insects, yeasts, and plants. Our results show that the new models considerably
+    improve the fit between model and data and in some cases influence the inference
+    of phylogenetic tree topologies.
+  URL: http://biorxiv.org/lookup/doi/10.1101/2020.02.20.958819
+  DOI: 10.1101/2020.02.20.958819
+
 - id: minh_new_2020
   type: report
   open-access: true
