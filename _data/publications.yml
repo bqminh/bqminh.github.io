@@ -160,7 +160,7 @@ references:
   DOI: 10.1101/2020.02.20.958819
 
 - id: minh_new_2020
-  type: report
+  type: article-journal
   open-access: true
   author:
   - family: Minh
