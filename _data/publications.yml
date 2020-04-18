@@ -1,6 +1,68 @@
 ---
-citation_update: 5 Feb 2020
+citation_update: 18 Apr 2020
 references:
+
+- id: vanderpool_primate_2020
+  type: report
+  author:
+  - family: Vanderpool
+    given: Dan
+  - family: Minh
+    given: Bui Quang
+  - family: Lanfear
+    given: Rob
+  - family: Hughes
+    given: Daniel
+  - family: Murali
+    given: Shwetha
+  - family: Harris
+    given: R. Alan
+  - family: Raveendran
+    given: Muthuswamy
+  - family: Muzny
+    given: Donna M
+  - family: Gibbs
+    given: Richard A
+  - family: Worley
+    given: Kim C
+  - family: Rogers
+    given: Jeffrey
+  - family: Hahn
+    given: Matthew W.
+  issued:
+  - year: 2020
+    month: 4
+  accessed:
+  - year: 2020
+    month: 4
+    day: 18
+  title: Primate phylogenomics uncovers multiple rapid radiations and ancient interspecific
+    introgression
+  publisher: Evolutionary Biology
+  genre: preprint
+  abstract: 'Our understanding of the evolutionary history of primates is undergoing
+    continual revision due to ongoing genome sequencing efforts. Bolstered by growing
+    fossil evidence, these data have led to increased acceptance of once controversial
+    hypotheses regarding phylogenetic relationships, hybridization and introgression,
+    and the biogeographical history of primate groups. Among these findings is a pattern
+    of recent introgression between species within all major primate groups examined
+    to date, though little is known about introgression deeper in time. To address
+    this and other phylogenetic questions, here we present new reference genome assemblies
+    for three Old World Monkey species: Colobus angolensis ssp. palliatus (the black
+    and white colobus), Macaca nemestrina (southern pig-tailed macaque), and Mandrillus
+    leucophaeus (the drill). We combine these data with 23 additional primate genomes
+    to estimate both the species tree and individual gene trees using thousands of
+    loci. While our species tree is largely consistent with previous phylogenetic
+    hypotheses, the gene trees reveal high levels of genealogical discordance associated
+    with multiple primate radiations. We use strongly asymmetric patterns of gene
+    tree discordance around specific branches to identify multiple instances of introgression
+    between ancestral primate lineages. In addition, we exploit recent fossil evidence
+    to perform fossil-calibrated molecular dating analyses across the tree. Taken
+    together, our genome-wide data help to resolve multiple contentious sets of relationships
+    among primates, while also providing insight into the biological processes and
+    technical artifacts that led to the disagreements in the first place.'
+  URL: http://biorxiv.org/lookup/doi/10.1101/2020.04.15.043786
+  DOI: 10.1101/2020.04.15.043786
 
 - id: dombrowski_undinarchaeota_2020
   type: report
@@ -115,9 +177,8 @@ references:
     month: 02
     day: 15
   title: New methods to calculate concordance factors for phylogenomic datasets
-  container-title: bioRxiv
-  publisher: Submitted
-  genre: preprint
+  container-title: Molecular Biology and Evolution
+  page: in press
   abstract: 'We implement two measures for quantifying genealogical
     concordance in phylogenomic datasets: the gene concordance factor (gCF) and the
     site concordance factor (sCF). For every branch of a reference tree, gCF is defined
@@ -129,8 +190,8 @@ references:
     by providing a full description of underlying disagreement among loci and sites.
     An easy to use implementation and tutorial is
     freely available in the IQ-TREE software (http://www.iqtree.org).'
-  URL: http://biorxiv.org/lookup/doi/10.1101/487801
   DOI: 10.1101/487801
+  preprint-DOI: 10.1101/487801
 
 - id: minh_iq-tree_2020
   type: article-journal
