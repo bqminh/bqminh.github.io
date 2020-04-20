@@ -4,6 +4,7 @@ references:
 
 - id: vanderpool_primate_2020
   type: report
+  open-access: true
   author:
   - family: Vanderpool
     given: Dan
@@ -166,7 +167,7 @@ references:
   - family: Minh
     given: Bui Quang
   - family: Hahn
-    given: Matthew
+    given: Matthew W.
   - family: Lanfear
     given: Robert
   issued:

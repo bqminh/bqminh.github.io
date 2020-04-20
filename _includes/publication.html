@@ -3,7 +3,7 @@
   	{{pub.title}} {% if pub.open-access %}<img src="{{site.baseurl}}/assets/images/open-access.svg" height="20">{% endif %}
   </a>
   {% if pub.citations > 100 %}
-  	<span class="badge badge-danger"> &gt;100 citations</span>
+  	<span class="badge badge-danger">highly cited</span>
   {% endif %}
   <br>
   {% assign last_author = pub.author | last %}
