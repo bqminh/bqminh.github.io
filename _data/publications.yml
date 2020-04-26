@@ -227,7 +227,9 @@ references:
     in the genomic era'
   title-short: IQ-TREE 2
   container-title: Molecular Biology and Evolution
-  page: in press
+  page: 1530-1534
+  volume: '37'
+  issue: '5'
   abstract: Abstract IQ-TREE (http://www.iqtree.org) is a user-friendly and widely
     used software package for phylogenetic inference using maximum likelihood. Since
     the release of version 1 in 2014, we have continuously expanded IQ-TREE to integrate
