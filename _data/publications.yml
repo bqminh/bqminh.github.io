@@ -167,16 +167,19 @@ references:
   - family: Minh
     given: Bui Quang
   - family: Hahn
-    given: Matthew W.
+    given: Matthew W
   - family: Lanfear
     given: Robert
+  editor:
+  - family: Rosenberg
+    given: Michael
   issued:
   - year: 2020
-    month: 02
+    month: 5
   accessed:
   - year: 2020
-    month: 02
-    day: 15
+    month: 5
+    day: 7
   title: New methods to calculate concordance factors for phylogenomic datasets
   container-title: Molecular Biology and Evolution
   page: in press
@@ -191,8 +194,9 @@ references:
     by providing a full description of underlying disagreement among loci and sites.
     An easy to use implementation and tutorial is
     freely available in the IQ-TREE software (http://www.iqtree.org).'
-  DOI: 10.1101/487801
-  preprint-DOI: 10.1101/487801
+  URL: https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msaa106/5828940
+  DOI: 10.1093/molbev/msaa106
+  ISSN: 0737-4038, 1537-1719
 
 - id: minh_iq-tree_2020
   type: article-journal
