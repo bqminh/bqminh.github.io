@@ -8,6 +8,8 @@ categories:
   - join
 ---
 
+__THIS POSITION WAS FILLED__
+
 Closing date: **15 January 2020**
 
 Opportunity: Remote working possible, full-time or part-time.
