@@ -65,58 +65,6 @@ references:
   URL: http://biorxiv.org/lookup/doi/10.1101/2020.04.15.043786
   DOI: 10.1101/2020.04.15.043786
 
-- id: dombrowski_undinarchaeota_2020
-  type: report
-  open-access: true
-  author:
-  - family: Dombrowski
-    given: Nina
-  - family: Williams
-    given: Tom A
-  - family: Sun
-    given: Jiarui
-  - family: Woodcroft
-    given: Benjamin J
-  - family: Lee
-    given: Jun-Hoe
-  - family: Minh
-    given: Bui Quang
-  - family: Rinke
-    given: Christian
-  - family: Spang
-    given: Anja
-  issued:
-  - year: 2020
-    month: 3
-  accessed:
-  - year: 2020
-    month: 3
-    day: 8
-  title: Undinarchaeota illuminate the evolution of DPANN archaea
-  container-title: bioRxiv
-  publisher: Submitted
-  genre: preprint
-  abstract: 'The evolution and diversification of Archaea is central to the history
-    of life on Earth. Cultivation-independent approaches have revealed the existence
-    of at least ten archaeal lineages whose members have small cell and genome sizes
-    and limited metabolic capabilities and together comprise the tentative DPANN archaea.
-    However, the phylogenetic diversity of DPANN and the placement of the various
-    lineages of this group in the archaeal tree remain debated. Here, we reconstructed
-    additional metagenome assembled genomes (MAGs) of a thus far uncharacterized archaeal
-    phylum-level lineage UAP2 (Candidatus Undinarchaeota) affiliating with DPANN archaea.
-    Comparative genome analyses revealed that members of the Undinarchaeota have small
-    estimated genome sizes and, while potentially being able to conserve energy through
-    fermentation, likely depend on partner organisms for the acquisition of vitamins,
-    amino acids and other metabolites. Phylogenomic analyses robustly recovered Undinarchaeota
-    as a major independent lineage between two highly supported clans of DPANN: one
-    clan comprising Micrarchaeota, Altiarchaeota and Diapherotrites, and another encompassing
-    all other DPANN. Our analyses also suggest that DPANN archaea may have exchanged
-    core genes with their hosts by horizontal gene transfer (HGT), adding to the difficulty
-    of placing DPANN in the archaeal tree. Together, our findings provide crucial
-    insights into the origins and evolution of DPANN archaea and their hosts.'
-  URL: http://biorxiv.org/lookup/doi/10.1101/2020.03.05.976373
-  DOI: 10.1101/2020.03.05.976373
-
 - id: minh_qmaker_2020
   type: report
   open-access: true
@@ -159,6 +107,58 @@ references:
     of phylogenetic tree topologies.
   URL: http://biorxiv.org/lookup/doi/10.1101/2020.02.20.958819
   DOI: 10.1101/2020.02.20.958819
+
+- id: dombrowski_undinarchaeota_2020
+  type: article-journal
+  open-access: true
+  author:
+  - family: Dombrowski
+    given: Nina
+  - family: Williams
+    given: Tom A
+  - family: Sun
+    given: Jiarui
+  - family: Woodcroft
+    given: Benjamin J
+  - family: Lee
+    given: Jun-Hoe
+  - family: Minh
+    given: Bui Quang
+  - family: Rinke
+    given: Christian
+  - family: Spang
+    given: Anja
+  issued:
+  - year: 2020
+    month: 3
+  accessed:
+  - year: 2020
+    month: 3
+    day: 8
+  title: Undinarchaeota illuminate the evolution of DPANN archaea
+  container-title: Nature Communications
+  page: accepted
+  genre: preprint
+  abstract: 'The evolution and diversification of Archaea is central to the history
+    of life on Earth. Cultivation-independent approaches have revealed the existence
+    of at least ten archaeal lineages whose members have small cell and genome sizes
+    and limited metabolic capabilities and together comprise the tentative DPANN archaea.
+    However, the phylogenetic diversity of DPANN and the placement of the various
+    lineages of this group in the archaeal tree remain debated. Here, we reconstructed
+    additional metagenome assembled genomes (MAGs) of a thus far uncharacterized archaeal
+    phylum-level lineage UAP2 (Candidatus Undinarchaeota) affiliating with DPANN archaea.
+    Comparative genome analyses revealed that members of the Undinarchaeota have small
+    estimated genome sizes and, while potentially being able to conserve energy through
+    fermentation, likely depend on partner organisms for the acquisition of vitamins,
+    amino acids and other metabolites. Phylogenomic analyses robustly recovered Undinarchaeota
+    as a major independent lineage between two highly supported clans of DPANN: one
+    clan comprising Micrarchaeota, Altiarchaeota and Diapherotrites, and another encompassing
+    all other DPANN. Our analyses also suggest that DPANN archaea may have exchanged
+    core genes with their hosts by horizontal gene transfer (HGT), adding to the difficulty
+    of placing DPANN in the archaeal tree. Together, our findings provide crucial
+    insights into the origins and evolution of DPANN archaea and their hosts.'
+  URL: http://biorxiv.org/lookup/doi/10.1101/2020.03.05.976373
+  DOI: 10.1101/2020.03.05.976373
 
 - id: minh_new_2020
   type: article-journal
