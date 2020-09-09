@@ -2,55 +2,6 @@
 citation_update: 9 Sep 2020
 references:
 
-- id: parajuli_newly_2020
-  type: article-journal
-  open-access: true
-  author:
-  - family: Parajuli
-    given: Pawan
-  - family: Minh
-    given: Bui Quang
-  - family: Verma
-    given: Naresh K.
-  issued:
-  - year: 2020
-    month: 9
-  accessed:
-  - year: 2020
-    month: 9
-    day: 9
-  title: 'Newly Emerged Serotype 1c of Shigella flexneri: Multiple Origins and Changing
-    Drug Resistance Landscape'
-  title-short: Newly Emerged Serotype 1c of Shigella flexneri
-  container-title: Genes
-  page: '1042'
-  volume: '11'
-  issue: '9'
-  abstract: Bacillary dysentery caused by Shigella flexneri is a major cause of under-five
-    mortality in developing countries, where a novel S. flexneri serotype 1c has become
-    very common since the 1980s. However, the origin and diversification of serotype
-    1c remain poorly understood. To understand the evolution of serotype 1c and their
-    antimicrobial resistance, we sequenced and analyzed the whole-genome of 85 clinical
-    isolates from the United Kingdom, Egypt, Bangladesh, Vietnam, and Japan belonging
-    to serotype 1c and related serotypes of 1a, 1b and Y/Yv. We identified up to three
-    distinct O-antigen modifying genes in S. flexneri 1c strains, which were acquired
-    from three different bacteriophages. Our analysis shows that S. flexneri 1c strains
-    have originated from serotype 1a and serotype 1b strains after the acquisition
-    of bacteriophage-encoding gtrIc operon. The maximum-likelihood phylogenetic analysis
-    using core genes suggests two distinct S. flexneri 1c lineages, one specific to
-    Bangladesh, which originated from ancestral serotype 1a strains and the other
-    from the United Kingdom, Egypt, and Vietnam originated from ancestral serotype
-    1b strains. We also identified 63 isolates containing multiple drug-resistant
-    genes in them conferring resistance against streptomycin, sulfonamide, quinolone,
-    trimethoprim, tetracycline, chloramphenicol, and beta-lactamase. Furthermore,
-    antibiotic susceptibility assays showed 83 (97.6%) isolates as either complete
-    or intermediate resistance to the WHO-recommended first- and second-line drugs.
-    This changing drug resistance pattern demonstrates the urgent need for drug resistance
-    surveillance and renewed treatment guidelines.
-  URL: https://www.mdpi.com/2073-4425/11/9/1042
-  DOI: 10.3390/genes11091042
-  ISSN: '2073-4425'
-
 - id: naser-khdour_assessing_2020
   type: report
   open-access: true
@@ -194,6 +145,55 @@ references:
     of phylogenetic tree topologies.
   URL: http://biorxiv.org/lookup/doi/10.1101/2020.02.20.958819
   DOI: 10.1101/2020.02.20.958819
+
+- id: parajuli_newly_2020
+  type: article-journal
+  open-access: true
+  author:
+  - family: Parajuli
+    given: Pawan
+  - family: Minh
+    given: Bui Quang
+  - family: Verma
+    given: Naresh K.
+  issued:
+  - year: 2020
+    month: 9
+  accessed:
+  - year: 2020
+    month: 9
+    day: 9
+  title: 'Newly Emerged Serotype 1c of Shigella flexneri: Multiple Origins and Changing
+    Drug Resistance Landscape'
+  title-short: Newly Emerged Serotype 1c of Shigella flexneri
+  container-title: Genes
+  page: '1042'
+  volume: '11'
+  issue: '9'
+  abstract: Bacillary dysentery caused by Shigella flexneri is a major cause of under-five
+    mortality in developing countries, where a novel S. flexneri serotype 1c has become
+    very common since the 1980s. However, the origin and diversification of serotype
+    1c remain poorly understood. To understand the evolution of serotype 1c and their
+    antimicrobial resistance, we sequenced and analyzed the whole-genome of 85 clinical
+    isolates from the United Kingdom, Egypt, Bangladesh, Vietnam, and Japan belonging
+    to serotype 1c and related serotypes of 1a, 1b and Y/Yv. We identified up to three
+    distinct O-antigen modifying genes in S. flexneri 1c strains, which were acquired
+    from three different bacteriophages. Our analysis shows that S. flexneri 1c strains
+    have originated from serotype 1a and serotype 1b strains after the acquisition
+    of bacteriophage-encoding gtrIc operon. The maximum-likelihood phylogenetic analysis
+    using core genes suggests two distinct S. flexneri 1c lineages, one specific to
+    Bangladesh, which originated from ancestral serotype 1a strains and the other
+    from the United Kingdom, Egypt, and Vietnam originated from ancestral serotype
+    1b strains. We also identified 63 isolates containing multiple drug-resistant
+    genes in them conferring resistance against streptomycin, sulfonamide, quinolone,
+    trimethoprim, tetracycline, chloramphenicol, and beta-lactamase. Furthermore,
+    antibiotic susceptibility assays showed 83 (97.6%) isolates as either complete
+    or intermediate resistance to the WHO-recommended first- and second-line drugs.
+    This changing drug resistance pattern demonstrates the urgent need for drug resistance
+    surveillance and renewed treatment guidelines.
+  URL: https://www.mdpi.com/2073-4425/11/9/1042
+  DOI: 10.3390/genes11091042
+  ISSN: '2073-4425'
 
 - id: dombrowski_undinarchaeota_2020
   type: article-journal
