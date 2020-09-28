@@ -2,13 +2,12 @@
 layout: post
 title: PhD position in phylogenomic inference
 author: Admin
+date: 2020-09-28
 tags:
   - open position
 categories: 
   - join
 ---
-
-Closing date: **31 January 2020**
 
 A PhD position is available in the our lab at the [Research
 School of Computer Science](https://cs.anu.edu.au), 
@@ -31,12 +30,10 @@ world (QS World University Ranking 2019).
 
 Candidates: ANU scholarships are highly competitive, and cover all fees
 and a ~$27K stipend. In order to be put forward, you will need
-excellent undergraduate marks and a first class honours or Masters by
-research (or be expecting to gain one by the middle of 2020) or
+excellent undergraduate marks, a high-distiction honours or Masters by
+research (or be expecting to gain one by the end of 2020) or
 equivalent research experience, excellent oral and written English skills.
 
-To apply, please send to m.bui (at) anu.edu.au until **31 January 2020** a detailed CV, full
+To apply, please send to m.bui (at) anu.edu.aua detailed CV, full
 academic transcripts, an English test certificate if English was the language of your study, and a brief description of your research interests
-and how they intersect with this project. 
-
-
+and how they intersect with this project.
