@@ -35,5 +35,5 @@ research (or be expecting to gain one by the end of 2020) or
 equivalent research experience, excellent oral and written English skills.
 
 To apply, please send to m.bui (at) anu.edu.aua detailed CV, full
-academic transcripts, an English test certificate if English was the language of your study, and a brief description of your research interests
+academic transcripts, an English test certificate if English was not the language of your study, and a brief description of your research interests
 and how they intersect with this project.
