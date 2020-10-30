@@ -8,7 +8,13 @@ title_heading: true
     <div class="row">
         {% for software in site.data.software %}
             <div class="col-md-3" style="text-align:center;">
-            	<a href="{{software.url}}"><img src="{{software.logo}}" width=180 alt="{{software.name}}"></a>
+            	<a href="{{software.url}}">
+            	{% if software.logo %}
+            		<img src="{{software.logo}}" width=180 alt="{{software.name}}">
+            	{% else %}
+            		<h2>{{software.name}}</h2>
+            	{% endif %}
+            	</a>
             	<br><br>
             </div>
             <div class="col-md-9">

@@ -4,4 +4,8 @@
   description: Efficient tree reconstruction for phylogenomic data, ultrafast approximation for phylogenetic bootstrap, ultrafast model selection. IQ-TREE supports a wide range of evolutionary models and high performance computing.
   url: http://www.iqtree.org
   logo: /assets/images/iqtree-logo.svg
+- name: MPBoot
+  title: Maximum Parsimony Bootstrap
+  description: An efficient software to reconstruct phylogenetic trees by maximum parsimony and ultrafast bootstrap.
+  url: http://www.iqtree.org/mpboot/
 ...
