@@ -274,6 +274,7 @@ references:
 
 - id: minh_new_2020
   type: article-journal
+  selected: true
   open-access: true
   author:
   - family: Minh
@@ -294,7 +295,9 @@ references:
     day: 7
   title: New methods to calculate concordance factors for phylogenomic datasets
   container-title: Molecular Biology and Evolution
-  page: in press
+  page: 2727-2733
+  volume: '37'
+  issue: '9'
   abstract: 'We implement two measures for quantifying genealogical
     concordance in phylogenomic datasets: the gene concordance factor (gCF) and the
     site concordance factor (sCF). For every branch of a reference tree, gCF is defined
@@ -312,6 +315,7 @@ references:
 
 - id: minh_iq-tree_2020
   type: article-journal
+  selected: true
   open-access: true
   author:
   - family: Minh
@@ -684,6 +688,7 @@ references:
 
 - id: hoang_ufboot2:_2018
   type: article-journal
+  selected: true
   open-access: true
   citations: 542
   author:
@@ -838,6 +843,7 @@ references:
 
 - id: kalyaanamoorthy_modelfinder:_2017
   type: article-journal
+  selected: true
   citations: 1014
   author:
   - family: Kalyaanamoorthy
@@ -939,6 +945,7 @@ references:
 
 - id: chernomor_terrace_2016
   type: article-journal
+  selected: true
   open-access: true
   citations: 263
   author:

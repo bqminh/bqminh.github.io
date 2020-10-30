@@ -69,11 +69,12 @@ subsubtitle: Enable evolutionary research in the genomic era
 <div style="background: {{site.data.style.minor_color}};">
   <div class="container">
   <br>
-  <h3>Recent publications</h3>
+  <h3>Selected publications</h3>
   <ol>
   {% assign person_pages = site.pages | where: "layout" , "personnel" | where: "current", "true" %}
   {% assign members = person_pages | map: "pubname" %}
-  {% for pub in site.data.publications.references limit:5 %}
+  {% assign selected_pubs = site.data.publications.references | where: "selected", "true" %}
+  {% for pub in selected_pubs %}
 	<li>
 		{% include publication.html %}
 	</li>
