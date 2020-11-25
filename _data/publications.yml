@@ -1,6 +1,91 @@
 ---
-citation_update: 9 Sep 2020
+citation_update: 26 Nov 2020
 references:
+
+- id: meusemann_are_2020
+  type: report
+  open-access: true
+  author:
+  - family: Meusemann
+    given: Karen
+  - family: Trautwein
+    given: Michelle
+  - family: Friedrich
+    given: Frank
+  - family: Beutel
+    given: Rolf G.
+  - family: Wiegmann
+    given: Brian M.
+  - family: Donath
+    given: Alexander
+  - family: Podsiadlowski
+    given: Lars
+  - family: Petersen
+    given: Malte
+  - family: Niehuis
+    given: Oliver
+  - family: Mayer
+    given: Christoph
+  - family: Bayless
+    given: Keith M.
+  - family: Shin
+    given: Seunggwan
+  - family: Liu
+    given: Shanlin
+  - family: Hlinka
+    given: Ondrej
+  - family: Minh
+    given: Bui Quang
+  - family: Kozlov
+    given: Alexey
+  - family: Morel
+    given: Benoit
+  - family: Peters
+    given: Ralph S.
+  - family: Bartel
+    given: Daniela
+  - family: Grove
+    given: Simon
+  - family: Zhou
+    given: Xin
+  - family: Misof
+    given: Bernhard
+  - family: Yeates
+    given: David K.
+  issued:
+  - year: 2020
+    month: 11
+  accessed:
+  - year: 2020
+    month: 11
+    day: 25
+  title: 'Are fleas highly modified Mecoptera? Phylogenomic resolution of Antliophora
+    (Insecta: Holometabola)'
+  title-short: Are fleas highly modified Mecoptera?
+  container-title: bioRxiv
+  publisher: Evolutionary Biology
+  genre: preprint
+  abstract: AbstractInsect orders have been defined and stable for decades, with few
+    notable exceptions ( e.g ., Blattodea and Psocoptera). One of the few remaining
+    questions of order-level monophyly is that of Mecoptera in respect to the phylogenetic
+    placement of Siphonaptera (fleas). We used a large set of transcriptomic nucleotide
+    sequence data representing 56 species and more than 3,000 single-copy genes to
+    resolve the evolutionary history of Antliophora, including fleas (Siphonaptera),
+    scorpionflies and relatives (Mecoptera), and true flies (Diptera). We find that
+    fleas and mecopterans together are the sister group of flies. However, our data
+    and/or analyses are unable to distinguish whether fleas are sister to a monophyletic
+    Mecoptera, or whether they arose from within extant mecopteran families, rendering
+    Mecoptera paraphyletic. We did not detect parameter bias in our dataset after
+    applying a broad range of detection methods. Counter to a previous hypothesis
+    that placed fleas within Mecoptera as the sister group to wingless boreids (snow
+    fleas), we found a potential sister group relationship between fleas and the enigmatic
+    family Nannochoristidae. Although we lack conclusive evidence, it seems possible
+    that fleas represent the most-species rich group of modern mecopterans and that
+    their parasitic lifestyle and morphological adaptations have simply made them
+    unrecognizable in respect to their order-level classification.
+  URL: http://biorxiv.org/lookup/doi/10.1101/2020.11.19.390666
+  DOI: 10.1101/2020.11.19.390666
+
 
 - id: spence_comprehensive_2020
   type: report
