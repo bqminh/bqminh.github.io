@@ -29,7 +29,7 @@ phone: +61 2 6125 0047
 ---
 
 <br>
-<big>_Lecturer, Australian National University_</big>
+<big>_Senior Lecturer, Australian National University_</big>
 
 
 #### Biography
@@ -41,8 +41,8 @@ M.Sc. in Applied Computer Science (2005) from the
 and Ph.D. in Bioinformatics (2009) from the 
 [University of Vienna](https://www.univie.ac.at) (Austria).
 After a Postdoc at [Max Perutz Labs](https://www.maxperutzlabs.ac.at),
-he joined the [Australian National University (ANU)](https://www.anu.edu.au) as a Senior Research Fellow (2018) and 
-a Lecturer (2019).
+he joined the [Australian National University (ANU)](https://www.anu.edu.au) as a Senior Research Fellow (2018), 
+a Lecturer (2019), and a Senior Lecturer (2021; equiv. to Assoc. Prof. in the US system).
 
 #### Research Interests
 
