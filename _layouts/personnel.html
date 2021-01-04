@@ -11,10 +11,18 @@ layout: default
     <div class="row">
         <div class="col-md-8">
 			{{ content }}
-			<h4>Selected Publications</h4>
 		    {% assign has-citations = false %}
 			{% assign members = page.pubname %}
-			<ol>
+
+			{% if page.references %}
+			<h4>Publications</h4>
+			  <ol>
+			  {% for pub in page.references %}
+				<li>{% include publication.html %}</li>
+			  {% endfor %}
+			  </ol>
+			{% endif %}
+
 			{% assign pubs = site.data.publications.references | sort: "citations" | reverse %}
 			{% assign count = 0 %}
 			{% for pub in pubs %}
@@ -27,6 +35,10 @@ layout: default
 				{% endif %}
 			  {% endfor %}
 			  {% if has-author %}
+				{% if count == 0 %}
+					<h4>Selected Publications</h4>
+					<ol>
+				{% endif %}
 			    {% if pub.citations %}
 			      {% assign has-citations = true %}
 			    {% endif %}
@@ -39,9 +51,10 @@ layout: default
 			    {% break %}
 			  {% endif %}
 			{% endfor %}
-			</ol>
-			<a href="{{site.baseurl}}/publications/">&rarr;All publications</a><br><br>
-
+			{% if count > 0 %}
+  				</ol>
+  				<a href="{{site.baseurl}}/publications/">&rarr;All publications</a><br><br>
+  			{% endif %}
         </div>
         <div class="col-md-4">
 			<div class="card card-body bg-light">
