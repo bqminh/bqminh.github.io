@@ -281,6 +281,38 @@ references:
   DOI: 10.1371/journal.pbio.3000954
   ISSN: '1545-7885'
 
+- id: canh_pqmaker_2020
+  type: paper-conference
+  author:
+  - family: Canh
+    given: Nguyen Duc
+  - family: Cao Dang
+    given: Cuong
+  - family: Vinh
+    given: Le Sy
+  - family: Minh
+    given: Bui Quang
+  - family: Hoang
+    given: Diep Thi
+  issued:
+  - year: 2020
+    month: 11
+  accessed:
+  - year: 2021
+    month: 1
+    day: 7
+  title: '<span class="nocase">pQMaker</span>: Empirically estimating amino acid
+    substitution models in a parallel environment'
+  title-short: <span class="nocase">pQMaker</span>
+  container-title: 2020 12th International Conference on Knowledge and Systems Engineering
+    (KSE)
+  publisher: IEEE
+  publisher-place: Can Tho city
+  page: '324-329'
+  URL: https://ieeexplore.ieee.org/document/9287569/
+  DOI: 10.1109/KSE50997.2020.9287569
+  ISBN: '978-1-72814-510-5'
+
 - id: parajuli_newly_2020
   type: article-journal
   open-access: true
