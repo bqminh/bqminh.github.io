@@ -2,6 +2,50 @@
 citation_update: 26 Nov 2020
 references:
 
+- id: cherryh_test_2021
+  type: report
+  open-access: true
+  author:
+  - family: Cherryh
+    given: Caitlin
+  - family: Minh
+    given: Bui Quang
+  - family: Lanfear
+    given: Robert
+  issued:
+  - year: 2021
+    month: 2
+  accessed:
+  - year: 2021
+    month: 2
+    day: 19
+  title: A test statistic to quantify treelikeness in phylogenetics
+  container-title: bioRxiv
+  publisher: Evolutionary Biology
+  genre: preprint
+  abstract: Most phylogenetic analyses assume that the evolutionary history of an
+    alignment (either that of a single locus, or of multiple concatenated loci) can
+    be described by a single bifurcating tree, the so-called the treelikeness assumption.
+    Treelikeness can be violated by biological events such as recombination, introgression,
+    or incomplete lineage sorting, and by systematic errors in phylogenetic analyses.
+    The incorrect assumption of treelikeness may then mislead phylogenetic inferences.
+    To quantify and test for treelikeness in alignments, we develop a test statistic
+    which we call the tree proportion. This statistic quantifies the proportion of
+    the edge weights in a phylogenetic network that are represented in a bifurcating
+    phylogenetic tree of the same alignment. We extend this statistic to a statistical
+    test of treelikeness using a parametric bootstrap. We use extensive simulations
+    to compare tree proportion to a range of related approaches. We show that tree
+    proportion successfully identifies non-treelikeness in a wide range of simulation
+    scenarios, and discuss its strengths and weaknesses compared to other approaches.
+    The power of the tree-proportion test to reject non-treelike alignments can be
+    lower than some other approaches, but these approaches tend to be limited in their
+    scope and/or the ease with which they can be interpreted. Our recommendation is
+    to test treelikeness of sequence alignments with both tree proportion and mosaic
+    methods such as 3Seq. The scripts necessary to replicate this study are available
+    at https://github.com/caitlinch/treelikeness
+  URL: http://biorxiv.org/lookup/doi/10.1101/2021.02.16.431544
+  DOI: 10.1101/2021.02.16.431544
+
 - id: meusemann_are_2020
   type: report
   open-access: true
