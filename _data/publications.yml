@@ -211,6 +211,7 @@ references:
 
 - id: hodcroft_want_2021
   type: article-journal
+  selected: true
   open-access: true
   author:
   - family: Hodcroft
@@ -1053,7 +1054,6 @@ references:
 
 - id: kalyaanamoorthy_modelfinder:_2017
   type: article-journal
-  selected: true
   citations: 1014
   author:
   - family: Kalyaanamoorthy
