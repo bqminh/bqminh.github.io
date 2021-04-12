@@ -131,47 +131,6 @@ references:
   DOI: 10.1101/2020.11.19.390666
 
 
-- id: spence_comprehensive_2020
-  type: report
-  open-access: true
-  author:
-  - family: Spence
-    given: Matthew A.
-  - family: Mortimer
-    given: Matthew D.
-  - family: Buckle
-    given: Ashley M.
-  - family: Minh
-    given: Bui Quang
-  - family: Jackson
-    given: Colin J.
-  issued:
-  - year: 2020
-    month: 9
-  accessed:
-  - year: 2020
-    month: 10
-    day: 5
-  title: A comprehensive phylogenetic analysis of the serpin superfamily
-  container-title: bioRxiv
-  publisher: Bioinformatics
-  genre: preprint
-  abstract: Serine protease inhibitors (serpins) are found in all kingdoms of life
-    and play essential roles in multiple physiological processes. Owing to the diversity
-    of the superfamily, phylogenetic analysis is challenging and prokaryotic serpins
-    have been speculated to have been acquired from Metazoa through horizontal gene
-    transfer (HGT) due to their unexpectedly high homology. Here we have leveraged
-    a structural alignment of diverse serpins to generate a comprehensive 6000-sequence
-    phylogeny that encompasses serpins from all kingdoms of life. We show that in
-    addition to a central “hub” of highly conserved serpins, there has been extensive
-    diversification of the superfamily into many novel functional clades. Our analysis
-    indicates that the hub proteins are ancient and are similar because of convergent
-    evolution, rather than the alternative hypothesis of HGT. This work clarifies
-    longstanding questions in the evolution of serpins and provides new directions
-    for research in the field of serpin biology.
-  URL: http://biorxiv.org/lookup/doi/10.1101/2020.09.09.289108
-  DOI: 10.1101/2020.09.09.289108
-
 - id: naser-khdour_assessing_2020
   type: report
   open-access: true
@@ -208,6 +167,50 @@ references:
     for calculating rootstrap support values is available at https://github.com/suhanaser/Rootstrap.'
   URL: http://biorxiv.org/lookup/doi/10.1101/2020.07.31.230144
   DOI: 10.1101/2020.07.31.230144
+
+- id: spence_comprehensive_2021
+  type: article-journal
+  open-access: true
+  author:
+  - family: Spence
+    given: Matthew A
+  - family: Mortimer
+    given: Matthew D
+  - family: Buckle
+    given: Ashley M
+  - family: Minh
+    given: Bui Quang
+  - family: Jackson
+    given: Colin J
+  editor:
+  - family: Echave
+    given: Julian
+  issued:
+  - year: 2021
+    month: 3
+  accessed:
+  - year: 2021
+    month: 4
+    day: 12
+  title: A comprehensive phylogenetic analysis of the serpin superfamily
+  container-title: Molecular Biology and Evolution
+  page: msab081
+  abstract: Abstract Serine protease inhibitors (serpins) are found in all kingdoms
+    of life and play essential roles in multiple physiological processes. Owing to
+    the diversity of the superfamily, phylogenetic analysis is challenging and prokaryotic
+    serpins have been speculated to have been acquired from Metazoa through horizontal
+    gene transfer (HGT) due to their unexpectedly high homology. Here we have leveraged
+    a structural alignment of diverse serpins to generate a comprehensive 6000-sequence
+    phylogeny that encompasses serpins from all kingdoms of life. We show that in
+    addition to a central “hub” of highly conserved serpins, there has been extensive
+    diversification of the superfamily into many novel functional clades. Our analysis
+    indicates that the hub proteins are ancient and are similar because of convergent
+    evolution, rather than the alternative hypothesis of HGT. This work clarifies
+    longstanding questions in the evolution of serpins and provides new directions
+    for research in the field of serpin biology.
+  URL: https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab081/6179337
+  DOI: 10.1093/molbev/msab081
+  ISSN: 0737-4038, 1537-1719
 
 - id: hodcroft_want_2021
   type: article-journal
