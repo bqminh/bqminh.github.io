@@ -48,7 +48,7 @@ a Lecturer (2019), and a Senior Lecturer (2021; equiv. to Assoc. Prof. in the US
 
 Minh is currently the Leader of the _Computational Phylogenomics_ Lab,
 jointly affiliated with the 
-[Research School of Computer Science](https://cs.anu.edu.au/)
+[School of Computing](https://cs.anu.edu.au/)
 and [Research School of Biology](https://biology.anu.edu.au/), ANU.
 His lab focuses on efficient bioinformatic methods, statistical 
 models of molecular evolution, algorithms and high performance computing 
