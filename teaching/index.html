@@ -1,0 +1,29 @@
+---
+layout: default
+title:  Teaching
+title_heading: true
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            {% assign numPages = 0 %}
+			{% assign courses = site.pages | where: "layout" , "teaching" | sort : "year" | reverse %}
+			{% for course in courses %}
+                {% if numPages > 0 %}
+                <hr style="border: 1px solid;">
+                {% endif %}
+                <h4>{{course.year}} - {{ course.title }}</h4>
+                {{ course.content }}
+                <br>
+                {% if course.link %}
+                <a href="{{course.link}}">--> Go to this course website</a>
+                {% endif %}
+            {% assign numPages = numPages | plus: 1 %}
+            {% endfor %}
+        </div>
+        <div class="col-md-4">
+            {% include sidebar_teaching.html %}
+        </div>
+    </div>
+</div>

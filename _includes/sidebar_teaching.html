@@ -1,0 +1,11 @@
+<br>
+<div class="card card-body bg-light">
+	<h5 class="card-title">Teaching</h5>
+	{% assign courses = site.pages | where: "layout" , "teaching" | sort : "year" | reverse %}
+	{% for course in courses %}
+		<p class="card-text">
+			<a href="{{ course.link | prepend: site.baseurl }}" class="card-link">{{ course.title }}</a><br>
+			{{course.year}}
+		</p>
+	{% endfor %} 
+</div>
