@@ -132,7 +132,7 @@ references:
 
 
 - id: naser-khdour_assessing_2020
-  type: report
+  type: article-journal
   open-access: true
   author:
   - family: Naser-Khdour
@@ -149,11 +149,10 @@ references:
     month: 8
     day: 3
   title: 'Assessing Confidence in Root Placement on Phylogenies: An Empirical Study
-    Using Non-Reversible Models'
+    Using Non-Reversible Models for Mammals'
   title-short: Assessing Confidence in Root Placement on Phylogenies
-  container-title: bioRxiv
-  publisher: Evolutionary Biology
-  genre: preprint
+  container-title: Systematic Biology
+  page: accepted
   abstract: 'Using time-reversible Markov models is a very common practice in phylogenetic
     analysis, because although we expect many of their assumptions to be violated
     by empirical data, they provide high computational efficiency. However, these
@@ -167,6 +166,7 @@ references:
     for calculating rootstrap support values is available at https://github.com/suhanaser/Rootstrap.'
   URL: http://biorxiv.org/lookup/doi/10.1101/2020.07.31.230144
   DOI: 10.1101/2020.07.31.230144
+  preprint-DOI: 10.1101/2020.07.31.230144
 
 - id: spence_comprehensive_2021
   type: article-journal
@@ -276,7 +276,9 @@ references:
     evolution'
   title-short: QMaker
   container-title: Systematic Biology
-  page: syab010
+  page: 1046–1060
+  volume: 70
+  issue: 5
   abstract: Abstract Amino acid substitution models play a crucial role in phylogenetic
     analyses. Maximum likelihood (ML) methods have been proposed to estimate amino
     acid substitution models, however, they are typically complicated and slow. In
