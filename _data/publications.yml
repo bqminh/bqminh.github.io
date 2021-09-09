@@ -131,7 +131,7 @@ references:
   DOI: 10.1101/2020.11.19.390666
 
 
-- id: naser-khdour_assessing_2020
+- id: naser-khdour_assessing_2021
   type: article-journal
   open-access: true
   author:
@@ -145,28 +145,30 @@ references:
   - year: 2021
     month: 8
   accessed:
-  - year: 2020
-    month: 8
-    day: 3
+  - year: 2021
+    month: 9
+    day: 9
   title: 'Assessing Confidence in Root Placement on Phylogenies: An Empirical Study
     Using Non-Reversible Models for Mammals'
   title-short: Assessing Confidence in Root Placement on Phylogenies
   container-title: Systematic Biology
-  page: accepted
-  abstract: 'Using time-reversible Markov models is a very common practice in phylogenetic
-    analysis, because although we expect many of their assumptions to be violated
-    by empirical data, they provide high computational efficiency. However, these
-    models lack the ability to infer the root placement of the estimated phylogeny.
-    In order to compensate for the inability of these models to root the tree, many
-    researchers use external information such as using outgroup taxa or additional
-    assumptions such as molecular-clocks. In this study, we investigate the utility
-    of non-reversible models to root empirical phylogenies and introduce a new bootstrap
-    measure, the rootstrap, which provides information on the statistical support
-    for any given root position. Availability and implementation: A python script
-    for calculating rootstrap support values is available at https://github.com/suhanaser/Rootstrap.'
-  URL: http://biorxiv.org/lookup/doi/10.1101/2020.07.31.230144
-  DOI: 10.1101/2020.07.31.230144
-  preprint-DOI: 10.1101/2020.07.31.230144
+  page: syab067
+  abstract: 'Abstract Using time-reversible Markov models is a very common practice
+    in phylogenetic analysis, because although we expect many of their assumptions
+    to be violated by empirical data, they provide high computational efficiency.
+    However, these models lack the ability to infer the root placement of the estimated
+    phylogeny. In order to compensate for the inability of these models to root the
+    tree, many researchers use external information such as using outgroup taxa or
+    additional assumptions such as molecular-clocks. In this study, we investigate
+    the utility of non-reversible models to root empirical phylogenies and introduce
+    a new bootstrap measure, the rootstrap, which provides information on the statistical
+    support for any given root position. Availability and implementation: rootstrap
+    support is implemented in IQ-TREE 2 and a tutorial is available at the iqtree
+    webpage http://www.iqtree.org/doc/Rootstrap. In addition, a python script is available
+    at https://github.com/suhanaser/Rootstrap'
+  URL: https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syab067/6350503
+  DOI: 10.1093/sysbio/syab067
+  ISSN: 1063-5157, 1076-836X
 
 - id: spence_comprehensive_2021
   type: article-journal
