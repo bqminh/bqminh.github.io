@@ -2,6 +2,42 @@
 citation_update: 26 Nov 2020
 references:
 
+- id: naser-khdour_influence_2021
+  type: report
+  open-access: true
+  author:
+  - family: Naser-Khdour
+    given: Suha
+  - family: Minh
+    given: Bui Quang
+  - family: Lanfear
+    given: Robert
+  issued:
+  - year: 2021
+    month: 9
+  accessed:
+  - year: 2021
+    month: 9
+    day: 28
+  title: 'The Influence of Model Violation on Phylogenetic Inference: A Simulation
+    Study'
+  title-short: The Influence of Model Violation on Phylogenetic Inference
+  publisher: Evolutionary Biology
+  genre: preprint
+  abstract: A bstractPhylogenetic inference typically assumes that the data has evolved
+    under Stationary, Reversible and Homogeneous (SRH) conditions. Many empirical
+    and simulation studies have shown that assuming SRH conditions can lead to significant
+    errors in phylogenetic inference when the data violates these assumptions. Yet,
+    many simulation studies focused on extreme non-SRH conditions that represent worst-case
+    scenarios and not the average empirical dataset. In this study, we simulate datasets
+    under various degrees of non-SRH conditions using empirically derived parameters
+    to mimic real data and examine the effects of incorrectly assuming SRH conditions
+    on inferring phylogenies. Our results show that maximum likelihood inference is
+    generally quite robust to a wide range of SRH model violations but is inaccurate
+    under extreme convergent evolution.
+  URL: http://biorxiv.org/lookup/doi/10.1101/2021.09.22.461455
+  DOI: 10.1101/2021.09.22.461455
+
 - id: cherryh_test_2021
   type: report
   open-access: true
