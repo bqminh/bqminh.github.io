@@ -15,7 +15,7 @@ researchgate: Bui_Minh
 ORCID: "0000-0002-5535-6560"
 address: |
   Research School of Computer Science, ANU<br>
-  Hanna Neumann Building, Room 4.35<br>
+  Hanna Neumann Building, Room 4.16<br>
   145 Science Rd
   <a href="https://goo.gl/maps/MrrYyptzR98jCZmP6" class="badge badge-primary"><i class="fa fa-map-marker"></i> map</a><br>
   <em>and</em><br>
@@ -59,14 +59,20 @@ techniques for phylogenetics from ultra-large genomic data.
 * 2019: [Field Leader in Evolutionary Biology](https://specialreports.theaustralian.com.au/1540291/life-sciences-earth-sciences/), The Australian.
 * 2003-2005: Scholarship for the Masters study by the Konrad-Adenauer-Stiftung, Germany.
 
-#### Scientific Services
+#### Journal Editorial Boards
+
+* Associate Editor, [Journal of Molecular Evolution](https://www.springer.com/journal/239), 2021-present.
+
+#### Conference organisation
 
 * Nov 2018: Organiser of the Computational Biology Fest (CompBioFest), Australian National University.
 * 2017: PC member for the workshop on Mathematical and Statistical Aspects of Molecular Biology (MASAMB).
 * 2012-2016: PC member for the International Conference on Bioinformatics (InCoB).
 * 2015: PC member for the German Conference on Bioinformatics (GCB).
 
-Reviewer for various scientific journals (in alphabetical order): 
+### Reviewer
+
+Reviewer for various scientific journals including: 
 Algorithms for Molecular Biology, Applied Mathematics Letters, 
 Bioinformatics, BMC Evolutionary Biology, BMC Bioinformatics, 
 Journal of Mathematical Biology, Journal of Theoretical Biology, 
@@ -77,6 +83,7 @@ IEEE Transaction on Computational Biology and Bioinformatics.
 
 #### Media Coverage
 
+* Sep 2021: [CZI awards $340K to advance genomics software that enabled COVID vaccines](https://cecs.anu.edu.au/news/czi-awards-340k-advance-genomics-software-enabled-covid-vaccines)
 * Nov 2019: [Dr Minh Bui wins grant to take a closer look at our genetics](https://cs.anu.edu.au/news/dr-minh-bui-wins-grant-take-closer-look-our-genetics).
 * May 2017: [A new tool to decipher evolutionary biology](https://medienportal.univie.ac.at/presse/aktuelle-pressemeldungen/detailansicht/artikel/neues-werkzeug-zur-entschluesselung-der-evolutionsbiologie/).
 * May 2017: [Tiến sĩ Việt tìm ra phương pháp đột phá giải mã sinh học tiến hóa](https://dantri.com.vn/giao-duc-khuyen-hoc/tien-si-viet-tim-ra-phuong-phap-dot-pha-giai-ma-sinh-hoc-tien-hoa-20170515065354906.htm).
