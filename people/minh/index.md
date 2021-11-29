@@ -56,6 +56,7 @@ techniques for phylogenetics from ultra-large genomic data.
 
 #### Awards and Honours
 
+* 2021: [Highly Cited Researcher](https://recognition.webofscience.com/awards/highly-cited/2021/).
 * 2019: [Field Leader in Evolutionary Biology](https://specialreports.theaustralian.com.au/1540291/life-sciences-earth-sciences/), The Australian.
 * 2003-2005: Scholarship for the Masters study by the Konrad-Adenauer-Stiftung, Germany.
 
@@ -83,6 +84,7 @@ IEEE Transaction on Computational Biology and Bioinformatics.
 
 #### Media Coverage
 
+* Nov 2021: [CECS academic cited 15,000 times, makes world’s ‘Highly Cited Researchers’ list](https://cs.anu.edu.au/news/cecs-academic-cited-15000-times-makes-worlds-highly-cited-researchers-list)
 * Sep 2021: [CZI awards $340K to advance genomics software that enabled COVID vaccines](https://cecs.anu.edu.au/news/czi-awards-340k-advance-genomics-software-enabled-covid-vaccines)
 * Nov 2019: [Dr Minh Bui wins grant to take a closer look at our genetics](https://cs.anu.edu.au/news/dr-minh-bui-wins-grant-take-closer-look-our-genetics).
 * May 2017: [A new tool to decipher evolutionary biology](https://medienportal.univie.ac.at/presse/aktuelle-pressemeldungen/detailansicht/artikel/neues-werkzeug-zur-entschluesselung-der-evolutionsbiologie/).
