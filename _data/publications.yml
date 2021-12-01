@@ -261,6 +261,7 @@ references:
 - id: spence_comprehensive_2021
   type: article-journal
   open-access: true
+  photo: mol-biol-evol-38-7.jpeg
   author:
   - family: Spence
     given: Matthew A
@@ -308,6 +309,7 @@ references:
   type: article-journal
   selected: true
   open-access: true
+  photo: nature-591.png
   author:
   - family: Hodcroft
     given: Emma B.
@@ -348,6 +350,7 @@ references:
   type: article-journal
   selected: true
   open-access: true
+  photo: syst-biol-70-5.jpeg
   author:
   - family: Minh
     given: Bui Quang
@@ -393,6 +396,7 @@ references:
 - id: vanderpool_primate_2020
   type: article-journal
   open-access: true
+  photo: plos-biol-2020-12.png
   author:
   - family: Vanderpool
     given: Dan
@@ -546,7 +550,9 @@ references:
 
 - id: dombrowski_undinarchaeota_2020
   type: article-journal
+  selected: true
   open-access: true
+  photo: nature-comms.png
   author:
   - family: Dombrowski
     given: Nina
@@ -584,6 +590,7 @@ references:
   type: article-journal
   selected: true
   open-access: true
+  photo: mol-biol-evol-37-9.jpeg
   author:
   - family: Minh
     given: Bui Quang
@@ -625,6 +632,7 @@ references:
   type: article-journal
   selected: true
   open-access: true
+  photo: mol-biol-evol-37-5.jpeg
   author:
   - family: Minh
     given: Bui Quang
@@ -670,6 +678,7 @@ references:
 
 - id: crotty_ghost:_2020
   type: article-journal
+  photo: syst-biol-69-2.jpeg
   author:
   - family: Crotty
     given: Stephen M
@@ -732,6 +741,7 @@ references:
   type: article-journal
   open-access: true
   f1000: 736640768
+  photo: genome-biol-evol-11-12.jpeg
   author:
   - family: Naser-Khdour
     given: Suha
@@ -786,6 +796,7 @@ references:
 - id: schrempf_polymorphism-aware_2019
   type: article-journal
   open-access: true
+  photo: mol-biol-evol-36-6.jpeg
   author:
   - family: Schrempf
     given: Dominik
@@ -819,6 +830,7 @@ references:
 - id: schenk_combined_2019
   type: article-journal
   open-access: true
+  photo: elife-symbol.png
   author:
   - family: Schenk
     given: Sven
@@ -899,6 +911,7 @@ references:
 - id: hoang_mpboot:_2018
   type: article-journal
   open-access: true
+  photo:
   author:
   - family: Hoang
     given: Diep Thi
@@ -934,6 +947,7 @@ references:
 - id: alves_unifying_2018
   type: article-journal
   open-access: true
+  photo: nature-comms.png   
   author:
   - family: Alves
     given: Ricardo J. Eloy
@@ -966,6 +980,7 @@ references:
 - id: nguyen_complex_2018
   type: article-journal
   open-access: true
+  photo: syst-biol-67-3.jpeg
   author:
   - family: Nguyen
     given: Lam-Tung
@@ -996,9 +1011,9 @@ references:
 
 - id: hoang_ufboot2:_2018
   type: article-journal
-  selected: true
   open-access: true
   citations: 542
+  photo: mol-biol-evol-35-2.jpeg
   author:
   - family: Hoang
     given: Diep Thi
@@ -1032,6 +1047,7 @@ references:
 - id: wang_modeling_2018
   type: article-journal
   open-access: true
+  photo: syst-biol-67-2.jpeg
   author:
   - family: Wang
     given: Huai-Chun
@@ -1062,6 +1078,7 @@ references:
 - id: ratmann_hiv-1_2017
   type: article-journal
   open-access: true
+  photo: aid-33-11.jpg
   author:
   - family: Ratmann
     given: Oliver
@@ -1152,6 +1169,7 @@ references:
 - id: kalyaanamoorthy_modelfinder:_2017
   type: article-journal
   citations: 1014
+  photo: nature-methods-14-6.png
   author:
   - family: Kalyaanamoorthy
     given: Subha
@@ -1188,6 +1206,7 @@ references:
   type: article-journal
   open-access: true
   f1000: 726603458
+  photo: j-theor-biol.gif
   author:
   - family: Schrempf
     given: Dominik
@@ -1254,6 +1273,7 @@ references:
   type: article-journal
   open-access: true
   citations: 263
+  photo: syst-biol-65-6.jpeg
   author:
   - family: Chernomor
     given: Olga
@@ -1282,6 +1302,7 @@ references:
   type: article-journal
   open-access: true
   citations: 498
+  photo: nuc-acid-res-44-w1.gif
   author:
   - family: Trifinopoulos
     given: Jana
@@ -1313,6 +1334,7 @@ references:
   type: article-journal
   open-access: true
   citations: 148
+  photo: rspb-283-1823.gif
   author:
   - family: Burki
     given: Fabien
@@ -1429,6 +1451,7 @@ references:
 - id: chernomor_consequences_2015
   type: article-journal
   open-access: true
+  photo: j-comput-biol-22-12.jpg
   author:
   - family: Chernomor
     given: Olga
@@ -1456,6 +1479,7 @@ references:
 
 - id: hai_whole_2015
   type: article-journal
+  photo: j-biosciences-40-1.jpg
   author:
   - family: Hai
     given: Dang Thanh
@@ -1501,6 +1525,7 @@ references:
   type: article-journal
   open-access: true
   citations: 2902
+  photo: mol-biol-evol-32-1.gif
   author:
   - family: Nguyen
     given: Lam-Tung
@@ -1532,6 +1557,7 @@ references:
 - id: chernomor_split_2015
   type: article-journal
   open-access: true
+  photo: meth-ecol-evol-6-1.jpg
   author:
   - family: Chernomor
     given: Olga
@@ -1572,6 +1598,7 @@ references:
 - id: flouri_phylogenetic_2015
   type: article-journal
   open-access: true
+  photo: syst-biol-64-2.gif
   author:
   - family: Flouri
     given: T.
@@ -1608,6 +1635,7 @@ references:
 - id: pollak_novel_2014
   type: article-journal
   open-access: true
+  photo: amino-acids-46-11.jpg
   author:
   - family: Pollak
     given: Daniela D.
@@ -1637,6 +1665,7 @@ references:
 - id: kaschner_discovery_2014
   type: article-journal
   open-access: true
+  photo: mol-microbiol-93-5.jpg
   author:
   - family: Kaschner
     given: Marco
@@ -1686,6 +1715,7 @@ references:
 - id: dellampio_decisive_2014
   type: article-journal
   open-access: true
+  photo: mol-biol-evol-31-1.gif
   author:
   - family: Dell’Ampio
     given: Emiliano
@@ -1740,6 +1770,7 @@ references:
   type: article-journal
   citations: 895
   open-access: true
+  photo: mol-biol-evol-30-5.gif
   author:
   - family: Minh
     given: Bui Quang
@@ -1880,6 +1911,7 @@ references:
 - id: hofmann_quantitative_2010
   type: article-journal
   open-access: true
+  photo: diag-microbiol-infect-disease-67-2.gif
   author:
   - family: Hofmann
     given: Joerg
@@ -1920,6 +1952,7 @@ references:
 - id: krauss_distribution_2009
   type: article-journal
   open-access: true
+  photo: j-bacter-191-23.gif
   author:
   - family: Krauss
     given: U.
@@ -1957,6 +1990,7 @@ references:
 - id: minh_taxon_2009
   type: article-journal
   open-access: true
+  photo: syst-biol-58-6.gif
   author:
   - family: Minh
     given: Bui Quang
@@ -1984,6 +2018,7 @@ references:
 - id: minh_budgeted_2009
   type: article-journal
   open-access: true
+  photo: ieee-comput-biol-bioinf.png
   author:
   - family: Minh
     given: Bui Quang

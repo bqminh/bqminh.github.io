@@ -1,4 +1,8 @@
 <p>
+{% if pub.photo %}
+<div class="row">
+<div class="col-sm-10">
+{% endif %}
   <a href="https://doi.org/{{pub.DOI}}">
   	{{pub.title}} {% if pub.open-access %}<img src="{{site.baseurl}}/assets/images/open-access.svg" height="20">{% endif %}
   </a>
@@ -53,4 +57,13 @@
   <span class="__dimensions_badge_embed__" data-doi="{{pub.DOI}}" data-style="small_rectangle" data-hide-zero-citations="true">
   <span data-badge-popover="right" data-badge-type="2" data-doi="{{pub.DOI}}" data-hide-less-than="5" class="altmetric-embed"></span>
   </span>
+{% if pub.photo %}
+</div>
+<div class="col-sm-2">
+  <a href="https://doi.org/{{pub.DOI}}">
+    <img src="{{site.baseurl}}/assets/logo/{{pub.photo}}" height="110">
+  </a>
+</div>
+</div>
+{% endif %}
 </p>
