@@ -35,6 +35,8 @@ Bui was one of the 11 researchers with primary affiliation to The Australian Nat
  
 __Figure 1: Highly Cited Researchers by country or region__
 
+{:class="table table-bordered"}
+
 | Rank | Country/Territory | Number HCRs | %    | 
 | ---- | ----------------- | ----------- | ---- | 
 | 1    | United States     | 2,622       | 39.7 | 
