@@ -2,6 +2,51 @@
 citation_update: 26 Nov 2020
 references:
 
+- id: de_maio_maximum_2022
+  type: report
+  open-access: true
+  author:
+  - family: De Maio
+    given: Nicola
+  - family: Kalaghatgi
+    given: Prabhav
+  - family: Turakhia
+    given: Yatish
+  - family: Corbett-Detig
+    given: Russell
+  - family: Minh
+    given: Bui Quang
+  - family: Goldman
+    given: Nick
+  issued:
+  - year: 2022
+    month: 3
+  accessed:
+  - year: 2022
+    month: 3
+    day: 29
+  title: Maximum likelihood pandemic-scale phylogenetics
+  publisher: Bioinformatics
+  genre: preprint
+  abstract: Genomic data plays an essential role in the study of transmissible disease,
+    as exemplified by its current use in identifying and tracking the spread of novel
+    SARS-CoV-2 variants. However, with the increase in size of genomic epidemiological
+    datasets, their phylogenetic analyses become increasingly impractical due to high
+    computational demand. In particular, while maximum likelihood methods are go-to
+    tools for phylogenetic inference, the scale of datasets from the ongoing pandemic
+    has made apparent the urgent need for more computationally efficient approaches.
+    Here we propose a new likelihood-based phylogenetic framework that greatly reduces
+    both the memory and time demand of popular maximum likelihood approaches when
+    analysing many closely related genomes, as in the scenario of SARS-CoV-2 genome
+    data and more generally throughout genomic epidemiology. To achieve this, we rewrite
+    the classical Felsenstein pruning algorithm so that we can infer phylogenetic
+    trees on at least 10 times larger datasets with higher accuracy than existing
+    maximum likelihood methods. Our algorithms provide a powerful framework for maximum-likelihood
+    genomic epidemiology and could facilitate similarly groundbreaking applications
+    in Bayesian phylogenomic analyses as well.
+  URL: http://biorxiv.org/lookup/doi/10.1101/2022.03.22.485312
+  DOI: 10.1101/2022.03.22.485312
+
 - id: ly-trong_alisim_2021
   type: report
   open-access: true
