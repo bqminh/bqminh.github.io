@@ -1,6 +1,63 @@
 ---
-citation_update: 26 Nov 2020
+citation_update: 12 Oct 2022
 references:
+
+- id: wong_mast_2022
+  type: report
+  open-access: true
+  author:
+  - family: Wong
+    given: Thomas KF
+  - family: Cherryh
+    given: Caitlin
+  - family: Rodrigo
+    given: Allen G
+  - family: Hahn
+    given: Matthew W
+  - family: Minh
+    given: Bui Quang
+  - family: Lanfear
+    given: Robert
+  issued:
+  - year: 2022
+    month: 10
+  accessed:
+  - year: 2022
+    month: 10
+    day: 12
+  title: 'MAST: Phylogenetic Inference with Mixtures Across Sites and Trees'
+  title-short: MAST
+  container-title: bioRxiv
+  publisher: Bioinformatics
+  genre: preprint
+  abstract: Hundreds or thousands of loci are now routinely used in modern phylogenomic
+    studies. Concatenation approaches to tree inference assume that there is a single
+    topology for the entire dataset, but different loci may have different evolutionary
+    histories due to incomplete lineage sorting, introgression, and/or horizontal
+    gene transfer; even single loci may not be treelike due to recombination. To overcome
+    this shortcoming, we introduce the mixture across sites and trees (MAST) model,
+    which uses a mixture of bifurcating trees to represent multiple histories in a
+    single concatenated alignment. The MAST model allows each tree to have its own
+    topology, branch lengths, substitution model, nucleotide or amino acid frequencies,
+    and model of rate heterogeneity across sites. We implemented the MAST model in
+    a maximum-likelihood framework in the popular phylogenetic software, IQ-TREE.
+    Simulations show that we can accurately recover the true model parameters, including
+    branch lengths and tree weights (i.e. frequencies) for a given set of tree topologies.
+    We also show that we can use standard statistical inference approaches to reject
+    a single-tree model when data are simulated under multiple trees (and vice versa).
+    We applied the MAST model to multiple primate datasets and found that it can recover
+    the signal of incomplete lineage sorting in the Great Apes, as well as the asymmetry
+    in minor trees caused by introgression among several macaque species. When applied
+    to a dataset of four Platyrrhine species for which standard concatenated maximum
+    likelihood and gene tree approaches disagree, we find that MAST gives the highest
+    weight to the tree favored by gene tree approaches. These results suggest that
+    the MAST model is able to analyse a concatenated alignment using maximum likelihood,
+    while avoiding some of the biases that come with assuming there is only a single
+    tree. The MAST model can therefore offer unique biological insights when applied
+    to datasets with multiple evolutionary histories. We discuss how it can be extended
+    in the future.
+  URL: http://biorxiv.org/lookup/doi/10.1101/2022.10.06.511210
+  DOI: 10.1101/2022.10.06.511210
 
 - id: mo_updated_2022
   type: report
