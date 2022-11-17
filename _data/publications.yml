@@ -361,6 +361,7 @@ references:
 
 - id: ly-trong_alisim_2022
   type: article-journal
+  selected: true
   open-access: true
   author:
   - family: Ly-Trong
@@ -407,6 +408,7 @@ references:
 
 - id: dang_nqmaker_2022
   type: article-journal
+  selected: true
   open-access: true
   author:
   - family: Dang
@@ -598,7 +600,6 @@ references:
 
 - id: quang_minh_qmaker_2021
   type: article-journal
-  selected: true
   open-access: true
   photo: syst-biol-70-5.jpeg
   author:
@@ -645,6 +646,7 @@ references:
 
 - id: vanderpool_primate_2020
   type: article-journal
+  selected: true
   open-access: true
   photo: plos-biol-2020-12.png
   author:
@@ -800,7 +802,6 @@ references:
 
 - id: dombrowski_undinarchaeota_2020
   type: article-journal
-  selected: true
   open-access: true
   photo: nature-comms.png
   author:
@@ -838,7 +839,6 @@ references:
 
 - id: minh_new_2020
   type: article-journal
-  selected: true
   open-access: true
   photo: mol-biol-evol-37-9.jpeg
   author:
