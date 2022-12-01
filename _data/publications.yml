@@ -59,42 +59,6 @@ references:
   URL: http://biorxiv.org/lookup/doi/10.1101/2022.10.06.511210
   DOI: 10.1101/2022.10.06.511210
 
-- id: mo_updated_2022
-  type: report
-  open-access: true
-  author:
-  - family: Mo
-    given: Yu K
-  - family: Lanfear
-    given: Robert
-  - family: Hahn
-    given: Matthew W
-  - family: Minh
-    given: Bui Quang
-  issued:
-  - year: 2022
-    month: 9
-  accessed:
-  - year: 2022
-    month: 9
-    day: 29
-  title: Updated site concordance factors minimize effects of homoplasy and taxon
-    sampling
-  container-title: bioRxiv
-  publisher: Bioinformatics
-  genre: preprint
-  abstract: Site concordance factors (sCFs) have become a widely used way to summarize
-    discord-ance in phylogenomic datasets. However, the original version of sCFs were
-    calculated by sampling a quartet of tip taxa and then applying parsimony-based
-    criteria for discordance. This approach has the potential to be strongly affected
-    by multiple hits at a site (homoplasy), especially when substitution rates are
-    high or taxa are not closely related. Here, we introduce a new method for calculating
-    site concordance factors. The updated version uses likelihood to generate probability
-    distributions of ancestral states at internal nodes of the phylogeny. By sampling
-    from the states at internal nodes adjacent to a given branch, this approach substantially
-    reduces-but does not completely abolish-the effects of homoplasy and taxon sampling.
-  URL: http://biorxiv.org/lookup/doi/10.1101/2022.09.26.509549
-  DOI: 10.1101/2022.09.26.509549
 
 - id: de_maio_maximum_2022
   type: report
@@ -358,6 +322,49 @@ references:
     unrecognizable in respect to their order-level classification.
   URL: http://biorxiv.org/lookup/doi/10.1101/2020.11.19.390666
   DOI: 10.1101/2020.11.19.390666
+
+- id: mo_updated_2022
+  type: article-journal
+  open-access: true
+  author:
+  - family: Mo
+    given: Yu K
+  - family: Lanfear
+    given: Robert
+  - family: Hahn
+    given: Matthew W
+  - family: Minh
+    given: Bui Quang
+  editor:
+  - family: Schwartz
+    given: Russell
+  issued:
+  - year: 2022
+    month: 11
+  accessed:
+  - year: 2022
+    month: 12
+    day: 1
+  title: Updated site concordance factors minimize effects of homoplasy and taxon
+    sampling
+  container-title: Bioinformatics
+  page: btac741
+  abstract: AbstractMotivation Site concordance factors (sCFs) have become a widely
+    used way to summarize discordance in phylogenomic datasets. However, the original
+    version of sCFs was calculated by sampling a quartet of tip taxa and then applying
+    parsimony-based criteria for discordance. This approach has the potential to be
+    strongly affected by multiple hits at a site (homoplasy), especially when substitution
+    rates are high or taxa are not closely related.Results Here, we introduce a new
+    method for calculating sCFs. The updated version uses likelihood to generate probability
+    distributions of ancestral states at internal nodes of the phylogeny. By sampling
+    from the states at internal nodes adjacent to a given branch, this approach substantially
+    reduces—but does not abolish—the effects of homoplasy and taxon sampling.Availability
+    and implementation Updated sCFs are implemented in IQ-TREE 2.2.2. The software
+    is freely available at https://github.com/iqtree/iqtree2/releases.Supplementary
+    information Supplementary information is available at Bioinformatics online.
+  URL: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac741/6831093
+  DOI: 10.1093/bioinformatics/btac741
+  ISSN: 1367-4803, 1367-4811
 
 - id: ly-trong_alisim_2022
   type: article-journal
