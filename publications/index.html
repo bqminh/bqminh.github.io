@@ -25,7 +25,7 @@ title_heading: true
   	<ol>
     {% assign this_year = "" %}
     {% for pub in pub_group.items %}
-	  {% if pub.issued[0].year != this_year %}
+	  {% if pub.issued[0].year != this_year and pub_group.name != "report" %}
 		{% assign this_year = pub.issued[0].year %}
 		<a name="{{this_year}}"></a>
 		<h4>{{this_year}}</h4>
