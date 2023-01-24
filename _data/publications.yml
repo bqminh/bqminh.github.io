@@ -20,7 +20,6 @@ references:
     day: 24
   title: 'AliSim-HPC: Parallel sequence simulator for phylogenetics'
   title-short: AliSim-HPC
-  container-title: bioRxiv
   publisher: Evolutionary Biology
   genre: preprint
   abstract: AbstractMotivation Sequence simulation plays a vital role in phylogenetics

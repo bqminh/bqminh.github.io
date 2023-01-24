@@ -4,7 +4,7 @@
 <div class="col-sm-10">
 {% endif %}
   <a href="https://doi.org/{{pub.DOI}}">
-  	{{pub.title}} {% if pub.open-access %}<img src="{{site.baseurl}}/assets/images/open-access.svg" height="20">{% endif %}
+  	{{pub.title}} {% if pub.open-access != false %}<img src="{{site.baseurl}}/assets/images/open-access.svg" height="20">{% endif %}
   </a>
   {% if pub.citations > 100 %}
   	<span class="badge badge-danger">highly cited</span>
@@ -41,7 +41,11 @@
 	</span>
   <br>
   <small style="color: #505050;">
-    {{pub.container-title}}
+    {% if pub.container-title %}
+      {{pub.container-title}}
+    {% elsif pub.genre %}
+      {{pub.genre}}
+    {% endif %}
     {% if pub.volume %}{{pub.volume}}:{%endif%}{%if pub.page %}{{pub.page}}{%endif%}
     ({{pub.issued[0].year}})
   </small>
