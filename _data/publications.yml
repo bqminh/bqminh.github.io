@@ -2,6 +2,47 @@
 citation_update: 12 Oct 2022
 references:
 
+- id: ly-trong_alisim-hpc_2023
+  type: report
+  author:
+  - family: Ly-Trong
+    given: Nhan
+  - family: Barca
+    given: Giuseppe M.J.
+  - family: Minh
+    given: Bui Quang
+  issued:
+  - year: 2023
+    month: 1
+  accessed:
+  - year: 2023
+    month: 1
+    day: 24
+  title: 'AliSim-HPC: Parallel sequence simulator for phylogenetics'
+  title-short: AliSim-HPC
+  container-title: bioRxiv
+  publisher: Evolutionary Biology
+  genre: preprint
+  abstract: AbstractMotivation Sequence simulation plays a vital role in phylogenetics
+    with many applications, such as evaluating phylogenetic methods, testing hypotheses,
+    and generating training data for machine-learning applications. We recently introduced
+    a new simulator for multiple sequence alignments called AliSim, which outperformed
+    existing tools. However, with the increasing demands of simulating large data
+    sets, AliSim is still slow due to its sequential implementation; for example,
+    to simulate millions of sequence alignments, AliSim took several days or weeks.
+    Parallelization has been used for many phylogenetic inference methods but not
+    yet for sequence simulation.Results This paper introduces AliSim-HPC, which, for
+    the first time, employs high-performance computing for phylogenetic simulations.
+    AliSim-HPC parallelizes the simulation process at both multi-core and multi-CPU
+    levels using the OpenMP and MPI libraries, respectively. AliSim-HPC is highly
+    efficient and scalable, which reduces the runtime to simulate 100 large alignments
+    from one day to 9 minutes using 256 CPU cores from a cluster with 6 computing
+    nodes, a 162-fold speedup.Availability and implementationAliSim-HPC is open source
+    and available as part of the new IQ-TREE version v2.2.2.2 at https://github.com/iqtree/iqtree2/releases
+    with a user manual at http://www.iqtree.org/doc/AliSim .Contactm.bui\@anu.edu.au
+  URL: http://biorxiv.org/lookup/doi/10.1101/2023.01.15.524158
+  DOI: 10.1101/2023.01.15.524158
+
 - id: wong_mast_2022
   type: report
   open-access: true
