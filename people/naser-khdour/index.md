@@ -2,8 +2,9 @@
 layout: personnel
 title: Suha Naser
 pubname: Suha Naser-Khdour
-position: PhD student<br>co-supervised with Rob Lanfear
+position: PhD student (co-supervised with Rob Lanfear)
 current: false
+period: 2018-2021
 email: suha.naser (at) anu.edu.au
 image: Suha-Naser.jpg
 image-small: Suha-Naser-small.jpg
