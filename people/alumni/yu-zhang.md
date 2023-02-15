@@ -2,7 +2,7 @@
 layout: personnel
 title: Yu Zhang
 pubname: Yu Zhang 
-position: Masters student
+position: Master student
 current: false
 period: 2018-2019
 email: 

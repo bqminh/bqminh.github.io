@@ -2,7 +2,7 @@
 layout: personnel
 title: Jana Trifinopoulos
 pubname: Jana Trifinopoulos
-position: Masters student
+position: Master student
 current: false
 period: 2015-2016
 email: 

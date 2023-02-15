@@ -2,7 +2,7 @@
 layout: personnel
 title: Qiu Yue Wang
 pubname: Qiu Yue Wang 
-position: Bachelors student
+position: Undergrad student
 current: false
 period: 2018-2019
 email: 
