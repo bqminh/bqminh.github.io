@@ -2,8 +2,8 @@
 layout: personnel
 title: Caitlin Cherryh
 pubname: Caitlin Cherryh
-position: Honours student co-supervised with Rob Lanfear
-current: false
+position: PhD student, co-supervised with Rob Lanfear
+associate: true
 period: 2018
 email: caitlin.cherryh (at) anu.edu.au
 image: Caitlin-Cherryh.jpg
