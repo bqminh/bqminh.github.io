@@ -105,32 +105,6 @@ references:
   DOI: 10.1109/ICTer51097.2020.9325457
   ISBN: '978-1-7281-8655-9'
 
-- id: Piyumal-capsule-sentiment
-  type: chapter
-  author:
-  - family: Demotte
-    given: Piyumal
-  - family: Wijegunarathna
-    given: Kalana
-  - family: Meedeniya
-    given: Dulani
-  - family: Perera
-    given: Indika
-  issued:
-  - year: 2021
-  accessed:
-  - year: 2021
-    month: 9
-    day: 16
-  title: 'Enhanced sentiment extraction architecture for social media content analysis using capsule networks'
-  publisher: Springer International Publishing
-  publisher-place: Cham
-  page: '1-26'
-  volume: '221'
-  note: 'Series Title: Recent Advances on Social Media Analytics and Multimedia Systems: Issues and Challenges,  Multimedia Tools and Applications'
-  URL: https://doi.org/10.1007/s11042-021-11471-1
-  DOI: 10.1007/s11042-021-11471-1
-
 - id: Piyumal-rubber-stand-age
   type: chapter
   author:
