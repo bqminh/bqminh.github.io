@@ -124,7 +124,6 @@ references:
     day: 16
   title: 'Enhanced sentiment extraction architecture for social media content analysis using capsule networks'
   publisher: Springer International Publishing
-  publisher-place: Cham
   page: '1-26'
   volume: '221'
   note: 'Series Title: Recent Advances on Social Media Analytics and Multimedia Systems: Issues and Challenges,  Multimedia Tools and Applications'
