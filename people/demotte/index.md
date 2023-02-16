@@ -151,6 +151,7 @@ references:
   title: 'Deep learning-based prediction for stand age and land utilization of rubber plantation'
   publisher: Elsevier
   page: '131-156'
+  volume: ''
   note: 'Series Title: 'Application of Machine Learning in Agriculture'
   URL: https://doi.org/10.1016/B978-0-323-90550-3.00008-4
   DOI: 10.1016/B978-0-323-90550-3.00008-4
