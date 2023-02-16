@@ -130,7 +130,6 @@ references:
   URL: https://doi.org/10.1007/s11042-021-11471-1
   DOI: 10.1007/s11042-021-11471-1
   
-
 - id: Piyumal-standage
   type: chapter
   author:
@@ -143,7 +142,7 @@ references:
   - family: Perera
     given: Indika
   issued:
-  - year: 2022
+  - year: 2021
   accessed:
   - year: 2022
     month: 1
@@ -151,7 +150,7 @@ references:
   title: 'Deep learning-based prediction for stand age and land utilization of rubber plantation'
   publisher: Elsevier
   page: '131-156'
-  volume: ''
+  volume: '221'
   note: 'Series Title: 'Application of Machine Learning in Agriculture'
   URL: https://doi.org/10.1016/B978-0-323-90550-3.00008-4
   DOI: 10.1016/B978-0-323-90550-3.00008-4
