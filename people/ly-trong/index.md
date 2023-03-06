@@ -14,7 +14,7 @@ twitter:
 researchgate: 
 ORCID: 
 address: |
-  Research School of Computer Science, ANU<br>
+  School of Computing, ANU<br>
   Hanna Neumann Building<br>
   145 Science Rd
   <a href="https://goo.gl/maps/MrrYyptzR98jCZmP6" class="badge badge-primary"><i class="fa fa-map-marker"></i> map</a><br>

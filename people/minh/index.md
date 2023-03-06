@@ -14,7 +14,7 @@ twitter: bq_minh
 researchgate: Bui_Minh
 ORCID: "0000-0002-5535-6560"
 address: |
-  Research School of Computer Science, ANU<br>
+  School of Computing, ANU<br>
   Hanna Neumann Building, Room 4.16<br>
   145 Science Rd
   <a href="https://goo.gl/maps/MrrYyptzR98jCZmP6" class="badge badge-primary"><i class="fa fa-map-marker"></i> map</a><br>
@@ -56,6 +56,7 @@ techniques for phylogenetics from ultra-large genomic data.
 
 #### Awards and Honours
 
+* 2022: [Highly Cited Researcher](https://recognition.webofscience.com/awards/highly-cited/2022/).
 * 2021: [Highly Cited Researcher](https://recognition.webofscience.com/awards/highly-cited/2021/).
 * 2019: [Field Leader in Evolutionary Biology](https://specialreports.theaustralian.com.au/1540291/life-sciences-earth-sciences/), The Australian.
 * 2003-2005: Scholarship for the Masters study by the Konrad-Adenauer-Stiftung, Germany.
