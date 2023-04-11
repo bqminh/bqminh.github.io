@@ -29,13 +29,27 @@ title_heading: true
 	<h3>Associate members</h3>
 	<hr style="border: 0.5px solid;">
 
+  	<div class="row">
 	{% assign person_pages = site.pages | where: "layout" , "personnel" | where: "associate", "true" %}
 	{% for person in person_pages %}
-		<p>
-		<strong>{{ person.title }},</strong>
-		<em>{{person.position}}</em>
-	    </p>
+            <div class="col-md-6" style="text-align: center;">
+            	<a href="{{person.url}}"><img class="rounded-circle" src="{{person.url}}{{person.image}}" width=176 alt="{{person.title}}"></a>
+                <a href="{{person.url}}"><h4>{{ person.title }}</h4></a>
+                <p><em>{{person.position}}</em></p>
+                {% if person.github %}
+                <a href="https://github.com/{{person.github}}"><i class="fa fa-github fa-2x"></i></a>
+                {% endif %}
+                {% if person.google_scholar %}
+                <a href="https://scholar.google.com/citations?user={{person.google_scholar}}"><i class="fa fa-google fa-2x"></i></a>
+                {% endif %}
+                {% if person.twitter %}
+                <a href="https://twitter.com/{{person.twitter}}"><i class="fa fa-twitter fa-2x"></i></a>                
+                {% endif %}
+            </div>
     {% endfor %}
+    </div>
+	    <br>
+
 
 	<h3>Alumni</h3>
 	<hr style="border: 0.5px solid;">
