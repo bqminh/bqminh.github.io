@@ -2,46 +2,6 @@
 citation_update: 12 Oct 2022
 references:
 
-- id: de_maio_maximum_2023
-  type: article-journal
-  author:
-  - family: De Maio
-    given: Nicola
-  - family: Kalaghatgi
-    given: Prabhav
-  - family: Turakhia
-    given: Yatish
-  - family: Corbett-Detig
-    given: Russell
-  - family: Minh
-    given: Bui Quang
-  - family: Goldman
-    given: Nick
-  issued:
-  - year: 2023
-    month: 4
-  accessed:
-  - year: 2023
-    month: 4
-    day: 13
-  title: Maximum likelihood pandemic-scale phylogenetics
-  container-title: Nature Genetics
-  abstract: Abstract Phylogenetics has a crucial role in genomic epidemiology. Enabled
-    by unparalleled volumes of genome sequence data generated to study and help contain
-    the COVID-19 pandemic, phylogenetic analyses of SARS-CoV-2 genomes have shed light
-    on the virus’s origins, spread, and the emergence and reproductive success of
-    new variants. However, most phylogenetic approaches, including maximum likelihood
-    and Bayesian methods, cannot scale to the size of the datasets from the current
-    pandemic. We present ‘MAximum Parsimonious Likelihood Estimation’ (MAPLE), an
-    approach for likelihood-based phylogenetic analysis of epidemiological genomic
-    datasets at unprecedented scales. MAPLE infers SARS-CoV-2 phylogenies more accurately
-    than existing maximum likelihood approaches while running up to thousands of times
-    faster, and requiring at least 100 times less memory on large datasets. This extends
-    the reach of genomic epidemiology, allowing the continued use of accurate phylogenetic,
-    phylogeographic and phylodynamic analyses on datasets of millions of genomes.
-  URL: https://www.nature.com/articles/s41588-023-01368-0
-  DOI: 10.1038/s41588-023-01368-0
-  ISSN: 1061-4036, 1546-1718
 
 - id: ly-trong_alisim-hpc_2023
   type: report
@@ -357,6 +317,48 @@ references:
   URL: http://biorxiv.org/lookup/doi/10.1101/2020.11.19.390666
   DOI: 10.1101/2020.11.19.390666
 
+- id: de_maio_maximum_2023
+  type: article-journal
+  selected: true
+  author:
+  - family: De Maio
+    given: Nicola
+  - family: Kalaghatgi
+    given: Prabhav
+  - family: Turakhia
+    given: Yatish
+  - family: Corbett-Detig
+    given: Russell
+  - family: Minh
+    given: Bui Quang
+  - family: Goldman
+    given: Nick
+  issued:
+  - year: 2023
+    month: 4
+  accessed:
+  - year: 2023
+    month: 4
+    day: 13
+  title: Maximum likelihood pandemic-scale phylogenetics
+  container-title: Nature Genetics
+  abstract: Abstract Phylogenetics has a crucial role in genomic epidemiology. Enabled
+    by unparalleled volumes of genome sequence data generated to study and help contain
+    the COVID-19 pandemic, phylogenetic analyses of SARS-CoV-2 genomes have shed light
+    on the virus’s origins, spread, and the emergence and reproductive success of
+    new variants. However, most phylogenetic approaches, including maximum likelihood
+    and Bayesian methods, cannot scale to the size of the datasets from the current
+    pandemic. We present ‘MAximum Parsimonious Likelihood Estimation’ (MAPLE), an
+    approach for likelihood-based phylogenetic analysis of epidemiological genomic
+    datasets at unprecedented scales. MAPLE infers SARS-CoV-2 phylogenies more accurately
+    than existing maximum likelihood approaches while running up to thousands of times
+    faster, and requiring at least 100 times less memory on large datasets. This extends
+    the reach of genomic epidemiology, allowing the continued use of accurate phylogenetic,
+    phylogeographic and phylodynamic analyses on datasets of millions of genomes.
+  URL: https://www.nature.com/articles/s41588-023-01368-0
+  DOI: 10.1038/s41588-023-01368-0
+  ISSN: 1061-4036, 1546-1718
+
 - id: mo_updated_2022
   type: article-journal
   open-access: true
@@ -600,7 +602,6 @@ references:
 
 - id: hodcroft_want_2021
   type: article-journal
-  selected: true
   open-access: true
   photo: nature-591.png
   author:
