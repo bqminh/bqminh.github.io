@@ -5,14 +5,14 @@ pubname: Nhan Ly-Trong
 show-publication: true
 position: PhD student
 current: true
-email: trong.ly@anu.edu.au
+email: trong.ly (at) anu.edu.au
 image: NhanTrongLy-small.jpg
 image-small: NhanTrongLy-small.jpg
-github: https://github.com/trongnhanuit
-google_scholar: https://scholar.google.com/citations?user=0SPfIN4AAAAJ&hl=en
+github: trongnhanuit
+google_scholar: 0SPfIN4AAAAJ
 twitter: 
 researchgate: 
-ORCID: https://orcid.org/0000-0001-5668-5027
+ORCID: 0000-0001-5668-5027
 address: |
   School of Computing, ANU<br>
   Hanna Neumann Building<br>
