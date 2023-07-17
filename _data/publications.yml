@@ -359,7 +359,7 @@ references:
   DOI: 10.1038/s41588-023-01368-0
   ISSN: 1061-4036, 1546-1718
 
-- id: mo_updated_2022
+- id: mo_updated_2023
   type: article-journal
   open-access: true
   author:
@@ -375,16 +375,18 @@ references:
   - family: Schwartz
     given: Russell
   issued:
-  - year: 2022
-    month: 11
+  - year: 2023
+    month: 1
   accessed:
-  - year: 2022
-    month: 12
-    day: 1
+  - year: 2023
+    month: 7
+    day: 17
   title: Updated site concordance factors minimize effects of homoplasy and taxon
     sampling
   container-title: Bioinformatics
   page: btac741
+  volume: '39'
+  issue: '1'
   abstract: AbstractMotivation Site concordance factors (sCFs) have become a widely
     used way to summarize discordance in phylogenomic datasets. However, the original
     version of sCFs was calculated by sampling a quartet of tip taxa and then applying
@@ -398,9 +400,39 @@ references:
     and implementation Updated sCFs are implemented in IQ-TREE 2.2.2. The software
     is freely available at https://github.com/iqtree/iqtree2/releases.Supplementary
     information Supplementary information is available at Bioinformatics online.
-  URL: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac741/6831093
+  URL: https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btac741/6831093
   DOI: 10.1093/bioinformatics/btac741
-  ISSN: 1367-4803, 1367-4811
+  ISSN: '1367-4811'
+
+- id: liberles_2022_2023
+  type: article-journal
+  open-access: true
+  author:
+  - family: Liberles
+    given: David A.
+  - family: Alvarez-Ponce
+    given: David
+  - family: Meyer
+    given: Michelle M.
+  - family: Minh
+    given: Bui Quang
+  - family: Silva
+    given: Joana C.
+  issued:
+  - year: 2023
+    month: 2
+  accessed:
+  - year: 2023
+    month: 7
+    day: 17
+  title: 2022 Zuckerkandl Prize
+  container-title: Journal of Molecular Evolution
+  page: '1-1'
+  volume: '91'
+  issue: '1'
+  URL: https://link.springer.com/10.1007/s00239-022-10089-7
+  DOI: 10.1007/s00239-022-10089-7
+  ISSN: 0022-2844, 1432-1432
 
 - id: ly-trong_alisim_2022
   type: article-journal
