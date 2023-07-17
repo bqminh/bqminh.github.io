@@ -43,6 +43,8 @@
   <small style="color: #505050;">
     {% if pub.container-title %}
       {{pub.container-title}}
+    {% elsif pub.URL contains 'biorxiv' %}
+      bioRxiv
     {% elsif pub.genre %}
       {{pub.genre}}
     {% endif %}
