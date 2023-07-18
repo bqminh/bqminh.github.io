@@ -5,6 +5,7 @@ pubname: Bui Quang Minh
 show-publication: true
 position: Lab Leader
 current: true
+period: since 2019
 email: m.bui (at) anu.edu.au
 image: Minh-Bui.jpg
 image-small: Minh-Bui-small.jpg

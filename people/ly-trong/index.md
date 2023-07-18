@@ -5,6 +5,7 @@ pubname: Nhan Ly-Trong
 show-publication: true
 position: PhD student
 current: true
+period: since 2020
 email: trong.ly (at) anu.edu.au
 image: NhanTrongLy-small.jpg
 image-small: NhanTrongLy-small.jpg

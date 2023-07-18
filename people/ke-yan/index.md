@@ -5,7 +5,8 @@ pubname: Ke Yan
 show-publication: true
 position: Master student
 current: false
-email: Ke.Yan@anu.edu.au@anu.edu.au
+period: 2023
+email: Ke.Yan@anu.edu.au
 image: ke-yan.jpg
 image-small: ke-yan.jpg
 github:

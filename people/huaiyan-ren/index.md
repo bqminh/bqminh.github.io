@@ -5,6 +5,7 @@ pubname: Huaiyan Ren
 show-publication: true
 position: PhD student
 current: true
+period: since 2023
 email: 
 image: huaiyan-ren.jpg
 image-small: huaiyan-ren.jpg
