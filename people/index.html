@@ -11,7 +11,7 @@ title_heading: true
             <div class="col-md-6" style="text-align: center;">
             	<a href="{{person.url}}"><img class="rounded-circle" src="{{person.url}}{{person.image}}" width=176 alt="{{person.title}}"></a>
                 <a href="{{person.url}}"><h4>{{ person.title }}</h4></a>
-                <p><em>{{person.position}}</em></p>
+                <p><em>{{person.position}} {{person.period}}</em></p>
                 {% if person.github %}
                 <a href="https://github.com/{{person.github}}"><i class="fa fa-github fa-2x"></i></a>
                 {% endif %}
