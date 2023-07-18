@@ -30,7 +30,7 @@ title_heading: true
 	<hr style="border: 0.5px solid;">
 
   	<div class="row">
-	{% assign person_pages = site.pages | where: "layout" , "personnel" | where: "associate", "true" | sort: "title" %}
+	{% assign person_pages = site.pages | where: "layout" , "personnel" | where: "associate", "true" | sort: "period" %}
 	{% for person in person_pages %}
             <div class="col-md-6" style="text-align: center;">
             	<a href="{{person.url}}"><img class="rounded-circle" src="{{person.url}}{{person.image}}" width=176 alt="{{person.title}}"></a>
