@@ -3,7 +3,8 @@ layout: personnel
 title: Thomas Wong
 pubname: Thomas K F Wong
 position: Postdoctoral Fellow<br>joint with Rob Lanfear
-associate: true
+current: true
+associate: false
 email: thomas.wong (at) anu.edu.au
 image: King-Fung-Wong.jpg
 image-small: King-Fung-Wong-small.jpg

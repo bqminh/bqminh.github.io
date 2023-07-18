@@ -4,7 +4,7 @@ title: Ke Yan
 pubname: Ke Yan
 show-publication: true
 position: Master student
-current: true
+current: false
 email: Ke.Yan@anu.edu.au@anu.edu.au
 image: ke-yan.jpg
 image-small: ke-yan.jpg
