@@ -2,47 +2,6 @@
 citation_update: 12 Oct 2022
 references:
 
-
-- id: ly-trong_alisim-hpc_2023
-  type: report
-  author:
-  - family: Ly-Trong
-    given: Nhan
-  - family: Barca
-    given: Giuseppe M.J.
-  - family: Minh
-    given: Bui Quang
-  issued:
-  - year: 2023
-    month: 1
-  accessed:
-  - year: 2023
-    month: 1
-    day: 24
-  title: 'AliSim-HPC: Parallel sequence simulator for phylogenetics'
-  title-short: AliSim-HPC
-  publisher: Evolutionary Biology
-  genre: preprint
-  abstract: AbstractMotivation Sequence simulation plays a vital role in phylogenetics
-    with many applications, such as evaluating phylogenetic methods, testing hypotheses,
-    and generating training data for machine-learning applications. We recently introduced
-    a new simulator for multiple sequence alignments called AliSim, which outperformed
-    existing tools. However, with the increasing demands of simulating large data
-    sets, AliSim is still slow due to its sequential implementation; for example,
-    to simulate millions of sequence alignments, AliSim took several days or weeks.
-    Parallelization has been used for many phylogenetic inference methods but not
-    yet for sequence simulation.Results This paper introduces AliSim-HPC, which, for
-    the first time, employs high-performance computing for phylogenetic simulations.
-    AliSim-HPC parallelizes the simulation process at both multi-core and multi-CPU
-    levels using the OpenMP and MPI libraries, respectively. AliSim-HPC is highly
-    efficient and scalable, which reduces the runtime to simulate 100 large alignments
-    from one day to 9 minutes using 256 CPU cores from a cluster with 6 computing
-    nodes, a 162-fold speedup.Availability and implementationAliSim-HPC is open source
-    and available as part of the new IQ-TREE version v2.2.2.2 at https://github.com/iqtree/iqtree2/releases
-    with a user manual at http://www.iqtree.org/doc/AliSim .Contactm.bui\@anu.edu.au
-  URL: http://biorxiv.org/lookup/doi/10.1101/2023.01.15.524158
-  DOI: 10.1101/2023.01.15.524158
-
 - id: wong_mast_2022
   type: report
   open-access: true
@@ -99,58 +58,6 @@ references:
     in the future.
   URL: http://biorxiv.org/lookup/doi/10.1101/2022.10.06.511210
   DOI: 10.1101/2022.10.06.511210
-
-- id: wang_decenttree_2022
-  type: report
-  open-access: true
-  author:
-  - family: Wang
-    given: Weiwen
-  - family: Barbetti
-    given: James
-  - family: Wong
-    given: Thomas
-  - family: Thornlow
-    given: Bryan
-  - family: Corbett-Detig
-    given: Russ
-  - family: Turakhia
-    given: Yatish
-  - family: Lanfear
-    given: Robert
-  - family: Minh
-    given: Bui Quang
-  issued:
-  - year: 2022
-    month: 4
-  accessed:
-  - year: 2022
-    month: 8
-    day: 19
-  title: 'DecentTree: Scalable Neighbour-Joining for the Genomic Era'
-  title-short: DecentTree
-  container-title: bioRxiv
-  publisher: Evolutionary Biology
-  genre: preprint
-  abstract: 'AbstractSummary Neighbour-Joining is one of the most widely used distance-based
-    phylogenetic inference methods. However, current implementations do not scale
-    well for datasets with more than 10,000 sequences. Given the increasing pace of
-    generating new sequence data, particularly in outbreaks of emerging diseases,
-    and the already enormous existing databases of sequence data for which NJ is a
-    useful approach, new implementations of existing methods are warranted. Here we
-    present DecentTree, which provides highly optimised and parallel implementations
-    of Neighbour-Joining and several of its variants. DecentTree is designed as a
-    stand-alone application and a header-only library easily integrated with other
-    phylogenetic software (e.g. it is integral in the popular IQ-TREE software). We
-    show that DecentTree shows similar or improved performance over existing software
-    (BIONJ, Quicktree, FastME, and RapidNJ), especially for handling very large alignments.
-    For example, DecentTree is up to 6-fold faster than the fastest existing Neighbour-Joining
-    software (e.g. RapidNJ) when generating a tree of 64,000 SARS-CoV-2 genomes.Availability
-    and implementationDecentTree is open source and freely available at https://github.com/iqtree/decenttree
-    .ContactMinh Bui: m.bui\@anu.edu.au ; Robert Lanfear: rob.lanfear\@anu.edu.auSupplementary
-    informationSupplementary data are available at Bioinformatics online.'
-  URL: http://biorxiv.org/lookup/doi/10.1101/2022.04.10.487712
-  DOI: 10.1101/2022.04.10.487712
 
 - id: naser-khdour_influence_2021
   type: report
@@ -316,6 +223,107 @@ references:
     unrecognizable in respect to their order-level classification.
   URL: http://biorxiv.org/lookup/doi/10.1101/2020.11.19.390666
   DOI: 10.1101/2020.11.19.390666
+
+- id: ly-trong_alisim-hpc_2023
+  type: article-journal
+  author:
+  - family: Ly-Trong
+    given: Nhan
+  - family: Barca
+    given: Giuseppe M J
+  - family: Minh
+    given: Bui Quang
+  editor:
+  - family: Schwartz
+    given: Russell
+  issued:
+  - year: 2023
+    month: 9
+  accessed:
+  - year: 2023
+    month: 9
+    day: 4
+  title: 'AliSim-HPC: Parallel sequence simulator for phylogenetics'
+  title-short: AliSim-HPC
+  container-title: Bioinformatics
+  page: btad540
+  abstract: AbstractMotivation Sequence simulation plays a vital role in phylogenetics
+    with many applications, such as evaluating phylogenetic methods, testing hypotheses,
+    and generating training data for machine-learning applications. We recently introduced
+    a new simulator for multiple sequence alignments called Ali-Sim, which outperformed
+    existing tools. However, with the increasing demands of simulating large data
+    sets, AliSim is still slow due to its sequential implementation; for example,
+    to simulate millions of sequence alignments, AliSim took several days or weeks.
+    Parallelization has been used for many phylogenetic inference methods but not
+    yet for sequence simulation.Results This paper introduces AliSim-HPC, which, for
+    the first time, employs high-performance computing for phylogenetic simulations.
+    AliSim-HPC parallelizes the simulation process at both multi-core and multi-CPU
+    levels using the OpenMP and MPI libraries, respectively. AliSim-HPC is highly
+    efficient and scalable, which reduces the runtime to simulate 100 large gap-free
+    alignments (30,000 sequences of one million sites) from over one day to 11 minutes
+    using 256 CPU cores from a cluster with 6 computing nodes, a 153-fold speedup.
+    While the OpenMP version can only simulate gap-free alignments, the MPI version
+    supports insertion-deletion models like the sequential AliSim.Availability AliSim-HPC
+    is open source and available as part of the new IQ-TREE version v2.2.3 at https://github.com/iqtree/iqtree2/releases
+    with a user manual at http://www.iqtree.org/doc/AliSim.Supplementary information
+    Supplementary data are available at Bioinformatics online.
+  URL: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad540/7258693
+  DOI: 10.1093/bioinformatics/btad540
+  ISSN: 1367-4803, 1367-4811
+
+- id: wang_decenttree_2023
+  type: article-journal
+  author:
+  - family: Wang
+    given: Weiwen
+  - family: Barbetti
+    given: James
+  - family: Wong
+    given: Thomas
+  - family: Thornlow
+    given: Bryan
+  - family: Corbett-Detig
+    given: Russ
+  - family: Turakhia
+    given: Yatish
+  - family: Lanfear
+    given: Robert
+  - family: Minh
+    given: Bui Quang
+  editor:
+  - family: Schwartz
+    given: Russell
+  issued:
+  - year: 2023
+    month: 8
+  accessed:
+  - year: 2023
+    month: 9
+    day: 4
+  title: 'DecentTree: Scalable Neighbour-Joining for the Genomic Era'
+  title-short: DecentTree
+  container-title: Bioinformatics
+  page: btad536
+  abstract: AbstractMotivation Neighbour-Joining is one of the most widely used distance-based
+    phylogenetic inference methods. However, current implementations do not scale
+    well for datasets with more than 10,000 sequences. Given the increasing pace of
+    generating new sequence data, particularly in outbreaks of emerging diseases,
+    and the already enormous existing databases of sequence data for which NJ is a
+    useful approach, new implementations of existing methods are warranted.Results
+    Here we present DecentTree, which provides highly optimised and parallel implementations
+    of Neighbour-Joining and several of its variants. DecentTree is designed as a
+    stand-alone application and a header-only library easily integrated with other
+    phylogenetic software (e.g., it is integral in the popular IQ-TREE software).
+    We show that DecentTree shows similar or improved performance over existing software
+    (BIONJ, Quicktree, FastME, and RapidNJ), especially for handling very large alignments.
+    For example, DecentTree is up to 6-fold faster than the fastest existing Neighbour-Joining
+    software (e.g., RapidNJ) when generating a tree of 64,000 SARS-CoV-2 genomes.Availability
+    DecentTree is open source and freely available at https://github.com/iqtree/decenttree.
+    All code and data used in this analysis are available on Github (https://github.com/asdcid/Comparison-of-neighbour-joining-software).Supplementary
+    information Supplementary data are available at Bioinformatics online.
+  URL: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad536/7257068
+  DOI: 10.1093/bioinformatics/btad536
+  ISSN: 1367-4803, 1367-4811
 
 - id: de_maio_maximum_2023
   type: article-journal
