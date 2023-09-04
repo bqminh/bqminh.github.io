@@ -6,7 +6,7 @@ show-publication: yes
 position: PhD student
 current: yes
 period: since 2023
-email: <mailto:huaiyan.ren@anu.edu.au>
+email: huaiyan.ren@anu.edu.au
 image: "huaiyan-ren.jpg"
 image-small: "huaiyan-ren.jpg"
 github: HuaiyanRen
