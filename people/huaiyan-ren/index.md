@@ -6,7 +6,7 @@ show-publication: yes
 position: PhD student
 current: yes
 period: since 2023
-email: huaiyan.ren(at)anu.edu.au
+email: <mailto:huaiyan.ren@anu.edu.au>
 image: "huaiyan-ren.jpg"
 image-small: "huaiyan-ren.jpg"
 github: HuaiyanRen
@@ -28,7 +28,7 @@ references: null
 
 #### Biography
 
-Huaiyan Ren received his Bachelor of Agriculture in Animal Science from China Agriculture University (CAU) in 2018, and Master of Science in Quantitative Biology and Bioinformatics from Australian National University (ANU) in 2022. Now, he is a PhD student at Australian National University (ANU).    
+Huaiyan Ren received his Bachelor of Agriculture in Animal Science from China Agricultural University (CAU) in 2018, and Master of Science in Quantitative Biology and Bioinformatics from Australian National University (ANU) in 2022. Now, he is a PhD student at Australian National University (ANU).    
 
 #### Research Interests
 
